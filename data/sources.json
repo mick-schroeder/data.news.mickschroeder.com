@@ -3,30 +3,32 @@
     "id": "mickschroeder",
     "title": "Mick Schroeder",
     "url": "https://mickschroeder.com",
-    "tags": [],
+    "description": "Personal website of Mick Schroeder, added by hand.",
     "tier": "E",
-    "description": "Personal website of Mick Schroeder, added by hand."
+    "tags": [
+      "sponsor"
+    ]
   },
   {
     "id": "phys",
     "title": "Phys.org",
     "url": "https://phys.org/",
+    "description": "Science, physics, technology and research news from universities and institutions.",
+    "tier": "B",
     "tags": [
       "science"
-    ],
-    "tier": "B",
-    "description": "Science, physics, technology and research news from universities and institutions."
+    ]
   },
   {
     "id": "politics",
     "title": "Politics.co.uk",
     "url": "https://politics.co.uk",
+    "description": "British political news and analysis from Westminster.",
+    "tier": "C",
     "tags": [
       "british",
       "politics"
-    ],
-    "tier": "C",
-    "description": "British political news and analysis from Westminster."
+    ]
   },
   {
     "id": "404media",
@@ -3377,8 +3379,8 @@
     "id": "rte-nuacht",
     "title": "Nuacht RTÉ",
     "url": "https://www.rte.ie/news/nuacht/",
-    "tier": "B",
     "description": "Irish-language news from RTÉ covering Irish and world events.",
+    "tier": "B",
     "tags": [
       "irish",
       "gaeilge",
@@ -3389,8 +3391,8 @@
     "id": "independent-seachtain",
     "title": "Seachtain",
     "url": "https://www.independent.ie/seachtain/",
-    "tier": "C",
     "description": "Irish-language section of the Irish Independent with news and features.",
+    "tier": "C",
     "tags": [
       "irish",
       "gaeilge",
@@ -3401,8 +3403,8 @@
     "id": "thejournal-gaeilge",
     "title": "TheJournal.ie as Gaeilge",
     "url": "https://www.thejournal.ie/gaeilge/news/",
-    "tier": "C",
     "description": "Irish-language news section of TheJournal.ie.",
+    "tier": "C",
     "tags": [
       "irish",
       "gaeilge",
@@ -3413,8 +3415,8 @@
     "id": "tuairisc",
     "title": "Tuairisc.ie",
     "url": "https://tuairisc.ie/",
-    "tier": "C",
     "description": "Irish-language news website covering Irish and world news.",
+    "tier": "C",
     "tags": [
       "irish",
       "gaeilge",
@@ -3425,8 +3427,8 @@
     "id": "news-ycombinator",
     "title": "Hacker News",
     "url": "https://news.ycombinator.com/",
-    "tier": "A",
     "description": "Link-sharing community focused on technology, startups and programming.",
+    "tier": "A",
     "tags": [
       "tech",
       "american"
@@ -3436,8 +3438,8 @@
     "id": "en-wikipedia",
     "title": "Wikipedia: Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
-    "tier": "B",
     "description": "Wikipedia portal listing daily summaries of notable world events.",
+    "tier": "B",
     "tags": [
       "news"
     ]
@@ -3446,11 +3448,35 @@
     "id": "trends-google",
     "title": "Google Trends",
     "url": "https://trends.google.com/",
-    "tier": "B",
     "description": "Google tool showing trending searches and topics people are following.",
+    "tier": "B",
     "tags": [
       "news",
       "american"
+    ]
+  },
+  {
+    "id": "themirror",
+    "title": "The Mirror US",
+    "url": "https://www.themirror.com/",
+    "description": "US edition of the British tabloid Mirror, covering celebrity, royal, entertainment and general news.",
+    "tier": "C",
+    "tags": [
+      "british",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "unherd",
+    "title": "UnHerd",
+    "url": "https://unherd.com/",
+    "description": "British online magazine publishing commentary and analysis on politics, culture and current affairs.",
+    "tier": "C",
+    "tags": [
+      "british",
+      "politics",
+      "culture"
     ]
   }
 ]
