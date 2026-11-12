@@ -26,6 +26,7 @@
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
+    "@aws-sdk/client-cloudfront": "^3.1167.0",
     "@aws-sdk/client-s3": "^3.1166.0",
     "cheerio": "^1.0.0-rc.12",
     "csv-parse": "^7.0.3",

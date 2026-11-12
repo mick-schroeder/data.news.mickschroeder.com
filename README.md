@@ -62,10 +62,11 @@ added by hand in `data/seed.json`.
     ANTHROPIC_API_KEY=
     AWS_KEY=
     AWS_SECRET=
+    CLOUDFRONT_DISTRIBUTION_ID=
     ```
 
 * Then run `pnpm install` and `pnpm test`
-* `pnpm run deploy` builds the list. Without AWS keys, files are written to `out/`
+* `pnpm run deploy` builds the list. Without AWS keys, files are written to `out/`. With them, it uploads (cached a day) and invalidates CloudFront
 * `pnpm run refresh` re-ranks every site
 
 ## License

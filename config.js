@@ -9,6 +9,7 @@ const config = {
   AWS_REGION: 'us-east-1',
   AWS_KEY: '',
   AWS_SECRET: '',
+  CLOUDFRONT_DISTRIBUTION_ID: '',
   ANTHROPIC_API_KEY: '',
   ANTHROPIC_MODEL: 'claude-sonnet-5-5',
   RETIRE_AFTER_DAYS: 90
