@@ -1,0 +1,3456 @@
+[
+  {
+    "id": "mickschroeder",
+    "title": "Mick Schroeder",
+    "url": "https://mickschroeder.com",
+    "tags": [],
+    "tier": "E",
+    "description": "Personal website of Mick Schroeder, added by hand."
+  },
+  {
+    "id": "phys",
+    "title": "Phys.org",
+    "url": "https://phys.org/",
+    "tags": [
+      "science"
+    ],
+    "tier": "B",
+    "description": "Science, physics, technology and research news from universities and institutions."
+  },
+  {
+    "id": "politics",
+    "title": "Politics.co.uk",
+    "url": "https://politics.co.uk",
+    "tags": [
+      "british",
+      "politics"
+    ],
+    "tier": "C",
+    "description": "British political news and analysis from Westminster."
+  },
+  {
+    "id": "404media",
+    "title": "404 Media",
+    "url": "https://www.404media.co/",
+    "description": "Independent technology reporting on the internet, hacking, surveillance and digital culture.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "9to5mac",
+    "title": "9to5Mac",
+    "url": "https://9to5mac.com/",
+    "description": "News and reviews about Apple products and software.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "abcnews-go",
+    "title": "ABC News",
+    "url": "https://abcnews.go.com/",
+    "description": "US and world news from the American Broadcasting Company.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "advocate",
+    "title": "Advocate",
+    "url": "https://www.advocate.com/",
+    "description": "News and culture coverage focused on the LGBTQ community.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture",
+      "politics"
+    ]
+  },
+  {
+    "id": "adweek",
+    "title": "Adweek",
+    "url": "https://www.adweek.com/",
+    "description": "News on advertising, marketing and media industries.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "africanews",
+    "title": "Africanews",
+    "url": "https://www.africanews.com/",
+    "description": "Pan-African news channel and website covering news from across Africa.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "aftermath",
+    "title": "Aftermath",
+    "url": "https://aftermath.site/",
+    "description": "Worker-owned video game news and culture site.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "gaming"
+    ]
+  },
+  {
+    "id": "aljazeera",
+    "title": "Al Jazeera",
+    "url": "https://www.aljazeera.com/",
+    "description": "International news network based in Qatar covering world news.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "amgreatness",
+    "title": "American Greatness",
+    "url": "https://amgreatness.com/",
+    "description": "Conservative political news and commentary site.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "androidauthority",
+    "title": "Android Authority",
+    "url": "https://www.androidauthority.com/",
+    "description": "News, reviews and guides about Android phones and other devices.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "andscape",
+    "title": "Andscape",
+    "url": "https://andscape.com/",
+    "description": "ESPN-owned outlet covering sports, culture and news from a Black perspective.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "sports",
+      "culture"
+    ]
+  },
+  {
+    "id": "aol",
+    "title": "AOL",
+    "url": "https://www.aol.com/",
+    "description": "Web portal with news, finance, entertainment and lifestyle content.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "appleinsider",
+    "title": "AppleInsider",
+    "url": "https://appleinsider.com/",
+    "description": "News, rumors and reviews about Apple products.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "arabnews",
+    "title": "Arab News",
+    "url": "https://www.arabnews.com/",
+    "description": "English-language Saudi daily covering the Middle East and world news.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "arstechnica",
+    "title": "Ars Technica",
+    "url": "https://arstechnica.com/",
+    "description": "In-depth technology, science and policy news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "apnews",
+    "title": "Associated Press News",
+    "url": "https://apnews.com/",
+    "description": "Wire service providing national and international news.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "ajc",
+    "title": "Atlanta Journal-Constitution",
+    "url": "https://www.ajc.com/",
+    "description": "Atlanta daily newspaper covering Georgia news, politics and sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "axios",
+    "title": "Axios",
+    "url": "https://www.axios.com/",
+    "description": "Short-form news on politics, business, technology and media.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "bbc",
+    "title": "BBC News",
+    "url": "https://www.bbc.co.uk/news",
+    "description": "UK and world news from the British Broadcasting Corporation.",
+    "tier": "S",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "bild",
+    "title": "Bild",
+    "url": "https://www.bild.de/",
+    "description": "German tabloid covering national news, sports and celebrity.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "billboard",
+    "title": "Billboard",
+    "url": "https://www.billboard.com/",
+    "description": "Music industry news, charts and artist coverage.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "billypenn",
+    "title": "Billy Penn at WHYY",
+    "url": "https://billypenn.com/",
+    "description": "Local news about Philadelphia from WHYY.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "bleacherreport",
+    "title": "Bleacher Report",
+    "url": "https://bleacherreport.com/",
+    "description": "Sports news, scores and highlights.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "bleepingcomputer",
+    "title": "BleepingComputer",
+    "url": "https://www.bleepingcomputer.com/",
+    "description": "Cybersecurity and technology news and support.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "bloomberg",
+    "title": "Bloomberg",
+    "url": "https://www.bloomberg.com/",
+    "description": "Global business, finance and markets news.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business",
+      "news"
+    ]
+  },
+  {
+    "id": "news-bloomberglaw",
+    "title": "Bloomberg Law",
+    "url": "https://news.bloomberglaw.com/",
+    "description": "News on legal developments, courts and the legal industry.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "bnonews",
+    "title": "BNO News",
+    "url": "https://bnonews.com/",
+    "description": "Breaking news alerts on world events, outbreaks and disasters.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "boingboing",
+    "title": "Boing Boing",
+    "url": "https://boingboing.net/",
+    "description": "Blog covering technology, culture and internet news.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech",
+      "culture"
+    ]
+  },
+  {
+    "id": "boltsmag",
+    "title": "Bolts",
+    "url": "https://boltsmag.org/",
+    "description": "Reporting on local elections, justice and state politics in the US.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "boston",
+    "title": "Boston.com",
+    "url": "https://www.boston.com/",
+    "description": "Boston news, sports and lifestyle site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "bostonherald",
+    "title": "Boston Herald",
+    "url": "https://bostonherald.com/",
+    "description": "Boston daily tabloid covering local news, politics and sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "breitbart",
+    "title": "Breitbart",
+    "url": "https://www.breitbart.com/",
+    "description": "Conservative news and commentary site.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "businessinsider",
+    "title": "Business Insider",
+    "url": "https://www.businessinsider.com/",
+    "description": "Business, finance, tech and general news.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business",
+      "news"
+    ]
+  },
+  {
+    "id": "c-span",
+    "title": "C-SPAN",
+    "url": "https://www.c-span.org/",
+    "description": "Live and recorded coverage of US Congress and government proceedings.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "cbslocal",
+    "title": "CBS Local",
+    "url": "https://cbslocal.com/",
+    "description": "Network of local news sites for CBS-owned stations across US cities.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "cbsnews",
+    "title": "CBS News",
+    "url": "https://www.cbsnews.com/",
+    "description": "US and world news from CBS.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "suntimes",
+    "title": "Chicago Sun-Times",
+    "url": "https://www.suntimes.com/",
+    "description": "Chicago daily newspaper covering local news, sports and politics.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "chicagotribune",
+    "title": "Chicago Tribune",
+    "url": "https://www.chicagotribune.com/",
+    "description": "Chicago daily newspaper covering local, national and sports news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "clarin",
+    "title": "Clarín",
+    "url": "https://www.clarin.com/",
+    "description": "Argentine daily newspaper covering national and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "cnbc",
+    "title": "CNBC",
+    "url": "https://www.cnbc.com/",
+    "description": "Business news and financial market coverage.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "cnet",
+    "title": "CNET",
+    "url": "https://www.cnet.com/",
+    "description": "Technology news, reviews and buying advice.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "cnn",
+    "title": "CNN",
+    "url": "https://www.cnn.com/us",
+    "description": "US and world news from the Cable News Network.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "coindesk",
+    "title": "CoinDesk",
+    "url": "https://www.coindesk.com/",
+    "description": "Cryptocurrency and blockchain news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "business",
+      "tech"
+    ]
+  },
+  {
+    "id": "columbiaspectator",
+    "title": "Columbia Daily Spectator",
+    "url": "https://www.columbiaspectator.com/",
+    "description": "Student newspaper of Columbia University covering campus and New York news.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "cjr",
+    "title": "Columbia Journalism Review",
+    "url": "https://www.cjr.org/",
+    "description": "Magazine covering journalism and the news media.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "current",
+    "title": "Current",
+    "url": "https://current.org/",
+    "description": "News about US public media, including public radio and television.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "dailykos",
+    "title": "Daily Kos",
+    "url": "https://www.dailykos.com/",
+    "description": "Progressive political news and commentary community site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "dailystar",
+    "title": "Daily Star",
+    "url": "https://www.dailystar.co.uk/",
+    "description": "British tabloid covering celebrity, entertainment, sport and general news.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "deadline",
+    "title": "Deadline",
+    "url": "https://deadline.com/",
+    "description": "Entertainment industry news covering film, television and Hollywood business.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "deadspin",
+    "title": "Deadspin",
+    "url": "https://deadspin.com/",
+    "description": "Sports news, commentary and culture site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "defector",
+    "title": "Defector",
+    "url": "https://defector.com/",
+    "description": "Worker-owned sports and culture site with news and commentary.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "sports",
+      "culture"
+    ]
+  },
+  {
+    "id": "democracydocket",
+    "title": "Democracy Docket",
+    "url": "https://www.democracydocket.com/",
+    "description": "News on voting rights and election-related litigation in the United States.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "dw",
+    "title": "Deutsche Welle",
+    "url": "https://www.dw.com/",
+    "description": "German public international broadcaster covering world news in many languages.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "welt",
+    "title": "Die Welt",
+    "url": "https://www.welt.de/",
+    "description": "German daily newspaper covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "zeit",
+    "title": "Die Zeit",
+    "url": "https://www.zeit.de/",
+    "description": "German weekly newspaper covering politics, culture and society.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "digg",
+    "title": "Digg",
+    "url": "https://digg.com/",
+    "description": "Link aggregator highlighting popular stories and trending topics across the web.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "digiday",
+    "title": "Digiday",
+    "url": "https://digiday.com/",
+    "description": "News on media, marketing and advertising industries.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "drudgereport",
+    "title": "Drudge Report",
+    "url": "https://www.drudgereport.com/",
+    "description": "News aggregator linking to major stories from outlets worldwide.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "eonline",
+    "title": "E! News",
+    "url": "https://www.eonline.com/",
+    "description": "Entertainment and celebrity news, TV and pop culture coverage.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "editorandpublisher",
+    "title": "Editor & Publisher",
+    "url": "https://www.editorandpublisher.com/",
+    "description": "Trade publication covering the newspaper and news media industry.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "elmundo",
+    "title": "El Mundo",
+    "url": "https://www.elmundo.es/",
+    "description": "Spanish daily newspaper covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "elnuevodia",
+    "title": "El Nuevo Día",
+    "url": "https://www.elnuevodia.com/",
+    "description": "Puerto Rico's largest daily newspaper covering local and world news.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "english-elpais",
+    "title": "El País English",
+    "url": "https://english.elpais.com/",
+    "description": "English edition of the Spanish newspaper El País covering Spain and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "engadget",
+    "title": "Engadget",
+    "url": "https://www.engadget.com/",
+    "description": "Consumer technology news and gadget reviews.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "ew",
+    "title": "Entertainment Weekly",
+    "url": "https://www.ew.com/",
+    "description": "Entertainment news covering film, television, music and books.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "espn",
+    "title": "ESPN",
+    "url": "https://www.espn.com/",
+    "description": "Sports news, scores and analysis covering major leagues.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "espn-uk",
+    "title": "ESPN UK",
+    "url": "https://www.espn.co.uk/",
+    "description": "UK edition of ESPN covering football and other sports.",
+    "tier": "C",
+    "tags": [
+      "british",
+      "sports"
+    ]
+  },
+  {
+    "id": "esquire",
+    "title": "Esquire",
+    "url": "https://www.esquire.com/",
+    "description": "Men's magazine covering culture, style, entertainment and politics.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "euronews",
+    "title": "Euronews",
+    "url": "https://www.euronews.com/",
+    "description": "Pan-European news channel and website covering European and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "standard",
+    "title": "Evening Standard",
+    "url": "https://www.standard.co.uk/",
+    "description": "London newspaper covering city, national and world news.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "express",
+    "title": "Express.co.uk",
+    "url": "https://www.express.co.uk/",
+    "description": "British tabloid covering news, royals, celebrity and sport.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "fandom",
+    "title": "Fandom",
+    "url": "https://www.fandom.com/",
+    "description": "Entertainment news and fan wikis covering games, film and television.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture",
+      "gaming"
+    ]
+  },
+  {
+    "id": "fark",
+    "title": "Fark",
+    "url": "https://www.fark.com/",
+    "description": "Community link aggregator of offbeat and general news stories.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "fastcompany",
+    "title": "Fast Company",
+    "url": "https://www.fastcompany.com/",
+    "description": "Business magazine covering innovation, technology and design.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "ft",
+    "title": "Financial Times",
+    "url": "https://www.ft.com/",
+    "description": "International business and financial news.",
+    "tier": "S",
+    "tags": [
+      "british",
+      "business",
+      "news"
+    ]
+  },
+  {
+    "id": "folha-uol",
+    "title": "Folha de S.Paulo",
+    "url": "https://www1.folha.uol.com.br/",
+    "description": "Brazilian daily newspaper covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "forbes",
+    "title": "Forbes",
+    "url": "https://www.forbes.com/",
+    "description": "Business magazine covering finance, billionaires, leadership and technology.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "fortune",
+    "title": "Fortune",
+    "url": "https://fortune.com/",
+    "description": "Business news covering companies, markets and the economy.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "foxnews",
+    "title": "Fox News",
+    "url": "https://www.foxnews.com/",
+    "description": "US cable news network website covering national news and politics.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "foxsports",
+    "title": "Fox Sports",
+    "url": "https://www.foxsports.com/",
+    "description": "Sports news, scores and coverage of major leagues.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "france24",
+    "title": "France 24",
+    "url": "https://www.france24.com/",
+    "description": "French international news channel covering world news.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "freethink",
+    "title": "Freethink",
+    "url": "https://www.freethink.com/",
+    "description": "Media outlet covering science, technology and innovation.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "frontofficesports",
+    "title": "Front Office Sports",
+    "url": "https://frontofficesports.com/",
+    "description": "News on the business of sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "sports",
+      "business"
+    ]
+  },
+  {
+    "id": "futurism",
+    "title": "Futurism",
+    "url": "https://futurism.com/",
+    "description": "News on science, technology and artificial intelligence.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "gamesbeat",
+    "title": "GamesBeat",
+    "url": "https://gamesbeat.com/",
+    "description": "Video game industry news and analysis from VentureBeat.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "gaming"
+    ]
+  },
+  {
+    "id": "wyborcza",
+    "title": "Gazeta Wyborcza",
+    "url": "https://wyborcza.pl/",
+    "description": "Polish daily newspaper covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "gbnews",
+    "title": "GB News",
+    "url": "https://www.gbnews.com/",
+    "description": "British news channel website covering politics and current affairs.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "geekwire",
+    "title": "GeekWire",
+    "url": "https://www.geekwire.com/",
+    "description": "Technology news from the Pacific Northwest and the tech industry.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "gizmodo",
+    "title": "Gizmodo",
+    "url": "https://gizmodo.com/",
+    "description": "Technology, science and culture news and reviews.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "en-globes",
+    "title": "Globes",
+    "url": "https://en.globes.co.il/",
+    "description": "English edition of the Israeli business newspaper.",
+    "tier": "C",
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "gothamist",
+    "title": "Gothamist",
+    "url": "https://gothamist.com/",
+    "description": "New York City local news and culture.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "haaretz",
+    "title": "Haaretz",
+    "url": "https://www.haaretz.com/",
+    "description": "Israeli daily newspaper covering Israel and Middle East news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "hackaday",
+    "title": "Hackaday",
+    "url": "https://hackaday.com/",
+    "description": "News on hardware hacks, electronics and DIY engineering projects.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "heavy",
+    "title": "Heavy",
+    "url": "https://heavy.com/",
+    "description": "News on celebrity, sports, entertainment and trending stories.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture",
+      "news"
+    ]
+  },
+  {
+    "id": "hindustantimes",
+    "title": "Hindustan Times",
+    "url": "https://www.hindustantimes.com/",
+    "description": "Indian daily newspaper covering national and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "hotair",
+    "title": "HotAir",
+    "url": "https://hotair.com/",
+    "description": "Conservative political news and commentary site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "huffpost",
+    "title": "HuffPost",
+    "url": "https://www.huffpost.com/",
+    "description": "US digital outlet covering news, politics, culture and lifestyle.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "huffingtonpost",
+    "title": "HuffPost UK",
+    "url": "https://huffingtonpost.co.uk/",
+    "description": "British edition of HuffPost covering UK news, politics, culture and lifestyle.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "hurriyetdailynews",
+    "title": "Hürriyet Daily News",
+    "url": "https://www.hurriyetdailynews.com/",
+    "description": "English-language Turkish newspaper covering news from Turkey and the region.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "inews",
+    "title": "i News",
+    "url": "https://inews.co.uk/",
+    "description": "British news site covering UK news, politics, world affairs and culture.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "indiewire",
+    "title": "IndieWire",
+    "url": "https://www.indiewire.com/",
+    "description": "Entertainment news site covering independent film and television.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "insideradio",
+    "title": "Inside Radio",
+    "url": "https://www.insideradio.com/",
+    "description": "Trade publication covering the radio industry.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "irishexaminer",
+    "title": "Irish Examiner",
+    "url": "https://www.irishexaminer.com/",
+    "description": "Cork-based Irish newspaper covering national and regional news, sport and business.",
+    "tier": "B",
+    "tags": [
+      "irish",
+      "news"
+    ]
+  },
+  {
+    "id": "independent",
+    "title": "Irish Independent",
+    "url": "https://www.independent.ie/",
+    "description": "Irish national daily newspaper covering news, sport, business and entertainment.",
+    "tier": "B",
+    "tags": [
+      "irish",
+      "news"
+    ]
+  },
+  {
+    "id": "kotaku",
+    "title": "Kotaku",
+    "url": "https://kotaku.com/",
+    "description": "Video game news, reviews and culture coverage.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "gaming"
+    ]
+  },
+  {
+    "id": "english-kyodonews",
+    "title": "Kyodo News",
+    "url": "https://english.kyodonews.net/",
+    "description": "English edition of the Japanese news agency covering Japan and Asia.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "la-prensa",
+    "title": "La Prensa",
+    "url": "https://www.la-prensa.com.mx/",
+    "description": "Mexican newspaper covering national and local news.",
+    "tier": "D",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "repubblica",
+    "title": "la Repubblica",
+    "url": "https://www.repubblica.it/",
+    "description": "Major Italian daily newspaper covering national and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "lance",
+    "title": "Lance!",
+    "url": "https://www.lance.com.br/",
+    "description": "Brazilian sports news site focused on football.",
+    "tier": "C",
+    "tags": [
+      "sports"
+    ]
+  },
+  {
+    "id": "lawfaremedia",
+    "title": "Lawfare",
+    "url": "https://www.lawfaremedia.org/",
+    "description": "Publication covering national security law and policy.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "lefigaro",
+    "title": "Le Figaro",
+    "url": "https://www.lefigaro.fr/",
+    "description": "French daily newspaper covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "lemonde",
+    "title": "Le Monde",
+    "url": "https://www.lemonde.fr/",
+    "description": "French daily newspaper covering national and international news.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "lesoir",
+    "title": "Le Soir",
+    "url": "https://www.lesoir.be/",
+    "description": "Belgian French-language daily newspaper covering national and international news.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "lwn",
+    "title": "Linux Weekly News",
+    "url": "https://lwn.net/",
+    "description": "News and analysis about Linux and free software development.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "dailynews",
+    "title": "Los Angeles Daily News",
+    "url": "https://www.dailynews.com/",
+    "description": "Los Angeles area newspaper covering local news and sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "lamag",
+    "title": "Los Angeles Magazine",
+    "url": "https://lamag.com/",
+    "description": "Magazine covering Los Angeles culture, food, entertainment and local news.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "latimes",
+    "title": "Los Angeles Times",
+    "url": "https://www.latimes.com/",
+    "description": "Major Southern California newspaper covering local, national and world news.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "macrumors",
+    "title": "MacRumors",
+    "url": "https://www.macrumors.com/",
+    "description": "News and rumors about Apple products and software.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "dailymail",
+    "title": "MailOnline",
+    "url": "https://www.dailymail.com/home/index.html",
+    "description": "Website of the Daily Mail covering UK and world news, celebrity and sport.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "dailymail-us",
+    "title": "MailOnline US",
+    "url": "https://www.dailymail.com/ushome/index.html",
+    "description": "US edition of MailOnline covering American news, celebrity and entertainment.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "marketwatch",
+    "title": "MarketWatch",
+    "url": "https://www.marketwatch.com/",
+    "description": "Financial news, stock market data and personal finance coverage.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "mashable",
+    "title": "Mashable",
+    "url": "https://mashable.com/",
+    "description": "Technology, digital culture and entertainment news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech",
+      "culture"
+    ]
+  },
+  {
+    "id": "mcclatchydc",
+    "title": "McClatchy DC",
+    "url": "https://www.mcclatchydc.com/",
+    "description": "Washington bureau of McClatchy covering US politics and government.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "mediamatters",
+    "title": "Media Matters for America",
+    "url": "https://mediamatters.org/",
+    "description": "Progressive media watchdog covering and criticizing conservative media.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "mediaplaynews",
+    "title": "Media Play News",
+    "url": "https://www.mediaplaynews.com/",
+    "description": "Trade news on home entertainment, streaming and digital media.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture",
+      "business"
+    ]
+  },
+  {
+    "id": "mediaite",
+    "title": "Mediaite",
+    "url": "https://www.mediaite.com/",
+    "description": "News site covering media, politics and television.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "meidasnews",
+    "title": "MeidasTouch",
+    "url": "https://meidasnews.com/",
+    "description": "Progressive political news and commentary site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "metro",
+    "title": "Metro",
+    "url": "https://metro.co.uk/",
+    "description": "British news site covering UK news, entertainment, sport and lifestyle.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "miamiherald",
+    "title": "Miami Herald",
+    "url": "https://www.miamiherald.com/",
+    "description": "South Florida newspaper covering local, state and national news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "military",
+    "title": "Military.com",
+    "url": "https://www.military.com/",
+    "description": "News and resources about the US military and veterans.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "mirror",
+    "title": "Mirror Online",
+    "url": "https://www.mirror.co.uk/",
+    "description": "British tabloid covering UK news, celebrity, sport and politics.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "mississippifreepress",
+    "title": "Mississippi Free Press",
+    "url": "https://www.mississippifreepress.org/",
+    "description": "Nonprofit newsroom covering Mississippi news and politics.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "technologyreview",
+    "title": "MIT Technology Review",
+    "url": "https://www.technologyreview.com/",
+    "description": "Magazine covering emerging technology and its impact.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "motherjones",
+    "title": "Mother Jones",
+    "url": "https://www.motherjones.com/",
+    "description": "Progressive magazine covering politics, investigations and the environment.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "msnbc",
+    "title": "MSNBC",
+    "url": "https://www.msnbc.com/",
+    "description": "Cable news network site covering US news and politics.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "mtv",
+    "title": "MTV News",
+    "url": "https://www.mtv.com/news/",
+    "description": "Music, celebrity and entertainment news from MTV.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "nationalreview",
+    "title": "National Review",
+    "url": "https://www.nationalreview.com/",
+    "description": "Conservative magazine covering politics, policy and culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "nbcnews",
+    "title": "NBC News",
+    "url": "https://www.nbcnews.com/",
+    "description": "US broadcast network news covering national and world events.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "nbcphiladelphia",
+    "title": "NBC10 Philadelphia",
+    "url": "https://www.nbcphiladelphia.com/",
+    "description": "Local TV station site covering Philadelphia news, weather and sports.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "neowin",
+    "title": "Neowin",
+    "url": "https://www.neowin.net/",
+    "description": "Technology news focused on Microsoft, software and hardware.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "newscientist",
+    "title": "New Scientist",
+    "url": "https://www.newscientist.com/",
+    "description": "Weekly magazine covering science and technology news.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "science"
+    ]
+  },
+  {
+    "id": "newstatesman",
+    "title": "New Statesman",
+    "url": "https://www.newstatesman.com/",
+    "description": "British political and cultural magazine.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "nydailynews",
+    "title": "New York Daily News",
+    "url": "https://www.nydailynews.com/",
+    "description": "New York City tabloid covering local news, sports and entertainment.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "nymag",
+    "title": "New York Magazine",
+    "url": "https://www.nymag.com/",
+    "description": "Magazine covering New York, politics, culture and entertainment.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture",
+      "politics"
+    ]
+  },
+  {
+    "id": "nypost",
+    "title": "New York Post",
+    "url": "https://nypost.com/",
+    "description": "New York tabloid covering news, politics, sports and entertainment.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "newsmax",
+    "title": "Newsmax",
+    "url": "https://www.newsmax.com/",
+    "description": "Conservative news and opinion site covering US politics.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "newsnationnow",
+    "title": "NewsNation",
+    "url": "https://www.newsnationnow.com/",
+    "description": "US cable news channel site covering national news and politics.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "newsweek",
+    "title": "Newsweek",
+    "url": "https://www.newsweek.com/",
+    "description": "Covers US and world news, politics, culture and science.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "newzit",
+    "title": "Newzit",
+    "url": "https://www.newzit.com/",
+    "description": "News aggregator linking to headlines from many outlets.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "niemanlab",
+    "title": "Nieman Lab",
+    "url": "https://www.niemanlab.org/",
+    "description": "Reports on the future of journalism and the media industry.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "asia-nikkei",
+    "title": "Nikkei Asia",
+    "url": "https://asia.nikkei.com/",
+    "description": "Covers business, politics and economics across Asia.",
+    "tier": "B",
+    "tags": [
+      "business",
+      "news"
+    ]
+  },
+  {
+    "id": "npr",
+    "title": "NPR",
+    "url": "https://www.npr.org/",
+    "description": "US public radio network offering national and world news, politics and culture.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "okayplayer",
+    "title": "Okayplayer",
+    "url": "https://www.okayplayer.com/",
+    "description": "Covers hip-hop, R&B and Black music and culture.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "omelete",
+    "title": "Omelete",
+    "url": "https://www.omelete.com.br/",
+    "description": "Brazilian site covering film, TV, comics and games.",
+    "tier": "C",
+    "tags": [
+      "culture",
+      "gaming"
+    ]
+  },
+  {
+    "id": "pagesix",
+    "title": "Page Six",
+    "url": "https://pagesix.com/",
+    "description": "Celebrity gossip and entertainment news from the New York Post.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "pbs",
+    "title": "PBS NewsHour",
+    "url": "https://www.pbs.org/",
+    "description": "US public broadcaster's site with national and world news and programming.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "pcgamer",
+    "title": "PC Gamer",
+    "url": "https://www.pcgamer.com/",
+    "description": "News, reviews and guides for PC games and hardware.",
+    "tier": "B",
+    "tags": [
+      "gaming"
+    ]
+  },
+  {
+    "id": "people",
+    "title": "People",
+    "url": "https://people.com/",
+    "description": "Celebrity news, entertainment and human interest stories.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "en-people",
+    "title": "People's Daily Online",
+    "url": "https://en.people.cn/",
+    "description": "English edition of the Chinese Communist Party's official newspaper.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "phoronix",
+    "title": "Phoronix",
+    "url": "https://www.phoronix.com/",
+    "description": "Linux and open-source hardware and software news and benchmarks.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "politico",
+    "title": "Politico",
+    "url": "https://www.politico.com/",
+    "description": "Covers US politics, policy and government.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "polygon",
+    "title": "Polygon",
+    "url": "https://www.polygon.com/",
+    "description": "Video game news, reviews and entertainment coverage.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "gaming"
+    ]
+  },
+  {
+    "id": "popsugar",
+    "title": "Popsugar",
+    "url": "https://www.popsugar.com/",
+    "description": "Celebrity, entertainment, fashion and lifestyle news.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "poynter",
+    "title": "Poynter",
+    "url": "https://www.poynter.org/",
+    "description": "Covers journalism, media ethics and fact-checking.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "pressgazette",
+    "title": "Press Gazette",
+    "url": "https://www.pressgazette.co.uk/",
+    "description": "Covers the British news and media industry.",
+    "tier": "C",
+    "tags": [
+      "british",
+      "culture"
+    ]
+  },
+  {
+    "id": "ptinews",
+    "title": "Press Trust of India",
+    "url": "https://www.ptinews.com/",
+    "description": "India's largest news agency covering national and world news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "proofnews",
+    "title": "Proof News",
+    "url": "https://www.proofnews.org/",
+    "description": "Investigative journalism on science, health, technology and data.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "science",
+      "tech"
+    ]
+  },
+  {
+    "id": "propublica",
+    "title": "ProPublica",
+    "url": "https://www.propublica.org/",
+    "description": "Nonprofit newsroom producing investigative journalism in the public interest.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "publishersweekly",
+    "title": "Publishers Weekly",
+    "url": "https://www.publishersweekly.com/",
+    "description": "Covers the book publishing industry, reviews and bestsellers.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "puck",
+    "title": "Puck",
+    "url": "https://puck.news/",
+    "description": "Insider reporting on media, entertainment, politics and finance.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture",
+      "politics"
+    ]
+  },
+  {
+    "id": "quantamagazine",
+    "title": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/",
+    "description": "Articles on mathematics, physics, biology and computer science.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "qz",
+    "title": "Quartz",
+    "url": "https://qz.com/",
+    "description": "Business and economy news for a global audience.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "rawstory",
+    "title": "Raw Story",
+    "url": "https://www.rawstory.com/",
+    "description": "Progressive US news and political commentary.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "reddit",
+    "title": "Reddit",
+    "url": "https://www.reddit.com/",
+    "description": "Link and discussion community covering news and every other topic.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "redstate",
+    "title": "RedState",
+    "url": "https://redstate.com/",
+    "description": "Conservative US political news and commentary.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "reuters",
+    "title": "Reuters",
+    "url": "https://www.reuters.com/",
+    "description": "International wire service covering world news, business and markets.",
+    "tier": "S",
+    "tags": [
+      "british",
+      "news",
+      "business"
+    ]
+  },
+  {
+    "id": "rollcall",
+    "title": "Roll Call",
+    "url": "https://www.rollcall.com/",
+    "description": "Covers the US Congress and Capitol Hill politics.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "rollingstone",
+    "title": "Rolling Stone",
+    "url": "https://www.rollingstone.com/",
+    "description": "Music, entertainment, culture and politics coverage.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "rte",
+    "title": "RTÉ",
+    "url": "https://www.rte.ie/",
+    "description": "Irish public broadcaster offering news, sport and entertainment.",
+    "tier": "A",
+    "tags": [
+      "irish",
+      "news"
+    ]
+  },
+  {
+    "id": "salon",
+    "title": "Salon",
+    "url": "https://www.salon.com/",
+    "description": "Progressive US news, politics and culture commentary.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "sfchronicle",
+    "title": "San Francisco Chronicle",
+    "url": "https://www.sfchronicle.com/",
+    "description": "San Francisco Bay Area newspaper covering local, state and national news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "sbnation",
+    "title": "SB Nation",
+    "url": "https://www.sbnation.com/",
+    "description": "Network of team-focused sports blogs and news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "sciencedaily",
+    "title": "ScienceDaily",
+    "url": "https://www.sciencedaily.com/",
+    "description": "Summaries of the latest science and research press releases.",
+    "tier": "C",
+    "tags": [
+      "science"
+    ]
+  },
+  {
+    "id": "scientificamerican",
+    "title": "Scientific American",
+    "url": "https://www.scientificamerican.com/",
+    "description": "Science and technology news and features for general readers.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "semafor",
+    "title": "Semafor",
+    "url": "https://www.semafor.com/",
+    "description": "Global news outlet covering politics, business, technology and media.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "servethehome",
+    "title": "ServeTheHome",
+    "url": "https://www.servethehome.com/",
+    "description": "Reviews and news on servers, storage and networking hardware.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "sfgate",
+    "title": "SFGATE",
+    "url": "https://www.sfgate.com/",
+    "description": "San Francisco Bay Area news, culture and sports site.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "showbiz411",
+    "title": "Showbiz411",
+    "url": "https://www.showbiz411.com/",
+    "description": "Entertainment and celebrity news and gossip.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "news-sky",
+    "title": "Sky News",
+    "url": "https://news.sky.com/",
+    "description": "British broadcaster's news site covering UK and world news.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "slate",
+    "title": "Slate",
+    "url": "https://slate.com/",
+    "description": "Online magazine covering news, politics and culture with analysis.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "readsludge",
+    "title": "Sludge",
+    "url": "https://readsludge.com/",
+    "description": "Investigative reporting on money in politics and lobbying.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "socialmediatoday",
+    "title": "Social Media Today",
+    "url": "https://www.socialmediatoday.com/",
+    "description": "News on social media platforms and digital marketing.",
+    "tier": "D",
+    "tags": [
+      "tech",
+      "business"
+    ]
+  },
+  {
+    "id": "space",
+    "title": "Space.com",
+    "url": "https://www.space.com/",
+    "description": "News on space exploration, astronomy and spaceflight.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "spacenews",
+    "title": "SpaceNews",
+    "url": "https://spacenews.com/",
+    "description": "Covers the space industry, civil and military space programs.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "science",
+      "business"
+    ]
+  },
+  {
+    "id": "si",
+    "title": "Sports Illustrated",
+    "url": "https://www.si.com/",
+    "description": "Sports news, analysis and features across major sports.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "statnews",
+    "title": "STAT",
+    "url": "https://www.statnews.com/",
+    "description": "Health, medicine and life sciences news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "stateline",
+    "title": "Stateline",
+    "url": "https://stateline.org/",
+    "description": "Nonprofit newsroom reporting on US state policy and politics.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "studyfinds",
+    "title": "Study Finds",
+    "url": "https://studyfinds.org/",
+    "description": "Reports on newly published scientific studies in health, psychology, and other fields.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "talkingpointsmemo",
+    "title": "Talking Points Memo",
+    "url": "https://talkingpointsmemo.com/",
+    "description": "Covers US politics with news and analysis from a progressive perspective.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "techcrunch",
+    "title": "TechCrunch",
+    "url": "https://techcrunch.com/",
+    "description": "Covers technology startups, venture capital, and the tech industry.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "techdirt",
+    "title": "Techdirt",
+    "url": "https://www.techdirt.com/",
+    "description": "Covers technology policy, copyright, and internet law with commentary.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "techmeme",
+    "title": "Techmeme",
+    "url": "https://www.techmeme.com/",
+    "description": "Aggregates top technology news stories from across the web.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "technical",
+    "title": "Technical.ly",
+    "url": "https://technical.ly/",
+    "description": "Covers local technology and startup communities in US cities.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "techradar",
+    "title": "TechRadar",
+    "url": "https://www.techradar.com/",
+    "description": "Provides consumer technology news, reviews, and buying guides.",
+    "tier": "B",
+    "tags": [
+      "tech",
+      "british"
+    ]
+  },
+  {
+    "id": "texasmonthly",
+    "title": "Texas Monthly",
+    "url": "https://www.texasmonthly.com/",
+    "description": "Magazine covering Texas politics, culture, food, and long-form journalism.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "avclub",
+    "title": "The A.V. Club",
+    "url": "https://www.avclub.com/",
+    "description": "Covers film, television, music, books, and games.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "prospect",
+    "title": "The American Prospect",
+    "url": "https://www.prospect.org/",
+    "description": "Magazine covering US politics and policy from a liberal perspective.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "theargumentmag",
+    "title": "The Argument",
+    "url": "https://www.theargumentmag.com/",
+    "description": "Opinion magazine covering US politics and ideas.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "theathletic",
+    "title": "The Athletic",
+    "url": "https://theathletic.com/",
+    "description": "Sports news and in-depth reporting on teams and leagues, owned by The New York Times.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports"
+    ]
+  },
+  {
+    "id": "theatlantic",
+    "title": "The Atlantic",
+    "url": "https://www.theatlantic.com/",
+    "description": "Magazine covering politics, culture, technology, and ideas.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "afr",
+    "title": "The Australian Financial Review",
+    "url": "https://www.afr.com/",
+    "description": "Australian newspaper covering business, finance, markets, and politics.",
+    "tier": "B",
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "theblock",
+    "title": "The Block",
+    "url": "https://www.theblock.co/",
+    "description": "Covers cryptocurrency, blockchain, and digital asset markets.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech",
+      "business"
+    ]
+  },
+  {
+    "id": "thebulwark",
+    "title": "The Bulwark",
+    "url": "https://www.thebulwark.com/",
+    "description": "Publishes center-right anti-Trump political news and commentary.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "csmonitor",
+    "title": "The Christian Science Monitor",
+    "url": "https://www.csmonitor.com/",
+    "description": "Nonprofit news outlet covering national and international news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "theconversation",
+    "title": "The Conversation",
+    "url": "https://theconversation.com/",
+    "description": "Publishes news analysis written by academics and researchers.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "science"
+    ]
+  },
+  {
+    "id": "thedailybeast",
+    "title": "The Daily Beast",
+    "url": "https://www.thedailybeast.com/",
+    "description": "Covers politics, media, entertainment, and culture news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "dailycaller",
+    "title": "The Daily Caller",
+    "url": "https://dailycaller.com/",
+    "description": "Conservative news site covering US politics and culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "dailyclimate",
+    "title": "The Daily Climate",
+    "url": "https://www.dailyclimate.org/",
+    "description": "Reports on climate change, energy, and the environment.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "the-decoder",
+    "title": "The Decoder",
+    "url": "https://the-decoder.com/",
+    "description": "Covers artificial intelligence news and research.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "thediplomat",
+    "title": "The Diplomat",
+    "url": "https://thediplomat.com/",
+    "description": "Magazine covering politics, security, and society in the Asia-Pacific region.",
+    "tier": "C",
+    "tags": [
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "the-downballot",
+    "title": "The Downballot",
+    "url": "https://www.the-downballot.com/",
+    "description": "Covers US elections and campaigns, with a focus on down-ballot races.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "economist",
+    "title": "The Economist",
+    "url": "https://www.economist.com/",
+    "description": "Weekly publication covering world news, politics, business, and finance.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news",
+      "business",
+      "politics"
+    ]
+  },
+  {
+    "id": "thefp",
+    "title": "The Free Press",
+    "url": "https://www.thefp.com/",
+    "description": "Independent outlet publishing news, reporting, and commentary on politics and culture.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news",
+      "politics",
+      "culture"
+    ]
+  },
+  {
+    "id": "thefutoncritic",
+    "title": "The Futon Critic",
+    "url": "https://www.thefutoncritic.com/",
+    "description": "Covers television news, schedules, and press releases.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "theguardian",
+    "title": "The Guardian",
+    "url": "https://www.theguardian.com/",
+    "description": "British newspaper covering world, national, and local news, politics, and culture.",
+    "tier": "S",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "thehill",
+    "title": "The Hill",
+    "url": "https://thehill.com/",
+    "description": "Covers US Congress, the White House, and national politics.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "hollywoodreporter",
+    "title": "The Hollywood Reporter",
+    "url": "https://www.hollywoodreporter.com/",
+    "description": "Covers the film, television, and entertainment industries.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "independent-uk",
+    "title": "The Independent",
+    "url": "https://www.independent.co.uk/",
+    "description": "British online newspaper covering national and international news.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "theinformation",
+    "title": "The Information",
+    "url": "https://www.theinformation.com/",
+    "description": "Subscription outlet covering the technology industry and startups.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech",
+      "business"
+    ]
+  },
+  {
+    "id": "theintercept",
+    "title": "The Intercept",
+    "url": "https://theintercept.com/",
+    "description": "Investigative news outlet covering national security, politics, and civil liberties.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "irishcatholic",
+    "title": "The Irish Catholic",
+    "url": "https://www.irishcatholic.com/",
+    "description": "Irish weekly newspaper covering Catholic Church and religious news.",
+    "tier": "D",
+    "tags": [
+      "irish"
+    ]
+  },
+  {
+    "id": "irishtimes",
+    "title": "The Irish Times",
+    "url": "https://www.irishtimes.com/",
+    "description": "Irish national newspaper covering news, politics, business, and sport.",
+    "tier": "A",
+    "tags": [
+      "irish",
+      "news"
+    ]
+  },
+  {
+    "id": "japannews-yomiuri",
+    "title": "The Japan News by The Yomiuri Shimbun",
+    "url": "https://japannews.yomiuri.co.jp/",
+    "description": "English-language Japanese news from The Yomiuri Shimbun.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "japantimes",
+    "title": "The Japan Times",
+    "url": "https://www.japantimes.co.jp/",
+    "description": "English-language newspaper covering Japanese news, business, and culture.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "jpost",
+    "title": "The Jerusalem Post",
+    "url": "https://www.jpost.com/",
+    "description": "Israeli English-language newspaper covering Israel and the Middle East.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "kyivindependent",
+    "title": "The Kyiv Independent",
+    "url": "https://kyivindependent.com/",
+    "description": "English-language Ukrainian outlet covering the war and Ukrainian news.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "themarkup",
+    "title": "The Markup",
+    "url": "https://themarkup.org/",
+    "description": "Investigative outlet examining technology and its effect on society.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "themoscowtimes",
+    "title": "The Moscow Times",
+    "url": "https://www.themoscowtimes.com/",
+    "description": "Independent English-language outlet covering Russia news and politics.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "thenation",
+    "title": "The Nation",
+    "url": "https://www.thenation.com/",
+    "description": "Progressive magazine covering US politics and culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "theneweuropean",
+    "title": "The New European",
+    "url": "https://www.theneweuropean.co.uk/",
+    "description": "British weekly newspaper with a pro-European perspective on news and politics.",
+    "tier": "D",
+    "tags": [
+      "british",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "newrepublic",
+    "title": "The New Republic",
+    "url": "https://newrepublic.com/",
+    "description": "Magazine covering US politics, policy, and culture from a liberal viewpoint.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "nytimes",
+    "title": "The New York Times",
+    "url": "https://www.nytimes.com/",
+    "description": "US newspaper covering national and international news, politics, business, and culture.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "newyorker",
+    "title": "The New Yorker",
+    "url": "https://www.newyorker.com/",
+    "description": "Magazine with reporting, essays, fiction, and criticism on politics and culture.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "culture",
+      "politics"
+    ]
+  },
+  {
+    "id": "theonion",
+    "title": "The Onion",
+    "url": "https://theonion.com/",
+    "description": "Satirical news publication parodying current events.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "thepointsguy",
+    "title": "The Points Guy",
+    "url": "https://thepointsguy.com/",
+    "description": "Covers travel news, airlines, and credit card rewards.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "therecord",
+    "title": "The Record",
+    "url": "https://therecord.media/",
+    "description": "Covers cybersecurity news and policy.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "theregister",
+    "title": "The Register",
+    "url": "https://www.theregister.com/",
+    "description": "Covers enterprise IT, software, and technology industry news.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "tech"
+    ]
+  },
+  {
+    "id": "theringer",
+    "title": "The Ringer",
+    "url": "https://www.theringer.com/",
+    "description": "Covers sports, movies, television, music and pop culture with analysis and podcasts.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "sports",
+      "culture"
+    ]
+  },
+  {
+    "id": "riotimesonline",
+    "title": "The Rio Times",
+    "url": "https://www.riotimesonline.com/",
+    "description": "English-language news about Brazil and Latin America, covering business, politics and markets.",
+    "tier": "D",
+    "tags": [
+      "news",
+      "business"
+    ]
+  },
+  {
+    "id": "sfstandard",
+    "title": "The San Francisco Standard",
+    "url": "https://sfstandard.com/",
+    "description": "Local news site covering San Francisco and the Bay Area, including politics, business and culture.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "scotsman",
+    "title": "The Scotsman",
+    "url": "https://www.scotsman.com/",
+    "description": "Scottish daily newspaper covering Scottish, UK and world news, politics, business and sport.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "theshortcut",
+    "title": "The Shortcut",
+    "url": "https://www.theshortcut.com/",
+    "description": "Covers consumer technology, gadgets and the way they affect everyday life.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "thesmokinggun",
+    "title": "The Smoking Gun",
+    "url": "https://thesmokinggun.com/",
+    "description": "Publishes documents and investigative stories on crime, celebrities and scandals.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "thesun",
+    "title": "The Sun",
+    "url": "https://www.thesun.co.uk/",
+    "description": "British tabloid covering news, celebrity, sport and entertainment.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "smh",
+    "title": "The Sydney Morning Herald",
+    "url": "https://www.smh.com.au/",
+    "description": "Australian daily newspaper covering Sydney, national and international news, business and sport.",
+    "tier": "B",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "telegraph",
+    "title": "The Telegraph",
+    "url": "https://www.telegraph.co.uk/",
+    "description": "British national newspaper covering news, politics, business, sport and culture.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "texastribune",
+    "title": "The Texas Tribune",
+    "url": "https://www.texastribune.org/",
+    "description": "Nonprofit newsroom covering Texas politics, government and public policy.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "thetimes",
+    "title": "The Times",
+    "url": "https://www.thetimes.com/",
+    "description": "British national newspaper covering UK and world news, politics, business and sport.",
+    "tier": "A",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "timesofindia-indiatimes",
+    "title": "The Times of India",
+    "url": "https://timesofindia.indiatimes.com/",
+    "description": "Indian English-language daily covering national and international news, business, sport and entertainment.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "theverge",
+    "title": "The Verge",
+    "url": "https://www.theverge.com/",
+    "description": "Covers technology, consumer electronics, science and internet culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "wsj",
+    "title": "The Wall Street Journal",
+    "url": "https://www.wsj.com/",
+    "description": "American business and general news newspaper covering finance, markets, politics and world news.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news",
+      "business"
+    ]
+  },
+  {
+    "id": "freebeacon",
+    "title": "The Washington Free Beacon",
+    "url": "https://freebeacon.com/",
+    "description": "Conservative outlet covering politics, government and culture.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "washingtonpost",
+    "title": "The Washington Post",
+    "url": "https://www.washingtonpost.com/",
+    "description": "American daily newspaper covering national and international news, politics, business and culture.",
+    "tier": "S",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "washingtontimes",
+    "title": "The Washington Times",
+    "url": "https://www.washingtontimes.com/",
+    "description": "Conservative-leaning daily covering US politics, national news and world affairs.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "weather",
+    "title": "The Weather Channel",
+    "url": "https://weather.com/",
+    "description": "Weather forecasts, severe weather alerts and weather-related news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ]
+  },
+  {
+    "id": "thedesk",
+    "title": "TheDesk.net",
+    "url": "https://thedesk.net/",
+    "description": "Covers the television, cable and streaming industry.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture",
+      "business"
+    ]
+  },
+  {
+    "id": "thejournal",
+    "title": "TheJournal.ie",
+    "url": "https://www.thejournal.ie/",
+    "description": "Irish digital news outlet covering national and international news, politics, business and sport.",
+    "tier": "B",
+    "tags": [
+      "irish",
+      "news"
+    ]
+  },
+  {
+    "id": "thewrap",
+    "title": "TheWrap",
+    "url": "https://www.thewrap.com/",
+    "description": "Covers the entertainment industry, including film, television and media business.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "time",
+    "title": "Time",
+    "url": "https://time.com/",
+    "description": "American news magazine covering world news, politics, health, business and culture.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "tmz",
+    "title": "TMZ",
+    "url": "https://www.tmz.com/",
+    "description": "Celebrity and entertainment news site covering breaking stories about famous people.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "tomshardware",
+    "title": "Tom's Hardware",
+    "url": "https://www.tomshardware.com/",
+    "description": "Covers computer hardware news, reviews and guides for PCs and components.",
+    "tier": "B",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "torrentfreak",
+    "title": "TorrentFreak",
+    "url": "https://torrentfreak.com/",
+    "description": "Covers file sharing, copyright, piracy and online privacy.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "truthout",
+    "title": "Truthout",
+    "url": "https://truthout.org/",
+    "description": "Nonprofit progressive news site covering politics, social justice and the environment.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "tvtechnology",
+    "title": "TV Tech",
+    "url": "https://www.tvtechnology.com/",
+    "description": "Covers broadcast and television technology and industry news.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "money-usnews",
+    "title": "U.S. News Money",
+    "url": "https://money.usnews.com/",
+    "description": "Personal finance and money news, including banking, investing and retirement.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "usnews",
+    "title": "U.S. News & World Report",
+    "url": "https://www.usnews.com/",
+    "description": "Covers national news, politics, health, education and rankings.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "usmagazine",
+    "title": "Us Weekly",
+    "url": "https://www.usmagazine.com/",
+    "description": "Celebrity news covering entertainment, relationships and pop culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "usatoday",
+    "title": "USA Today",
+    "url": "https://www.usatoday.com/",
+    "description": "American national daily covering US and world news, politics, sports and entertainment.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "vanityfair",
+    "title": "Vanity Fair",
+    "url": "https://www.vanityfair.com/",
+    "description": "Magazine covering politics, Hollywood, culture, fashion and media.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture",
+      "politics"
+    ]
+  },
+  {
+    "id": "variety",
+    "title": "Variety",
+    "url": "https://variety.com/",
+    "description": "Entertainment trade publication covering film, television, music and the entertainment business.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "venturebeat",
+    "title": "VentureBeat",
+    "url": "https://venturebeat.com/",
+    "description": "Covers technology, artificial intelligence, enterprise software and gaming.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "tech"
+    ]
+  },
+  {
+    "id": "vogue",
+    "title": "Vogue",
+    "url": "https://www.vogue.com/",
+    "description": "Fashion magazine covering fashion, beauty, celebrity and culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "vogue-uk",
+    "title": "Vogue UK",
+    "url": "https://www.vogue.co.uk/",
+    "description": "British edition of Vogue covering fashion, beauty, celebrity and culture.",
+    "tier": "C",
+    "tags": [
+      "british",
+      "culture"
+    ]
+  },
+  {
+    "id": "vox",
+    "title": "Vox",
+    "url": "https://www.vox.com/",
+    "description": "Explanatory news site covering politics, policy, science, culture and technology.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "vulture",
+    "title": "Vulture",
+    "url": "https://www.vulture.com/",
+    "description": "New York Magazine's entertainment site covering TV, movies, music and pop culture.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "washingtonexaminer",
+    "title": "Washington Examiner",
+    "url": "https://www.washingtonexaminer.com/",
+    "description": "Conservative outlet covering US politics, policy and national news.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "whats-on-netflix",
+    "title": "What's on Netflix",
+    "url": "https://www.whats-on-netflix.com/",
+    "description": "Covers new releases, news and guides about Netflix content.",
+    "tier": "D",
+    "tags": [
+      "culture"
+    ]
+  },
+  {
+    "id": "windowscentral",
+    "title": "Windows Central",
+    "url": "https://www.windowscentral.com/",
+    "description": "Covers Microsoft, Windows, Xbox and related devices and software.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "tech",
+      "gaming"
+    ]
+  },
+  {
+    "id": "windowslatest",
+    "title": "Windows Latest",
+    "url": "https://www.windowslatest.com/",
+    "description": "Covers Windows and Microsoft news, updates and software.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "wired",
+    "title": "Wired",
+    "url": "https://www.wired.com/",
+    "description": "Covers technology, science, business, security and culture.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "tech",
+      "science"
+    ]
+  },
+  {
+    "id": "worldofreel",
+    "title": "World of Reel",
+    "url": "https://www.worldofreel.com/",
+    "description": "Film and entertainment news site covering movies, box office and awards.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "culture"
+    ]
+  },
+  {
+    "id": "wral",
+    "title": "WRAL-TV",
+    "url": "https://www.wral.com/",
+    "description": "Raleigh, North Carolina television station site with local news, weather and sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "xinhuanet",
+    "title": "Xinhua News Agency",
+    "url": "https://www.xinhuanet.com/",
+    "description": "Chinese state news agency covering Chinese and international news.",
+    "tier": "A",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "finance-yahoo",
+    "title": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "description": "Financial news, stock quotes and market data.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "cafinance-yahoo",
+    "title": "Yahoo Finance Canada",
+    "url": "https://ca.finance.yahoo.com/",
+    "description": "Canadian edition of Yahoo Finance with market news and stock data.",
+    "tier": "C",
+    "tags": [
+      "business"
+    ]
+  },
+  {
+    "id": "news-yahoo",
+    "title": "Yahoo News",
+    "url": "https://news.yahoo.com/",
+    "description": "News portal aggregating US and world headlines, politics and original reporting.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "uknews-yahoo",
+    "title": "Yahoo News UK",
+    "url": "https://uk.news.yahoo.com/",
+    "description": "UK edition of Yahoo News with British and world headlines.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ]
+  },
+  {
+    "id": "sports-yahoo",
+    "title": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/",
+    "description": "Sports news, scores and analysis across American and international leagues from Yahoo.",
+    "tier": "B",
+    "tags": [
+      "sports",
+      "american"
+    ]
+  },
+  {
+    "id": "theyeshivaworld",
+    "title": "Yeshiva World News",
+    "url": "https://www.theyeshivaworld.com/",
+    "description": "News site covering Orthodox Jewish communities, Israel and general US and world news.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "american"
+    ]
+  },
+  {
+    "id": "zdnet",
+    "title": "ZDNET",
+    "url": "https://www.zdnet.com/",
+    "description": "Technology news, reviews and advice covering consumer and enterprise tech.",
+    "tier": "B",
+    "tags": [
+      "tech",
+      "american"
+    ]
+  },
+  {
+    "id": "zerohedge",
+    "title": "Zero Hedge",
+    "url": "https://www.zerohedge.com/",
+    "description": "Financial markets and economics blog that also publishes political and geopolitical commentary and conspiracy-leaning claims.",
+    "tier": "F",
+    "tags": [
+      "business",
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "zeteo",
+    "title": "Zeteo",
+    "url": "https://zeteo.com/",
+    "description": "Independent news and commentary outlet founded by Mehdi Hasan covering politics and world affairs.",
+    "tier": "C",
+    "tags": [
+      "politics",
+      "american"
+    ]
+  },
+  {
+    "id": "the-sun",
+    "title": "The Sun US",
+    "url": "https://www.the-sun.com/",
+    "description": "US edition of The Sun tabloid covering celebrity, crime, entertainment and general news.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "culture",
+      "american"
+    ]
+  },
+  {
+    "id": "rte-nuacht",
+    "title": "Nuacht RTÉ",
+    "url": "https://www.rte.ie/news/nuacht/",
+    "tier": "B",
+    "description": "Irish-language news from RTÉ covering Irish and world events.",
+    "tags": [
+      "irish",
+      "gaeilge",
+      "news"
+    ]
+  },
+  {
+    "id": "independent-seachtain",
+    "title": "Seachtain",
+    "url": "https://www.independent.ie/seachtain/",
+    "tier": "C",
+    "description": "Irish-language section of the Irish Independent with news and features.",
+    "tags": [
+      "irish",
+      "gaeilge",
+      "news"
+    ]
+  },
+  {
+    "id": "thejournal-gaeilge",
+    "title": "TheJournal.ie as Gaeilge",
+    "url": "https://www.thejournal.ie/gaeilge/news/",
+    "tier": "C",
+    "description": "Irish-language news section of TheJournal.ie.",
+    "tags": [
+      "irish",
+      "gaeilge",
+      "news"
+    ]
+  },
+  {
+    "id": "tuairisc",
+    "title": "Tuairisc.ie",
+    "url": "https://tuairisc.ie/",
+    "tier": "C",
+    "description": "Irish-language news website covering Irish and world news.",
+    "tags": [
+      "irish",
+      "gaeilge",
+      "news"
+    ]
+  },
+  {
+    "id": "news-ycombinator",
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/",
+    "tier": "A",
+    "description": "Link-sharing community focused on technology, startups and programming.",
+    "tags": [
+      "tech",
+      "american"
+    ]
+  },
+  {
+    "id": "en-wikipedia",
+    "title": "Wikipedia: Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "tier": "B",
+    "description": "Wikipedia portal listing daily summaries of notable world events.",
+    "tags": [
+      "news"
+    ]
+  },
+  {
+    "id": "trends-google",
+    "title": "Google Trends",
+    "url": "https://trends.google.com/",
+    "tier": "B",
+    "description": "Google tool showing trending searches and topics people are following.",
+    "tags": [
+      "news",
+      "american"
+    ]
+  }
+]

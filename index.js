@@ -1,270 +1,245 @@
-const Promise = require('bluebird')
-const moment = require('moment')
 const _ = require('lodash')
-const tmdb = require('./lib/tmdb')
-const omdb = require('./lib/omdb')
-const metacritic = require('./lib/metacritic')
+const feeds = require('./lib/feeds')
+const { runFeed } = feeds
+const config = require('./config')
 const anthropic = require('./lib/anthropic')
+const editor = require('./lib/editor')
+const { readJson, writeJson, makeId, loadIgnore, loadRejected, addRejected, SiteIndex } = require('./lib/sites')
+const { isWebUrl, urlKey, siteUrl } = require('./lib/url')
 
-const getTmdb = function (tmdbId) {
-  return tmdb.getMovie(tmdbId)
+const FIELDS = ['id', 'title', 'url', 'description', 'tier', 'tags']
+// Stored in data/, never published.
+const STORED = [...FIELDS, 'flaggedForRetiringAt', 'retiredAt']
+const DAY = 24 * 60 * 60 * 1000
+
+const siteFields = function (site, tags, fields = FIELDS) {
+  return _.omitBy(_.pick(_.assign({}, site, { tags }), fields), _.isNil)
 }
 
-const getTmdbDetails = function (movies) {
-  return Promise
-    .resolve(movies)
-    .mapSeries(function (movie) {
-      return getTmdb(movie.id)
-        .then(function (tmdbMovie) {
-          return _.assign(movie, {
-            tmdb_id: tmdbMovie.id,
-            imdb_id: tmdbMovie.imdb_id,
-            budget: tmdbMovie.budget === 0 ? null : tmdbMovie.budget,
-            revenue: tmdbMovie.revenue === 0 ? null : tmdbMovie.revenue,
-            top_actors: _.chain(tmdbMovie.credits.cast)
-              .take(3)
-              .map('name')
-              .value(),
-            director: tmdbMovie.credits.crew.find(c => c.job === 'Director')?.name,
-            production_companies: _.map(tmdbMovie.production_companies, 'name'),
-            genres: _.chain(tmdbMovie.genres)
-              .map('name')
-              .map(name => _.snakeCase(name).toLowerCase())
-              .value()
-          })
-        })
-    })
+// Feed tags are only hints for the editor; they're never published.
+const sanatizeForResponse = function (site) {
+  return siteFields(site, _.union(site.tags, site.derivedTags))
 }
 
-const getOmdbRatings = function (movies) {
-  return Promise
-    .resolve(movies)
-    .mapSeries(function (movie) {
-      return omdb(movie.imdb_id)
-        .then(function (ratings) {
-          return _.defaults(movie, ratings)
-        })
-    })
+// Aggregator tags from feeds, and tier tags like popular.
+const derivedTags = function (site, tags) {
+  return tags
+    .filter(tag => (tag.feed && site.feeds.includes(tag.feed)) || tag.tiers?.includes(site.tier))
+    .map(tag => tag.id)
 }
 
-const normalizeTitle = function (title) {
-  return title.replace(/[^\w]/gi, '').toLowerCase()
+const newSite = function (site, fields) {
+  return _.assign(_.pick(site, STORED), {
+    feeds: [],
+    feedTags: []
+  }, fields)
 }
 
-const getMetacriticRatings = async function (movies) {
-  const metacriticMovies = await metacritic()
+// seed.json overrides stored and retired sites, matched by id then URL.
+const applySeed = function (stored, seed) {
+  const sites = stored.map(site => _.clone(site))
 
-  const mappedMovies = _.chain(metacriticMovies)
-    .keyBy(m => normalizeTitle(m.title))
-    .mapValues('score')
-    .value()
+  for (const entry of seed) {
+    const fields = _.assign(_.pick(entry, FIELDS), { seeded: true })
+    const match = sites.find(site => site.id === entry.id) ||
+      sites.find(site => urlKey(site.url) === urlKey(entry.url))
 
-  return movies.map(function (movie) {
-    return _.assign(movie, {
-      metacritic_score: mappedMovies[normalizeTitle(movie.title)]
-    })
-  })
-}
-
-const evaluateMovies = async function (movies) {
-  const system = `
-You are a movie critic that is given a list of movies released in the last 4 months. Your goal is to suggest and sort order the most popular movies.
-
-You will be given a list of movies with the following details:
-
-- Title
-- Production Companies
-- Release Date
-- Genres
-- Budget
-- Revenue
-- Metacritic Score (0-100)
-- Rotten Tomatoes Score (0-100)
-- IMDb Rating (0-10)
-- IMDb Vote Count
-- TMDB Score (0-10)
-- TMDB Vote Count
-- Top 3 actors in the movie
-- Director
-- Writer
-
-When evaluating the popularity of a movie, consider:
-
-- The budget of the movie and and how much revenue it made. Don't consider ROI, just consider how large the spend or revenue is.
-- The number of votes the movie received and the rating of the movie. Be sure to consider the number of votes so that one vote does not skew the results.
-- The production companies of the movie and the quality of the movies they have produced, and how well known the companies are.
-- The actors & directors in the movie and how well known they are.
-
-A null value means that the data could not be found or isn't publicly available.
-
-Explain your reasoning first, then return the IDs of the most popular movies, in sorted order, in a JSON array. Comments in the JSON is invalid JSON.
-
-Include, at most, 15 movies.
-
-Your response should look similar to:
-\`\`\`json
-[
-  123,
-  456,
-  789
-]
-\`\`\`
-`
-
-  const moviesData = movies.map(function (movie) {
-    return _.pick(movie, [
-      'id',
-      'title',
-      'production_companies',
-      'release_date',
-      'genres',
-      'budget',
-      'revenue',
-      'metacritic_score',
-      'imdb_rating',
-      'imdb_votes',
-      'rt_score',
-      'vote_average',
-      'vote_count',
-      'top_actors',
-      'director'
-    ])
-  })
-
-  const response = await anthropic.prompt(system, JSON.stringify(moviesData))
-
-  const suggestedMovies = _.map(response, id => movies.find(movie => movie.id === id))
-
-  return suggestedMovies
-}
-
-const sanatizeForResponse = function (movies) {
-  return Promise
-    .resolve(movies)
-    .map(function (movie) {
-      return _.pick(movie, [
-        'title',
-        'tmdb_id',
-        'imdb_id',
-        'poster_url',
-        'genres'
-      ])
-    })
-}
-
-const filterByMinValue = function (key, value = 0) {
-  return function (movies) {
-    return _.filter(movies, function (movie) {
-      return _.get(movie, key, 0) >= value
-    })
-  }
-}
-
-const filterByMaxValue = function (key, value = 0) {
-  return function (movies) {
-    return _.filter(movies, function (movie) {
-      return _.get(movie, key, 0) <= value
-    })
-  }
-}
-
-const rejectArrayValues = function (key, values) {
-  return function (movies) {
-    if (_.isNil(values)) {
-      return movies
+    if (match) {
+      _.assign(match, fields)
+    } else {
+      sites.push(fields)
     }
-
-    return _.reject(movies, function (movie) {
-      return values.some(value => _.get(movie, key, []).includes(value))
-    })
   }
+  return sites
 }
 
-const calculateMovieAge = function (movies) {
-  return _.map(movies, function (movie) {
-    movie.age = moment().diff(movie.release_date, 'days')
-    return movie
+// Only the editor accepts new sites; trusted feeds are a hint.
+const listSite = function (site, feed, link) {
+  const picks = feed.trusted && !link.enrichOnly
+  // Prefer the first trusted feed's title.
+  if (!site.known && picks && !site.trusted) {
+    site.title = link.title
+  }
+  site.feeds = _.union(site.feeds, [feed.id])
+  site.feedTags = _.union(site.feedTags, link.tags)
+  site.trusted = site.trusted || picks
+}
+
+// Unlisted sites are flagged, then retired after RETIRE_AFTER_DAYS.
+// Listed or seeded sites are cleared and restored.
+const updateRetirement = function (sites, { now, feedFailed, days = config.RETIRE_AFTER_DAYS }) {
+  const changes = { flagged: [], cleared: [], retired: [], restored: [] }
+  const stamp = now.toISOString()
+
+  for (const site of sites.filter(site => site.known)) {
+    if (site.feeds.length || site.seeded) {
+      if (site.retired) {
+        changes.restored.push(site.id)
+      } else if (site.flaggedForRetiringAt) {
+        changes.cleared.push(site.id)
+      }
+      _.assign(site, { retired: false, flaggedForRetiringAt: undefined, retiredAt: undefined })
+    } else if (site.retired) {
+      continue
+    } else if (!site.flaggedForRetiringAt) {
+      if (feedFailed) continue
+      site.flaggedForRetiringAt = stamp
+      changes.flagged.push(site.id)
+    } else if (now - new Date(site.flaggedForRetiringAt) >= Number(days) * DAY) {
+      _.assign(site, { retired: true, retiredAt: stamp })
+      changes.retired.push(site.id)
+    }
+  }
+  return changes
+}
+
+const gatherSites = async function (problems) {
+  const isIgnored = loadIgnore()
+  const isRejected = loadRejected()
+  const sites = new SiteIndex()
+
+  const stored = [
+    ...readJson('sources.json'),
+    ...readJson('retired.json').map(site => _.assign({}, site, { retired: true }))
+  ]
+  for (const site of applySeed(stored, readJson('seed.json'))) {
+    sites.add(newSite(site, {
+      known: true,
+      accepted: true,
+      retired: Boolean(site.retired),
+      seeded: Boolean(site.seeded)
+    }))
+  }
+
+  for (const feed of feeds) {
+    let links = []
+    try {
+      links = await runFeed(feed)
+      if (!links.length) problems.push(`${feed.id}: no sites`)
+    } catch (error) {
+      problems.push(`${feed.id}: ${error.message}`)
+    }
+    console.log({ feed: feed.id, count: links.length })
+
+    for (const link of links) {
+      if (!isWebUrl(link.url)) {
+        continue
+      }
+
+      const url = siteUrl(link.url)
+      if (isIgnored(url) || isRejected(url)) {
+        continue
+      }
+
+      if (!sites.find(url, feed.id)) {
+        if (link.enrichOnly) {
+          continue
+        }
+        sites.add(newSite(link, { url, tags: [], known: false, accepted: false }))
+      }
+
+      listSite(sites.find(url, feed.id), feed, link)
+    }
+  }
+
+  return sites.values()
+}
+
+// Only kept sites get ids, so a rejected site can't take one.
+const finishSites = function (sites, tags) {
+  const taken = new Set(sites.map(site => site.id).filter(Boolean))
+
+  return sites.map(function (site) {
+    return _.assign(site, {
+      id: site.id || (site.accepted ? makeId(site.url, taken) : undefined),
+      derivedTags: derivedTags(site, tags)
+    })
   })
-}
-
-const logger = function (movies) {
-  console.table(movies, [
-    'id',
-    'imdb_id',
-    'tmdb_id',
-    'title',
-    'release_date',
-    'age',
-    'metacritic_score',
-    'imdb_rating',
-    'imdb_votes',
-    'rt_score',
-    'popularity',
-    'vote_average',
-    'vote_count',
-    'genres',
-    'budget',
-    'revenue',
-    'production_companies',
-    'top_actors',
-    'director',
-    'writer'
-  ])
-}
-
-const deduplicateMovies = function (movies) {
-  return _.uniqBy(movies, 'tmdb_id')
 }
 
 module.exports = (function () {
-  //
-  // Class builder functions to help cache content but be
-  // able to filter after the fact with options
-  //
-  let allMovies = null
+  let allSites = null
+  let rejections = []
+  let retirement = null
+  const problems = []
 
-  const getMovies = function () {
-    if (allMovies) {
-      return allMovies
+  const getSites = async function () {
+    if (!allSites) {
+      const tags = readJson('tags.json')
+      const sites = await gatherSites(problems)
+      retirement = updateRetirement(sites, { now: new Date(), feedFailed: problems.length > 0 })
+      if (config.ANTHROPIC_API_KEY) {
+        // Retired sites can't be duplicates of new ones.
+        const listed = sites.filter(site => !site.retired)
+        const result = await editor.evaluate(listed, tags, anthropic.prompt)
+        rejections = editor.applyVerdicts(listed, result.verdicts)
+        problems.push(...result.problems)
+      }
+      allSites = finishSites(sites, tags)
     }
-
-    return Promise
-      .resolve(tmdb.getMovies())
-      .then(calculateMovieAge)
-      .then(filterByMaxValue('age', 120))
-      .then(filterByMinValue('age', 0))
-      .then(getTmdbDetails)
-      .then(getMetacriticRatings)
-      .then(getOmdbRatings)
-      .tap(logger)
-      .tap(function (movies) {
-        allMovies = movies
-      })
+    return allSites
   }
 
   const ListBuilder = function () {}
 
-  ListBuilder.prototype.filter = function (opts = {}) {
-    return Promise
-      .resolve(getMovies())
-      .then(deduplicateMovies)
-      .then(filterByMinValue('metacritic_score', opts.min_metacritic_score))
-      .then(filterByMinValue('rt_score', opts.min_rt_score))
-      .then(filterByMinValue('imdb_rating', opts.min_imdb_rating))
-      .then(rejectArrayValues('genres', opts.exclude_genres))
-      .then(sanatizeForResponse)
+  // Feeds or AI batches that failed tonight.
+  ListBuilder.prototype.problems = async function () {
+    await getSites()
+    return problems
   }
 
-  ListBuilder.prototype.evaluate = function () {
-    return Promise
-      .resolve(getMovies())
-      .then(evaluateMovies)
-      .then(sanatizeForResponse)
+  // Sites flagged, cleared, retired and restored tonight.
+  ListBuilder.prototype.retirement = async function () {
+    await getSites()
+    return retirement
   }
 
-  ListBuilder.prototype.dump = function () {
-    return allMovies
+  ListBuilder.prototype.filter = async function () {
+    return (await getSites())
+      .filter(site => site.accepted && !site.retired)
+      .map(sanatizeForResponse)
+  }
+
+  ListBuilder.prototype.all = async function () {
+    return (await getSites()).filter(site => !site.retired).map(function (site) {
+      return _.assign(sanatizeForResponse(site), _.pick(site, ['feeds', 'accepted']))
+    })
+  }
+
+  // New sites are judged once; rejections go to rejected-urls.txt.
+  ListBuilder.prototype.saveSources = async function () {
+    const sites = await getSites()
+    const stored = sites
+      .filter(site => site.known && !site.retired)
+      .map(site => siteFields(site, site.tags, STORED))
+    const added = _.chain(sites)
+      .filter(site => site.accepted && !site.known)
+      .map(site => siteFields(site, site.tags, STORED))
+      .sortBy('id')
+      .value()
+    const retired = _.chain(sites)
+      .filter('retired')
+      .map(site => siteFields(site, site.tags, STORED))
+      .sortBy('id')
+      .value()
+
+    const next = [...stored, ...added]
+    if (!_.isEqual(next, readJson('sources.json'))) {
+      writeJson('sources.json', next)
+    }
+    if (!_.isEqual(retired, readJson('retired.json'))) {
+      writeJson('retired.json', retired)
+    }
+    addRejected(rejections)
+    return added
   }
 
   return ListBuilder
 })()
+
+module.exports.updateRetirement = updateRetirement
+module.exports.applySeed = applySeed
+module.exports.listSite = listSite
+module.exports.finishSites = finishSites
+module.exports.derivedTags = derivedTags
+module.exports.gatherSites = gatherSites

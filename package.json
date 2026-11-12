@@ -1,40 +1,45 @@
 {
-  "name": "popular-movies",
+  "name": "popular-news-sites",
   "version": "0.1.0",
-  "description": "A library to help determine what movies to watch",
+  "description": "A list of popular news websites",
   "main": "index.js",
   "scripts": {
     "test": "./bin/test",
-    "deploy": "./bin/deploy.js"
+    "deploy": "./bin/deploy.js",
+    "refresh": "./bin/refresh.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sjlu/popular-movies.git"
+    "url": "https://github.com/mick-schroeder/popular-news-sites.git"
   },
-  "keywords": [
-    "movies"
-  ],
-  "author": "Steven Lu <slu@me.com>",
+  "author": "Mick Schroeder <contact@mickschroeder.com> (https://mickschroeder.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sjlu/popular-movies/issues"
+    "url": "https://github.com/mick-schroeder/popular-news-sites/issues"
   },
-  "homepage": "https://github.com/sjlu/popular-movies",
+  "homepage": "https://github.com/mick-schroeder/popular-news-sites",
   "devDependencies": {
-    "eslint": "^8.30.0",
-    "eslint-config-standard": "^17.0.0",
-    "json2csv": "^5.0.7",
+    "eslint": "^10.14.0",
     "mocha": "^11.0.1",
-    "must": "^0.13.4"
+    "must": "^0.13.4",
+    "neostandard": "^0.14.1"
   },
   "dependencies": {
-    "@anthropic-ai/sdk": "^0.33.1",
-    "aws-sdk": "^2.1282.0",
-    "bluebird": "^3.7.2",
+    "@anthropic-ai/sdk": "^1.8.0",
+    "@aws-sdk/client-s3": "^3.1166.0",
     "cheerio": "^1.0.0-rc.12",
+    "csv-parse": "^7.0.3",
     "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
-    "moment": "^2.29.4",
-    "request": "^2.88.2"
-  }
+    "slugify": "^1.6.9",
+    "tldts": "^7.4.22",
+    "zod": "^4.6.7"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "news"
+  ]
 }

@@ -1,0 +1,55 @@
+[
+  {
+    "id": "mickschroeder",
+    "title": "Mick Schroeder",
+    "url": "https://mickschroeder.com",
+    "tags": [
+      "sponsor"
+    ]
+  },
+  {
+    "id": "phys",
+    "title": "Phys.org",
+    "url": "https://phys.org/"
+  },
+  {
+    "id": "politics",
+    "title": "Politics.co.uk",
+    "url": "https://politics.co.uk"
+  },
+  {
+    "id": "rte-nuacht",
+    "title": "Nuacht RTÉ",
+    "url": "https://www.rte.ie/news/nuacht/"
+  },
+  {
+    "id": "independent-seachtain",
+    "title": "Seachtain",
+    "url": "https://www.independent.ie/seachtain/"
+  },
+  {
+    "id": "thejournal-gaeilge",
+    "title": "TheJournal.ie as Gaeilge",
+    "url": "https://www.thejournal.ie/gaeilge/news/"
+  },
+  {
+    "id": "tuairisc",
+    "title": "Tuairisc.ie",
+    "url": "https://tuairisc.ie/"
+  },
+  {
+    "id": "news-ycombinator",
+    "title": "Hacker News",
+    "url": "https://news.ycombinator.com/"
+  },
+  {
+    "id": "en-wikipedia",
+    "title": "Wikipedia: Current events",
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+  },
+  {
+    "id": "trends-google",
+    "title": "Google Trends",
+    "url": "https://trends.google.com/"
+  }
+]

@@ -1,9 +1,13 @@
 node_modules
 .env
-bower_components
-public/build
+.env.*
 *.log
 .idea
 .DS_Store
 .cache/
-dump.csv
+out/
+
+# Private notes, kept out of the public repo
+.claude/
+TODO.txt
+NOTES.md

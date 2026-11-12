@@ -5,21 +5,13 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 const config = {
-  DEBUG: false,
-  TMDB_KEY: '',
-  TRAKT_KEY: '',
-  TMDB_POSTER_URL: 'http://image.tmdb.org/t/p/w500',
-  REDIS_URL: 'redis://localhost:6379',
-  AWS_BUCKET: 'popular-movies',
+  AWS_BUCKET: 'popular-news-sites',
+  AWS_REGION: 'us-east-1',
   AWS_KEY: '',
   AWS_SECRET: '',
-  OMDB_KEY: '',
-  CLOUDFLARE_ACCOUNT_ID: '',
-  CLOUDFLARE_ACCESS_KEY_ID: '',
-  CLOUDFLARE_SECRET_ACCESS_KEY: '',
-  CLOUDFLARE_BUCKET: '',
   ANTHROPIC_API_KEY: '',
-  OPENROUTER_API_KEY: ''
+  ANTHROPIC_MODEL: 'claude-sonnet-5-5',
+  RETIRE_AFTER_DAYS: 90
 }
 
 module.exports = _.pick(_.assign({}, config, process.env), _.keys(config))

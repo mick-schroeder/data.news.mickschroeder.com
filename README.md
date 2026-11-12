@@ -1,79 +1,75 @@
-# popular-movies
+# popular-news-sites
 
-Popular Movies uses LLMs to evaluate the popularity of movies that are released
-and are less than 4 months old. Popular Movies considers a multitude of data points
-such as ratings, popularity, production companies, actors, and more.
+Popular News Sites uses LLMs to build a list of news websites from the sites
+that news aggregators link to. Each site is judged once, then given a tier,
+a short description and tags.
 
 ## Usage
 
-> :warning: **The URL has changed from `https://s3.amazonaws.com/popular-movies/` to `https://popular-movies-data.stevenlu.com/` as of September 11, 2023.**
-> Access via S3 using TLS 1.0 or 1.1 will be [deprecated by AWS](https://aws.amazon.com/blogs/security/tls-1-2-required-for-aws-endpoints/) on December 31, 2023.
-> Access via S3 will be completely deprecated January 1, 2025.
-
-You can poll the following JSON file for a list of movies.
+You can poll the following JSON file for a list of sites.
 
 ```
-https://popular-movies-data.stevenlu.com/movies.json
+https://data.news.mickschroeder.com/sources.json
 ```
 
   * This file is regenerated nightly so it is recommended that you
     only poll this file once per day
-  * It is recommended that you take a snapshot of this list and not
-    remove based on the list no longer displaying a particular movie
-  * Subject to fair use; excessive usage will be rate limited
+  * Each site has an `id`, `title`, `url`, `description`, `tier` and `tags`
 
 If you're looking for historical files, you can amend a date to the
 main file like so:
 
 ```
-https://popular-movies-data.stevenlu.com/movies-20191202.json
+https://data.news.mickschroeder.com/sources-20261112.json
 ```
 
-_This file is only available from December 2, 2019 onwards._
+## Tiers
 
-## All Movies
+Sites are ranked `S`, `A`, `B`, `C`, `D` or `F`, best to worst. `E` means
+the LLM didn't know the site well enough to rank it.
 
-There is also a file that includes all movies. This file is not filtered or evaluated.
+## Tags
 
-```
-https://popular-movies-data.stevenlu.com/all-movies.json
-```
+Tags are listed in [tags.json](https://data.news.mickschroeder.com/tags.json).
 
-There are also several variations of this file that are filtered by different
-rating websites.
-
-| File | Description |
+| Tag | Description |
 | -- | -- |
-| [movies-metacritic-min50.json](https://popular-movies-data.stevenlu.com/movies-metacritic-min50.json) | Movies with a minimum score of 50 on Metacritic |
-| [movies-metacritic-min60.json](https://popular-movies-data.stevenlu.com/movies-metacritic-min60.json) | Movies with a minimum score of 60 on Metacritic |
-| [movies-metacritic-min70.json](https://popular-movies-data.stevenlu.com/movies-metacritic-min70.json) | Movies with a minimum score of 70 on Metacritic |
-| [movies-metacritic-min80.json](https://popular-movies-data.stevenlu.com/movies-metacritic-min80.json) | Movies with a minimum score of 80 on Metacritic |
-| [movies-imdb-min5.json](https://popular-movies-data.stevenlu.com/movies-imdb-min5.json) | Movies with a minimum score of 5 on IMDB |
-| [movies-imdb-min6.json](https://popular-movies-data.stevenlu.com/movies-imdb-min6.json) | Movies with a minimum score of 6 on IMDB |
-| [movies-imdb-min7.json](https://popular-movies-data.stevenlu.com/movies-imdb-min7.json) | Movies with a minimum score of 7 on IMDB |
-| [movies-imdb-min8.json](https://popular-movies-data.stevenlu.com/movies-imdb-min8.json) | Movies with a minimum score of 8 on IMDB |
-| [movies-rottentomatoes-min50.json](https://popular-movies-data.stevenlu.com/movies-rottentomatoes-min50.json) | Movies with a minimum score of 50 on Rotten Tomatoes |
-| [movies-rottentomatoes-min60.json](https://popular-movies-data.stevenlu.com/movies-rottentomatoes-min60.json) | Movies with a minimum score of 60 on Rotten Tomatoes |
-| [movies-rottentomatoes-min70.json](https://popular-movies-data.stevenlu.com/movies-rottentomatoes-min70.json) | Movies with a minimum score of 70 on Rotten Tomatoes |
-| [movies-rottentomatoes-min80.json](https://popular-movies-data.stevenlu.com/movies-rottentomatoes-min80.json) | Movies with a minimum score of 80 on Rotten Tomatoes |
+| `popular` | Tier S or A |
+| `news` | General news |
+| `politics`, `business`, `tech`, `science`, `culture`, `sports`, `gaming` | Topics |
+| `american`, `british`, `irish` | Where the site is based |
+| `gaeilge` | Written in Irish |
+| `newzit`, `techmeme`, `drudge-report`, ... | Aggregators listing the site |
 
+## Sources
+
+* [Newzit](https://www.newzit.com/)
+* [The Brutalist Report](https://brutalist.report/)
+* [Techmeme](https://www.techmeme.com/)
+* [Memeorandum](https://www.memeorandum.com/)
+* [Mediagazer](https://mediagazer.com/)
+* [Drudge Report](https://www.drudgereport.com/)
+* [news-homepages](https://github.com/palewire/news-homepages)
+
+A site no source has listed for 3 months is retired. Sites can also be
+added by hand in `data/seed.json`.
 
 ## Develop
 
-* Make sure you are running Node.js and a local instance of Redis
-
-* If you want to run it locally you can clone this repository and add a
-  `.env` file which includes the following lines
+* Add a `.env` file which includes the following lines
 
     ```
-    TMDB_KEY=
+    ANTHROPIC_API_KEY=
+    AWS_KEY=
+    AWS_SECRET=
     ```
 
-  * https://www.themoviedb.org/documentation/api
-
-* Then run `npm test` and you should see an output of movies showing on
-  your console and the grade it's gotten
+* Then run `pnpm install` and `pnpm test`
+* `pnpm run deploy` builds the list. Without AWS keys, files are written to `out/`
+* `pnpm run refresh` re-ranks every site
 
 ## License
 
 MIT
+
+Forked from [popular-movies](https://github.com/sjlu/popular-movies) by Steven Lu.

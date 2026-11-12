@@ -1,151 +1,63 @@
 #!/usr/bin/env node
-const Promise = require('bluebird')
-const moment = require('moment')
+const fs = require('fs')
+const path = require('path')
+const _ = require('lodash')
+const config = require('../config')
 const Index = require('../index')
 const s3 = require('../lib/s3')
-const r2 = require('../lib/r2')
-const json2csv = require('../lib/json2csv')
-const fs = Promise.promisifyAll(require('fs'))
+const { readJson } = require('../lib/sites')
 
-const build = function (listBuilder, filename, opts = {}, evaluate = false) {
-  return Promise
-    .bind({
-      listBuilder,
-      filename,
-      opts,
-      evaluate
-    })
-    .then(function () {
-      if (this.evaluate) {
-        return this.listBuilder.evaluate()
-      }
+const OUT_FOLDER = path.join(__dirname, '../out')
 
-      return this.listBuilder.filter(this.opts)
-    })
-    .then(function (movies) {
-      console.log({
-        filename: this.filename,
-        opts: this.opts,
-        evaluate: this.evaluate,
-        count: movies.length
-      })
-
-      const jsonMovies = JSON.stringify(movies)
-
-      return Promise.all([
-        s3.upload(this.filename, jsonMovies),
-        r2.upload(this.filename, jsonMovies)
-      ])
-    })
+const writeLocal = function (filename, body) {
+  fs.mkdirSync(OUT_FOLDER, { recursive: true })
+  fs.writeFileSync(path.join(OUT_FOLDER, filename), body)
 }
 
-Promise
-  .bind({
-    listBuilder: new Index()
+const publish = async function (filename, body, contentType) {
+  writeLocal(filename, body)
+  if (config.AWS_KEY) {
+    await s3.upload(filename, body, contentType)
+  }
+}
+
+const publishJson = async function (filename, data) {
+  console.log({ filename, count: data.length })
+  await publish(filename, JSON.stringify(data))
+}
+
+const main = async function () {
+  fs.rmSync(OUT_FOLDER, { recursive: true, force: true })
+  const listBuilder = new Index()
+  const tags = readJson('tags.json')
+  const sources = await listBuilder.filter()
+
+  // Save verdicts before publishing, so a failed upload doesn't lose them.
+  const added = await listBuilder.saveSources()
+  console.log({ addedToData: added.length })
+  console.log({ retirement: await listBuilder.retirement() })
+
+  // Tags first, so a new tag exists before any site that uses it.
+  await publishJson('tags.json', tags)
+  await publishJson('sources.json', sources)
+  await publishJson(`sources-${new Date().toISOString().slice(0, 10).replaceAll('-', '')}.json`, sources)
+  await publish('index.html', fs.readFileSync(path.join(__dirname, '../index.html')), 'text/html; charset=utf-8')
+
+  const published = (await listBuilder.all()).filter(site => site.accepted)
+  console.log({
+    published: published.length,
+    listedBy: _.countBy(published.flatMap(site => site.feeds))
   })
-  .then(function () {
-    return [
-      {
-        filename: 'movies.json',
-        evaluate: true
-      },
-      {
-        filename: `movies-${moment().format('YYYYMMDD')}.json`,
-        evaluate: true
-      },
-      {
-        filename: 'all-movies.json'
-      },
-      {
-        filename: 'movies-metacritic-min50.json',
-        opts: {
-          min_metacritic_score: 50
-        }
-      },
-      {
-        filename: 'movies-metacritic-min60.json',
-        opts: {
-          min_metacritic_score: 60
-        }
-      },
-      {
-        filename: 'movies-metacritic-min70.json',
-        opts: {
-          min_metacritic_score: 70
-        }
-      },
-      {
-        filename: 'movies-metacritic-min80.json',
-        opts: {
-          min_metacritic_score: 80
-        }
-      },
-      {
-        filename: 'movies-imdb-min5.json',
-        opts: {
-          min_imdb_rating: 5
-        }
-      },
-      {
-        filename: 'movies-imdb-min6.json',
-        opts: {
-          min_imdb_rating: 6
-        }
-      },
-      {
-        filename: 'movies-imdb-min7.json',
-        opts: {
-          min_imdb_rating: 7
-        }
-      },
-      {
-        filename: 'movies-imdb-min8.json',
-        opts: {
-          min_imdb_rating: 8
-        }
-      },
-      {
-        filename: 'movies-rottentomatoes-min50.json',
-        opts: {
-          min_rt_score: 50
-        }
-      },
-      {
-        filename: 'movies-rottentomatoes-min60.json',
-        opts: {
-          min_rt_score: 60
-        }
-      },
-      {
-        filename: 'movies-rottentomatoes-min70.json',
-        opts: {
-          min_rt_score: 70
-        }
-      },
-      {
-        filename: 'movies-rottentomatoes-min80.json',
-        opts: {
-          min_rt_score: 80
-        }
-      }
-    ]
-  })
-  .mapSeries(function (manifest) {
-    return build(this.listBuilder, manifest.filename, manifest.opts, manifest.evaluate)
-  })
-  .then(function () {
-    return this.listBuilder.dump()
-  })
-  .then(function (data) {
-    return json2csv(data)
-  })
-  .then(function (csvData) {
-    return fs.writeFileAsync('dump.csv', csvData)
-  })
-  .then(function () {
-    process.exit(0)
-  })
-  .catch(function (err) {
-    console.error(err)
-    process.exit(1)
-  })
+
+  // Published anyway; fail the job so GitHub sends an email.
+  const problems = await listBuilder.problems()
+  if (problems.length) {
+    console.error({ problems })
+    process.exitCode = 1
+  }
+}
+
+main().catch(function (err) {
+  console.error(err)
+  process.exit(1)
+})

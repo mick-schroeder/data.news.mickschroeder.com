@@ -1,0 +1,40 @@
+https://krebsonsecurity.com/  # personal security blog
+https://www.ifixit.com/  # repair guides company site
+https://daringfireball.net/  # personal blog
+https://om.co/  # personal blog
+https://www.pewresearch.org/  # research/polling site
+https://newsletter.semianalysis.com/  # newsletter
+https://simonwillison.net/  # personal blog
+https://www.zetter-zeroday.com/  # personal newsletter
+https://www.dwarkesh.com/  # podcast
+https://washingtonsun.com/  # unknown site, unsure
+https://www.ms.now/  # duplicate of https://www.msnbc.com/
+https://www.publicnotice.co/  # newsletter-style, unsure
+https://popular.info/  # newsletter
+https://blog.fiftyplusone.news/  # newsletter/blog
+https://status.news/  # newsletter
+https://www.maristpoll.marist.edu/  # polling site
+https://www.stevevladeck.com/  # personal newsletter
+https://www.the-independent.com/  # duplicate of https://www.independent.co.uk/
+https://electionlawblog.org/  # personal blog
+https://www.doomsdayscenario.co/  # newsletter
+https://www.gallup.com/  # polling/research
+https://www.findinggravity.net/  # newsletter/blog
+https://dankennedy.net/  # personal blog
+https://www.newsmediaalliance.org/  # trade association
+https://knightfoundation.org/  # foundation
+https://www.amediaoperator.com/  # newsletter/blog
+https://www.cpj.org/  # advocacy organization
+https://cronkite.asu.edu/  # university site
+https://www.voxmedia.com/  # company site
+https://www.journalists.org/  # professional association
+https://investor.atmeta.com/  # company investor site
+https://www.lowpass.cc/  # newsletter
+https://www.yahoo.com/  # duplicate of https://news.yahoo.com/
+https://www.crazydaysandnights.net/  # personal blog
+https://www.huffingtonpost.com/  # duplicate of https://www.huffpost.com/
+https://www.thenewrepublic.com/  # duplicate of https://newrepublic.com/
+https://reason.org/  # Think tank foundation, not Reason magazine
+https://online.wsj.com/  # duplicate of https://www.wsj.com/
+https://www.dailymail.co.uk/  # duplicate of https://www.dailymail.com/home/index.html
+https://www.platformer.news/  # Single-author newsletter

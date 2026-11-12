@@ -6,49 +6,47 @@ on:
       - 'main'
   schedule:
     - cron: '0 6 * * *'
+  workflow_dispatch:
+
+# One run at a time; a push during a run waits for it.
+concurrency:
+  group: upload_s3
+  cancel-in-progress: false
 
 jobs:
   upload_s3:
     runs-on: ubuntu-latest
     environment: production
+    permissions:
+      contents: write
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
-      - name: Date
-        run: echo DATE=$(date +%s) >> $GITHUB_ENV
-      - name: Cache
-        uses: actions/cache@v3
+        uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6
+      - name: Install Node.js
+        uses: actions/setup-node@v7
         with:
-          path: .cache
-          key: static-cache-${{ env.DATE }}
-          restore-keys: |
-            static-cache-
-      - name: Install Node.js 20.x
-        uses: actions/setup-node@v3
-        with:
-          node-version: '20.x'
-          cache: 'npm'
-      - run: npm install
+          node-version: 'lts/*'
+          cache: 'pnpm'
+      - run: pnpm install --frozen-lockfile
       - name: test
-        run: npm test
-        env:
-          TMDB_KEY: ${{ secrets.TMDB_KEY }}
-          OMDB_KEY: ${{ secrets.OMDB_KEY }}
+        run: pnpm test --grep "live feeds" --invert
       - name: deploy
-        run: npm run deploy
+        run: pnpm run deploy
         env:
           AWS_KEY: ${{ secrets.AWS_KEY }}
           AWS_SECRET: ${{ secrets.AWS_SECRET }}
-          TMDB_KEY: ${{ secrets.TMDB_KEY }}
-          OMDB_KEY: ${{ secrets.OMDB_KEY }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          CLOUDFLARE_ACCESS_KEY_ID: ${{ secrets.CLOUDFLARE_ACCESS_KEY_ID }}
-          CLOUDFLARE_SECRET_ACCESS_KEY: ${{ secrets.CLOUDFLARE_SECRET_ACCESS_KEY }}
-          CLOUDFLARE_BUCKET: ${{ secrets.CLOUDFLARE_BUCKET }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
-      # - name: Store
-      #   uses: actions/upload-artifact@v3
-      #   with:
-      #     name: dump
-      #     path: dump.csv
+      - name: save site changes
+        if: ${{ !cancelled() }}
+        run: |
+          if git diff --quiet -- data/; then
+            echo "No changes."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          git commit -m "Update sites"
+          git pull --rebase
+          git push
