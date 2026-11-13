@@ -1,4 +1,4 @@
-const expect = require('must')
+const expect = require('./expect')
 const _ = require('lodash')
 const csv = require('csv-parse/sync')
 const feeds = require('../lib/feeds')

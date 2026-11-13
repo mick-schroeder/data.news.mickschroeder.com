@@ -21,16 +21,14 @@
   "devDependencies": {
     "eslint": "^10.14.0",
     "mocha": "^11.0.1",
-    "must": "^0.13.4",
     "neostandard": "^0.14.1"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.8.0",
     "@aws-sdk/client-cloudfront": "^3.1167.0",
     "@aws-sdk/client-s3": "^3.1166.0",
-    "cheerio": "^1.0.0-rc.12",
+    "cheerio": "^1.2.0",
     "csv-parse": "^7.0.3",
-    "dotenv": "^16.0.3",
     "lodash": "^4.17.21",
     "slugify": "^1.6.9",
     "tldts": "^7.4.22",

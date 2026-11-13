@@ -5,7 +5,8 @@ on:
     branches:
       - 'main'
   schedule:
-    - cron: '0 6 * * *'
+    # Off the hour; GitHub delays or drops :00 schedules under load.
+    - cron: '17 6 * * *'
   workflow_dispatch:
 
 # One run at a time; a push during a run waits for it.
@@ -16,6 +17,7 @@ concurrency:
 jobs:
   upload_s3:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     environment: production
     permissions:
       contents: write
@@ -29,6 +31,8 @@ jobs:
           node-version: 'lts/*'
           cache: 'pnpm'
       - run: pnpm install --frozen-lockfile
+      - name: lint
+        run: pnpm exec eslint .
       - name: test
         run: pnpm test --grep "live feeds" --invert
       - name: deploy

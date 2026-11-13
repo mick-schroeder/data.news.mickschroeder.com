@@ -1,8 +1,6 @@
 const _ = require('lodash')
-const dotenv = require('dotenv')
-
-// load dotenv config vars if available
-dotenv.config()
+// Load .env when present.
+try { process.loadEnvFile() } catch {}
 
 const config = {
   PUBLIC_URL: 'https://data.news.mickschroeder.com',
