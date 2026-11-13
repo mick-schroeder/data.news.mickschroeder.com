@@ -2353,7 +2353,8 @@
     "tier": "B",
     "tags": [
       "business"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T01:33:27.243Z"
   },
   {
     "id": "theblock",
@@ -3064,7 +3065,8 @@
     "tags": [
       "american",
       "business"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T01:33:27.243Z"
   },
   {
     "id": "usnews",
@@ -3466,7 +3468,8 @@
       "british",
       "news",
       "culture"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T01:33:27.243Z"
   },
   {
     "id": "unherd",
@@ -3478,6 +3481,39 @@
       "british",
       "politics",
       "culture"
+    ]
+  },
+  {
+    "id": "barrons",
+    "title": "Barron's",
+    "url": "https://www.barrons.com/",
+    "description": "Financial news covering stocks, markets, investing and personal finance, published by Dow Jones.",
+    "tier": "B",
+    "tags": [
+      "business",
+      "american"
+    ]
+  },
+  {
+    "id": "gamespot",
+    "title": "GameSpot",
+    "url": "https://www.gamespot.com/",
+    "description": "Video game news, reviews, previews and guides covering games and gaming hardware.",
+    "tier": "B",
+    "tags": [
+      "gaming",
+      "american"
+    ]
+  },
+  {
+    "id": "investmentnews",
+    "title": "InvestmentNews",
+    "url": "https://www.investmentnews.com/",
+    "description": "News for financial advisors covering investing, wealth management, retirement planning and the advisory industry.",
+    "tier": "C",
+    "tags": [
+      "business",
+      "american"
     ]
   }
 ]
