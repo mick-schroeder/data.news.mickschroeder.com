@@ -2068,7 +2068,8 @@
     "tier": "D",
     "tags": [
       "tech"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T16:03:57.711Z"
   },
   {
     "id": "sfgate",
@@ -3520,7 +3521,8 @@
     "tags": [
       "american",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T16:03:57.711Z"
   },
   {
     "id": "liberalcurrents",
@@ -3530,6 +3532,29 @@
     "tier": "D",
     "tags": [
       "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "batimes",
+    "title": "Buenos Aires Times",
+    "url": "https://batimes.com.ar/",
+    "description": "English-language news site covering Argentina's politics, economy, society and culture.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "mississippitoday",
+    "title": "Mississippi Today",
+    "url": "https://mississippitoday.org/",
+    "description": "Nonprofit newsroom covering Mississippi state government, politics, health, education and local issues.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news",
       "politics"
     ]
   }
