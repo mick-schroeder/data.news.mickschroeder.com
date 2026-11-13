@@ -5,6 +5,7 @@ const dotenv = require('dotenv')
 dotenv.config()
 
 const config = {
+  PUBLIC_URL: 'https://data.news.mickschroeder.com',
   AWS_BUCKET: 'popular-news-sites',
   AWS_REGION: 'us-east-1',
   AWS_KEY: '',

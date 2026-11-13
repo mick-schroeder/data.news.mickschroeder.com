@@ -251,6 +251,7 @@ describe('data', function () {
       expect(tag.title).to.be.string()
       expect(tag.kind).to.be.string()
       if (tag.feed !== undefined) expect(feeds.map(feed => feed.id)).to.include(tag.feed)
+      if (tag.url !== undefined) expect(tag.url).to.match(/^https:\/\/[^\s]+$/)
     }
   })
 

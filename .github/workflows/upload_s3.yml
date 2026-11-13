@@ -32,12 +32,23 @@ jobs:
       - name: test
         run: pnpm test --grep "live feeds" --invert
       - name: deploy
+        id: deploy
         run: pnpm run deploy
         env:
           AWS_KEY: ${{ secrets.AWS_KEY }}
           AWS_SECRET: ${{ secrets.AWS_SECRET }}
           CLOUDFRONT_DISTRIBUTION_ID: ${{ vars.CLOUDFRONT_DISTRIBUTION_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: rebuild news.mickschroeder.com
+        if: ${{ !cancelled() && steps.deploy.outputs.site_changed == 'true' }}
+        run: |
+          if [ -z "$AMPLIFY_WEBHOOK_URL" ]; then
+            echo "No AMPLIFY_WEBHOOK_URL secret; skipping."
+            exit 0
+          fi
+          curl -fsS -X POST -H "Content-Type: application/json" -d '{}' "$AMPLIFY_WEBHOOK_URL"
+        env:
+          AMPLIFY_WEBHOOK_URL: ${{ secrets.AMPLIFY_WEBHOOK_URL }}
       - name: save site changes
         if: ${{ !cancelled() }}
         run: |

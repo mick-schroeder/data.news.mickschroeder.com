@@ -17,6 +17,19 @@ const writeLocal = function (filename, body) {
 
 const uploaded = []
 
+// Files the site builds from; it only needs a rebuild when one changes.
+const SITE_FILES = ['sources.json', 'tags.json']
+let siteChanged = false
+
+const differsFromLive = async function (filename, body) {
+  try {
+    const response = await fetch(`${config.PUBLIC_URL}/${filename}`)
+    return !response.ok || (await response.text()) !== body
+  } catch (err) {
+    return true
+  }
+}
+
 const publish = async function (filename, body, contentType) {
   writeLocal(filename, body)
   if (config.AWS_KEY) {
@@ -27,7 +40,11 @@ const publish = async function (filename, body, contentType) {
 
 const publishJson = async function (filename, data) {
   console.log({ filename, count: data.length })
-  await publish(filename, JSON.stringify(data))
+  const body = JSON.stringify(data)
+  if (config.AWS_KEY && SITE_FILES.includes(filename) && await differsFromLive(filename, body)) {
+    siteChanged = true
+  }
+  await publish(filename, body)
 }
 
 const main = async function () {
@@ -51,6 +68,10 @@ const main = async function () {
   await publish('index.html', fs.readFileSync(path.join(__dirname, '../index.html')), 'text/html; charset=utf-8')
   if (uploaded.length) {
     console.log({ invalidated: await cloudfront.invalidate(uploaded) })
+  }
+  console.log({ siteChanged })
+  if (siteChanged && process.env.GITHUB_OUTPUT) {
+    fs.appendFileSync(process.env.GITHUB_OUTPUT, 'site_changed=true\n')
   }
 
   const published = (await listBuilder.all()).filter(site => site.accepted)

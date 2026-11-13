@@ -31,6 +31,8 @@ the LLM didn't know the site well enough to rank it.
 ## Tags
 
 Tags are listed in [tags.json](https://data.news.mickschroeder.com/tags.json).
+Each has an `id`, `title`, `kind` and `description`; aggregator tags also
+have the aggregator's `url`.
 
 | Tag | Description |
 | -- | -- |
@@ -68,6 +70,8 @@ added by hand in `data/seed.json`.
 * Then run `pnpm install` and `pnpm test`
 * `pnpm run deploy` builds the list. Without AWS keys, files are written to `out/`. With them, it uploads (cached a day) and invalidates CloudFront
 * `pnpm run refresh` re-ranks every site
+* In GitHub Actions, set the `AMPLIFY_WEBHOOK_URL` secret to rebuild
+  news.mickschroeder.com whenever `sources.json` or `tags.json` changes
 
 ## License
 
