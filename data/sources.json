@@ -73,7 +73,8 @@
       "american",
       "culture",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T12:54:41.837Z"
   },
   {
     "id": "adweek",
@@ -3369,7 +3370,8 @@
       "news",
       "culture",
       "american"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-13T12:54:41.837Z"
   },
   {
     "id": "rte-nuacht",
@@ -3515,6 +3517,17 @@
     "url": "https://www.washingtonmonthly.com/",
     "description": "American magazine covering politics, government and policy from a liberal perspective.",
     "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
+  },
+  {
+    "id": "liberalcurrents",
+    "title": "Liberal Currents",
+    "url": "https://www.liberalcurrents.com/",
+    "description": "An American online magazine publishing liberal political commentary and essays.",
+    "tier": "D",
     "tags": [
       "american",
       "politics"
