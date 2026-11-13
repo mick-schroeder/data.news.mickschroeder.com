@@ -38,3 +38,4 @@ https://reason.org/  # Think tank foundation, not Reason magazine
 https://online.wsj.com/  # duplicate of https://www.wsj.com/
 https://www.dailymail.co.uk/  # duplicate of https://www.dailymail.com/home/index.html
 https://www.platformer.news/  # Single-author newsletter
+https://www.centerforpolitics.org/crystalball/  # University research center political analysis newsletter

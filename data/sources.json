@@ -3515,5 +3515,16 @@
       "business",
       "american"
     ]
+  },
+  {
+    "id": "washingtonmonthly",
+    "title": "Washington Monthly",
+    "url": "https://www.washingtonmonthly.com/",
+    "description": "American magazine covering politics, government and policy from a liberal perspective.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ]
   }
 ]
