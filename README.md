@@ -31,8 +31,9 @@ the LLM didn't know the site well enough to rank it.
 ## Tags
 
 Tags are listed in [tags.json](https://data.news.mickschroeder.com/tags.json).
-Each has an `id`, `title`, `kind` and `description`; aggregator tags also
-have the aggregator's `url`.
+Each has an `id`, `title`, `kind`, `icon` ([Lucide](https://lucide.dev/icons/)
+name) and `description`; aggregator tags also have the aggregator's `url`.
+Optional `translations` hold titles by locale, e.g. `{ "ga": { "title": "Nuacht" } }`.
 
 | Tag | Description |
 | -- | -- |
