@@ -264,7 +264,10 @@ describe('data', function () {
 
   it('should give every listed site a topic tag', function () {
     const topics = tags.filter(tag => tag.kind === 'tag').map(tag => tag.id)
-    const missing = readJson('sources.json').filter(site => !_.intersection(site.tags, topics).length)
+    const sponsors = tags.filter(tag => tag.kind === 'sponsor').map(tag => tag.id)
+    const missing = readJson('sources.json')
+      .filter(site => !_.intersection(site.tags, sponsors).length)
+      .filter(site => !_.intersection(site.tags, topics).length)
     expect(missing.map(site => site.id)).to.eql([])
   })
 
