@@ -20,7 +20,7 @@
     ]
   },
   {
-    "id": "politics",
+    "id": "politics-co-uk",
     "title": "Politics.co.uk",
     "url": "https://politics.co.uk",
     "description": "British political news and analysis from Westminster.",
@@ -714,7 +714,7 @@
     ]
   },
   {
-    "id": "english-elpais",
+    "id": "elpais",
     "title": "El País English",
     "url": "https://english.elpais.com/",
     "description": "English edition of the Spanish newspaper El País covering Spain and world news.",
@@ -789,7 +789,7 @@
     ]
   },
   {
-    "id": "standard",
+    "id": "standard-co-uk",
     "title": "Evening Standard",
     "url": "https://www.standard.co.uk/",
     "description": "London newspaper covering city, national and world news.",
@@ -1014,7 +1014,7 @@
     ]
   },
   {
-    "id": "en-globes",
+    "id": "globes",
     "title": "Globes",
     "url": "https://en.globes.co.il/",
     "description": "English edition of the Israeli business newspaper.",
@@ -1100,7 +1100,7 @@
     ]
   },
   {
-    "id": "huffingtonpost",
+    "id": "huffpost-uk",
     "title": "HuffPost UK",
     "url": "https://huffingtonpost.co.uk/",
     "description": "British edition of HuffPost covering UK news, politics, culture and lifestyle.",
@@ -1165,7 +1165,7 @@
     ]
   },
   {
-    "id": "independent",
+    "id": "independent-ie",
     "title": "Irish Independent",
     "url": "https://www.independent.ie/",
     "description": "Irish national daily newspaper covering news, sport, business and entertainment.",
@@ -1187,7 +1187,7 @@
     ]
   },
   {
-    "id": "english-kyodonews",
+    "id": "kyodonews",
     "title": "Kyodo News",
     "url": "https://english.kyodonews.net/",
     "description": "English edition of the Japanese news agency covering Japan and Asia.",
@@ -1770,7 +1770,7 @@
     ]
   },
   {
-    "id": "en-people",
+    "id": "people-cn",
     "title": "People's Daily Online",
     "url": "https://en.people.cn/",
     "description": "English edition of the Chinese Communist Party's official newspaper.",
@@ -2580,7 +2580,8 @@
     "description": "Irish weekly newspaper covering Catholic Church and religious news.",
     "tier": "D",
     "tags": [
-      "irish"
+      "irish",
+      "news"
     ]
   },
   {
@@ -3276,7 +3277,7 @@
     ]
   },
   {
-    "id": "cafinance-yahoo",
+    "id": "finance-yahoo-ca",
     "title": "Yahoo Finance Canada",
     "url": "https://ca.finance.yahoo.com/",
     "description": "Canadian edition of Yahoo Finance with market news and stock data.",
@@ -3297,7 +3298,7 @@
     ]
   },
   {
-    "id": "uknews-yahoo",
+    "id": "news-yahoo-uk",
     "title": "Yahoo News UK",
     "url": "https://uk.news.yahoo.com/",
     "description": "UK edition of Yahoo News with British and world headlines.",
@@ -3364,7 +3365,7 @@
     ]
   },
   {
-    "id": "the-sun",
+    "id": "thesun-us",
     "title": "The Sun US",
     "url": "https://www.the-sun.com/",
     "description": "US edition of The Sun tabloid covering celebrity, crime, entertainment and general news.",
@@ -3435,7 +3436,7 @@
     ]
   },
   {
-    "id": "en-wikipedia",
+    "id": "wikipedia-current-events",
     "title": "Wikipedia: Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
     "description": "Wikipedia portal listing daily summaries of notable world events.",

@@ -50,6 +50,8 @@ give it a tier, description and tags.
     (Infowars, The Gateway Pundit).
 - tags: the tags that fit, from the list below, including a region tag
   when the site is based in or mainly covers that country.
+  - Every site gets at least one topic tag (news, tech, business, science,
+    gaming, culture, politics or sports); a region tag alone isn't enough.
   - news: only outlets that cover many subjects. A tech, sports or
     culture site gets just its topic tag.
   - Region tags are about where the outlet is based, not who reads it. A

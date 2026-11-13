@@ -151,7 +151,7 @@ const finishSites = function (sites, tags) {
 
   return sites.map(function (site) {
     return _.assign(site, {
-      id: site.id || (site.accepted ? makeId(site.url, taken) : undefined),
+      id: site.id || (site.accepted ? makeId(site.url, taken, tags.map(tag => tag.id)) : undefined),
       derivedTags: derivedTags(site, tags)
     })
   })

@@ -30,6 +30,8 @@ describe('urls', function () {
   it('should treat www and trailing slashes as the same site', function () {
     expect(urlKey('https://www.bbc.co.uk/news/')).to.equal(urlKey('https://bbc.co.uk/news'))
     expect(urlKey('https://bbc.co.uk/news')).not.to.equal(urlKey('https://bbc.co.uk/sport'))
+    expect(urlKey('https://www.dailymail.com/ushome/index.html')).to.equal(urlKey('https://dailymail.com/ushome/'))
+    expect(urlKey('https://www.dailymail.com/ushome/index.html')).not.to.equal(urlKey('https://dailymail.com/home/index.html'))
   })
 
   it('should clean feed links into site URLs', function () {
@@ -54,6 +56,9 @@ describe('sites', function () {
     expect(makeId('https://news.ycombinator.com/', taken)).to.equal('news-ycombinator')
     expect(makeId('https://www.bbc.co.uk/news', taken)).to.equal('bbc')
     expect(makeId('https://www1.folha.uol.com.br/', taken)).to.equal('folha-uol')
+    expect(makeId('https://english.elpais.com/', taken)).to.equal('elpais')
+    expect(makeId('https://en.wikipedia.org/wiki/Portal:Current_events', taken)).to.equal('wikipedia')
+    expect(makeId('https://politics.co.uk/', taken, ['politics'])).to.equal('politics-co-uk')
   })
 
   it('should match links by URL, then host, then a domain with one site', function () {
@@ -254,6 +259,12 @@ describe('data', function () {
     const retired = readJson('retired.json')
     expect(_.intersection(sources.map(site => site.id), retired.map(site => site.id))).to.eql([])
     expect(_.intersection(sources.map(site => urlKey(site.url)), retired.map(site => urlKey(site.url)))).to.eql([])
+  })
+
+  it('should give every listed site a topic tag', function () {
+    const topics = tags.filter(tag => tag.kind === 'tag').map(tag => tag.id)
+    const missing = readJson('sources.json').filter(site => !_.intersection(site.tags, topics).length)
+    expect(missing.map(site => site.id)).to.eql([])
   })
 
   for (const name of ['sources.json', 'seed.json', 'retired.json']) {
