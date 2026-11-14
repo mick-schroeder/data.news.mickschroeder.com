@@ -39,3 +39,7 @@ https://online.wsj.com/  # duplicate of https://www.wsj.com/
 https://www.dailymail.co.uk/  # duplicate of https://www.dailymail.com/home/index.html
 https://www.platformer.news/  # Single-author newsletter
 https://www.centerforpolitics.org/crystalball/  # University research center political analysis newsletter
+https://unemploymentlabs.com/  # unknown site, likely company/blog
+https://www.slowboring.com/  # Substack-style newsletter by one person
+https://www.fdd.org/  # think tank/research foundation
+https://www.flightaware.com/  # flight tracking tool, not news
