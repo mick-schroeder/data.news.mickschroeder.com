@@ -43,3 +43,12 @@ https://unemploymentlabs.com/  # unknown site, likely company/blog
 https://www.slowboring.com/  # Substack-style newsletter by one person
 https://www.fdd.org/  # think tank/research foundation
 https://www.flightaware.com/  # flight tracking tool, not news
+https://www.theargumentmag.com/
+https://www.liberalcurrents.com/
+https://thedesk.net/
+https://current.org/
+https://www.whats-on-netflix.com/
+https://www.socialmediatoday.com/
+https://www.the-sun.com/
+https://www.themirror.com/
+https://www.barrons.com/

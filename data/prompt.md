@@ -48,12 +48,16 @@ give it a tier, description and tags.
   - E: you don't know the site well enough to judge.
   - F: low quality, known for misinformation or fabricated stories
     (Infowars, The Gateway Pundit).
-- tags: the tags that fit, from the list below, including a region tag
+- tags: every tag that fits, from the list below, including a region tag
   when the site is based in or mainly covers that country.
   - Every site gets at least one topic tag (news, tech, business, science,
     gaming, culture, politics or sports); a region tag alone isn't enough.
-  - news: only outlets that cover many subjects. A tech, sports or
-    culture site gets just its topic tag.
+  - Give every topic the site is known for, not just the main one: Bloomberg
+    and the Wall Street Journal are news and business, Axios and The
+    Atlantic are news and politics, The Ringer is sports and culture, Ars
+    Technica is tech and science.
+  - news: only outlets that cover many subjects. A site that covers only
+    tech, sports or culture doesn't get news.
   - Region tags are about where the outlet is based, not who reads it. A
     US-based site with a worldwide audience (Kotaku, Semafor, Scientific
     American) is still american.

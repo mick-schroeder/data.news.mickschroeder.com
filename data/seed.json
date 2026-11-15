@@ -45,11 +45,23 @@
   {
     "id": "wikipedia-current-events",
     "title": "Wikipedia: Current events",
-    "url": "https://en.wikipedia.org/wiki/Portal:Current_events"
+    "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
+    "description": "Wikipedia portal summarizing daily world events.",
+    "tier": "C",
+    "tags": [
+      "news"
+    ]
   },
   {
     "id": "trends-google",
     "title": "Google Trends",
-    "url": "https://trends.google.com/"
+    "url": "https://trends.google.com/",
+    "description": "Shows trending Google searches and topics.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "tech"
+    ]
   }
 ]
