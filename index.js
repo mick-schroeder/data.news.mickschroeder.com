@@ -201,13 +201,11 @@ module.exports = (function () {
       if (retirement.held.length) {
         problems.push(`retirement: ${retirement.held.length} sites held, over ${config.RETIRE_PER_RUN} a run`)
       }
-      if (config.ANTHROPIC_API_KEY) {
-        // Retired sites can't be duplicates of new ones.
-        const listed = sites.filter(site => !site.retired)
-        const result = await editor.evaluate(listed, tags, anthropic.prompt)
-        rejections = editor.applyVerdicts(listed, result.verdicts)
-        problems.push(...result.problems)
-      }
+      // Retired sites can't be duplicates of new ones.
+      const listed = sites.filter(site => !site.retired)
+      const result = await editor.evaluate(listed, tags, anthropic.prompt)
+      rejections = editor.applyVerdicts(listed, result.verdicts)
+      problems.push(...result.problems)
       allSites = finishSites(sites, tags)
     }
     return allSites

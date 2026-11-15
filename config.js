@@ -9,8 +9,7 @@ const config = {
   AWS_KEY: '',
   AWS_SECRET: '',
   CLOUDFRONT_DISTRIBUTION_ID: '',
-  ANTHROPIC_API_KEY: '',
-  ANTHROPIC_MODEL: 'claude-sonnet-5-5',
+  ANTHROPIC_MODEL: 'claude-haiku-4-5-20251001-v1:0',
   RETIRE_AFTER_DAYS: 90,
   RETIRE_PER_RUN: 20,
   MIN_FEED_LINKS: 20

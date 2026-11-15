@@ -11,8 +11,6 @@ const { gatherSites } = require('../index')
 const OUT_FOLDER = path.join(__dirname, '../out')
 
 const main = async function () {
-  if (!config.ANTHROPIC_API_KEY) throw new Error('ANTHROPIC_API_KEY is not set')
-
   const tags = readJson('tags.json')
   const before = readJson('sources.json')
   fs.mkdirSync(OUT_FOLDER, { recursive: true })

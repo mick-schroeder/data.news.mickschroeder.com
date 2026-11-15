@@ -67,4 +67,3 @@ give it a tier, description and tags.
   other site. Editions for different countries, and different sites from
   the same company (SFGATE and the San Francisco Chronicle), are not
   duplicates.
-- reason: a few words explaining a rejection.

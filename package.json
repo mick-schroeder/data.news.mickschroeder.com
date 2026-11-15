@@ -24,6 +24,7 @@
     "neostandard": "^0.14.1"
   },
   "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^1",
     "@anthropic-ai/sdk": "^1.8.0",
     "@aws-sdk/client-cloudfront": "^3.1167.0",
     "@aws-sdk/client-s3": "^3.1166.0",
