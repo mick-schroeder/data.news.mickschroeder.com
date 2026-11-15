@@ -107,6 +107,8 @@ describe('sites', function () {
 })
 
 describe('editor', function () {
+  // Batch JSON sits after the site list in the user message.
+  const judged = content => JSON.parse(content.split('## Sites to judge\n\n')[1])
   const known = { url: 'https://abcnews.go.com', title: 'ABC News', tier: 'A', known: true, feeds: [], feedTags: [] }
   const newSite = (url, title, fields) => _.assign({ url, title, known: false, feeds: ['drudge'], feedTags: [] }, fields)
 
@@ -123,7 +125,7 @@ describe('editor', function () {
     const sites = [known, newSite('https://www.bloomberg.com/', 'Bloomberg'), newSite('https://trends.google.com/', 'trends.google.com')]
     let asked
     const prompt = async (system, content) => {
-      asked = JSON.parse(content).map(site => site.url)
+      asked = judged(content).map(site => site.url)
       return {
         sites: [
           { url: 'https://www.bloomberg.com/', verdict: 'include', title: 'Bloomberg', description: 'Business news.', tags: ['business'], duplicateOf: null, reason: 'news' },
@@ -142,14 +144,14 @@ describe('editor', function () {
 
   it('should ask about the sites it is given, known ones too', async function () {
     let asked
-    const prompt = async (system, content) => { asked = JSON.parse(content).map(site => site.url); return null }
+    const prompt = async (system, content) => { asked = judged(content).map(site => site.url); return null }
     await editor.evaluate([known, newSite('https://www.bloomberg.com/', 'Bloomberg')], tags, prompt, [known])
     expect(asked).to.eql([known.url])
   })
 
   it('should tell the AI which sites are hand-picked', async function () {
     let asked
-    const prompt = async (system, content) => { asked = JSON.parse(content); return null }
+    const prompt = async (system, content) => { asked = judged(content); return null }
     const seeded = _.assign({}, known, { seeded: true })
     await editor.evaluate([seeded, newSite('https://www.bloomberg.com/', 'Bloomberg')], tags, prompt, [seeded, newSite('https://www.bloomberg.com/', 'Bloomberg')])
     expect(asked.map(site => site.handPicked)).to.eql([true, undefined])
@@ -175,7 +177,7 @@ describe('editor', function () {
 
   it('should ask about kept sites without a tier', async function () {
     let asked
-    const prompt = async (system, content) => { asked = JSON.parse(content).map(site => site.url); return null }
+    const prompt = async (system, content) => { asked = judged(content).map(site => site.url); return null }
     const untiered = { url: 'https://news.ycombinator.com/', title: 'Hacker News', known: true, seeded: true, feeds: [], feedTags: [] }
     await editor.evaluate([known, untiered], tags, prompt)
     expect(asked).to.eql([untiered.url])

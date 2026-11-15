@@ -2,7 +2,6 @@
 // Re-judges stored sites: tier, description and tags only. Run by hand.
 const fs = require('fs')
 const path = require('path')
-const config = require('../config')
 const anthropic = require('../lib/anthropic')
 const editor = require('../lib/editor')
 const { readJson, writeJson } = require('../lib/sites')
