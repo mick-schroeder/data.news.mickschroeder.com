@@ -5,7 +5,7 @@ const feeds = require('../lib/feeds')
 const { fetchBody } = require('../lib/feeds/http')
 const { readJson, makeId, parseIgnore, parseRejected, SiteIndex } = require('../lib/sites')
 const editor = require('../lib/editor')
-const { updateRetirement, applySeed, listSite, finishSites, derivedTags } = require('../index')
+const { updateRetirement, applySeed, listSite, finishSites, derivedTags, checkPublished } = require('../index')
 const { isWebUrl, urlKey, domainOf, homepageOf, siteUrl } = require('../lib/url')
 
 const tags = readJson('tags.json')
@@ -201,6 +201,12 @@ describe('editor', function () {
     expect(problems).to.eql(['editor: batch failed: down'])
   })
 
+  it('should report a batch with no answer', async function () {
+    const sites = [newSite('https://www.bloomberg.com/', 'Bloomberg')]
+    const { problems } = await editor.evaluate(sites, tags, async () => null)
+    expect(problems).to.eql(['editor: batch of 1 got no answer'])
+  })
+
   it('should keep the duplicate more feeds list', function () {
     const wsj = newSite('https://www.wsj.com/', 'WSJ', { feeds: ['newzit', 'techmeme', 'drudge'] })
     const online = newSite('https://online.wsj.com/', 'WSJ', { feeds: ['drudge'] })
@@ -318,6 +324,22 @@ describe('listing', function () {
   })
 })
 
+describe('publishing', function () {
+  const good = { id: 'foo', title: 'Foo', url: 'https://foo.com/', description: 'Foo news.', tier: 'B', tags: ['news'] }
+
+  it('should drop sites the site build would reject', function () {
+    const sites = [good, { ...good, id: 'blank', title: ' ' }, { ...good, id: 'http', url: 'http://foo.com/' }, { ...good, id: 'untagged', tags: [] }, { ...good, id: 'odd', tags: ['nope'] }]
+    const { valid, problems } = checkPublished(sites, tags)
+    expect(valid).to.eql([good])
+    expect(problems.length).to.equal(4)
+  })
+
+  it('should pass every stored site', function () {
+    const stored = readJson('sources.json').map(site => _.omit(site, ['flaggedForRetiringAt', 'retiredAt']))
+    expect(checkPublished(stored, tags).problems).to.eql([])
+  })
+})
+
 describe('retirement', function () {
   const now = new Date('2026-11-12T06:00:00.000Z')
   const daysAgo = days => new Date(now - days * 24 * 60 * 60 * 1000).toISOString()
@@ -347,6 +369,14 @@ describe('retirement', function () {
     expect(sites[0]).to.have.property('retired', true)
     expect(sites[0].retiredAt).to.equal(now.toISOString())
     expect(sites[1].retired).to.be.falsy()
+  })
+
+  it('should retire at most perRun a run, oldest flag first', function () {
+    const sites = [site({ id: 'b', flaggedForRetiringAt: daysAgo(95) }), site({ id: 'a', flaggedForRetiringAt: daysAgo(99) }), site({ id: 'c', flaggedForRetiringAt: daysAgo(91) })]
+    const changes = updateRetirement(sites, { now, days: 90, perRun: 2 })
+    expect(changes.retired).to.eql(['a', 'b'])
+    expect(changes.held).to.eql(['c'])
+    expect(sites[2].retired).to.be.falsy()
   })
 
   it('should restore a retired site a feed lists again', function () {

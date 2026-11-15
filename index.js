@@ -1,4 +1,5 @@
 const _ = require('lodash')
+const { z } = require('zod')
 const feeds = require('./lib/feeds')
 const { runFeed } = feeds
 const config = require('./config')
@@ -19,6 +20,26 @@ const siteFields = function (site, tags, fields = FIELDS) {
 // Feed tags are only hints for the editor; they're never published.
 const sanatizeForResponse = function (site) {
   return siteFields(site, _.union(site.tags, site.derivedTags))
+}
+
+// Same rules as news.mickschroeder.com's siteSchema.
+const slug = z.string().regex(/^[a-z0-9]+(-[a-z0-9]+)*$/)
+const publishedSchema = function (tags) {
+  return z.object({
+    id: slug,
+    title: z.string().trim().min(1),
+    url: z.url({ protocol: /^https$/ }),
+    description: z.string().optional(),
+    tier: z.enum(editor.TIERS).optional(),
+    tags: z.array(z.enum(tags.map(tag => tag.id))).min(1)
+  })
+}
+
+// Drops sites that would fail the site's build.
+const checkPublished = function (sites, tags) {
+  const schema = publishedSchema(tags)
+  const [valid, invalid] = _.partition(sites, site => schema.safeParse(site).success)
+  return { valid, problems: invalid.map(site => `published: dropped invalid site ${site.id || site.url}`) }
 }
 
 // Aggregator tags from feeds, and tier tags like popular.
@@ -65,11 +86,13 @@ const listSite = function (site, feed, link) {
   site.trusted = site.trusted || picks
 }
 
-// Unlisted sites are flagged, then retired after RETIRE_AFTER_DAYS.
+// Unlisted sites are flagged, then retired after RETIRE_AFTER_DAYS,
+// at most RETIRE_PER_RUN a run, oldest flag first; the rest are held.
 // Listed or seeded sites are cleared and restored.
-const updateRetirement = function (sites, { now, feedFailed, days = config.RETIRE_AFTER_DAYS }) {
-  const changes = { flagged: [], cleared: [], retired: [], restored: [] }
+const updateRetirement = function (sites, { now, feedFailed, days = config.RETIRE_AFTER_DAYS, perRun = config.RETIRE_PER_RUN }) {
+  const changes = { flagged: [], cleared: [], retired: [], restored: [], held: [] }
   const stamp = now.toISOString()
+  const due = []
 
   for (const site of sites.filter(site => site.known)) {
     if (site.feeds.length || site.seeded) {
@@ -86,10 +109,17 @@ const updateRetirement = function (sites, { now, feedFailed, days = config.RETIR
       site.flaggedForRetiringAt = stamp
       changes.flagged.push(site.id)
     } else if (now - new Date(site.flaggedForRetiringAt) >= Number(days) * DAY) {
-      _.assign(site, { retired: true, retiredAt: stamp })
-      changes.retired.push(site.id)
+      due.push(site)
     }
   }
+
+  const oldest = _.sortBy(due, 'flaggedForRetiringAt')
+  const held = oldest.slice(Number(perRun))
+  for (const site of oldest.slice(0, Number(perRun))) {
+    _.assign(site, { retired: true, retiredAt: stamp })
+    changes.retired.push(site.id)
+  }
+  changes.held = held.map(site => site.id)
   return changes
 }
 
@@ -115,7 +145,7 @@ const gatherSites = async function (problems) {
     let links = []
     try {
       links = await runFeed(feed)
-      if (!links.length) problems.push(`${feed.id}: no sites`)
+      if (links.length < config.MIN_FEED_LINKS) problems.push(`${feed.id}: ${links.length} sites, expected ${config.MIN_FEED_LINKS}+`)
     } catch (error) {
       problems.push(`${feed.id}: ${error.message}`)
     }
@@ -168,6 +198,9 @@ module.exports = (function () {
       const tags = readJson('tags.json')
       const sites = await gatherSites(problems)
       retirement = updateRetirement(sites, { now: new Date(), feedFailed: problems.length > 0 })
+      if (retirement.held.length) {
+        problems.push(`retirement: ${retirement.held.length} sites held, over ${config.RETIRE_PER_RUN} a run`)
+      }
       if (config.ANTHROPIC_API_KEY) {
         // Retired sites can't be duplicates of new ones.
         const listed = sites.filter(site => !site.retired)
@@ -195,9 +228,12 @@ module.exports = (function () {
   }
 
   ListBuilder.prototype.filter = async function () {
-    return (await getSites())
+    const sites = (await getSites())
       .filter(site => site.accepted && !site.retired)
       .map(sanatizeForResponse)
+    const { valid, problems: invalid } = checkPublished(sites, readJson('tags.json'))
+    problems.push(...invalid)
+    return valid
   }
 
   ListBuilder.prototype.all = async function () {
@@ -242,4 +278,5 @@ module.exports.applySeed = applySeed
 module.exports.listSite = listSite
 module.exports.finishSites = finishSites
 module.exports.derivedTags = derivedTags
+module.exports.checkPublished = checkPublished
 module.exports.gatherSites = gatherSites

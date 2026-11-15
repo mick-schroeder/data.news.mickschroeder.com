@@ -1,7 +1,7 @@
 # popular-news-sites
 
 Popular News Sites uses LLMs to build a list of news websites from the sites
-that news aggregators link to. Each site is judged once, then given a tier,
+that news aggregators link to. Each site is judged, given a tier,
 a short description and tags.
 
 ## Usage
@@ -76,6 +76,10 @@ added by hand in `data/seed.json`.
 
 ## License
 
-MIT
+Code: MIT.
+
+Data (`sources.json`, `tags.json` and the dated files, including the
+AI-written descriptions): [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+Credit "Popular News Sites" with a link to this repository.
 
 Forked from [popular-movies](https://github.com/sjlu/popular-movies) by Steven Lu.
