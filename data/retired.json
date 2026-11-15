@@ -1,1 +1,324 @@
-[]
+[
+  {
+    "id": "afr",
+    "title": "The Australian Financial Review",
+    "url": "https://www.afr.com/",
+    "description": "Australian business, finance and political news.",
+    "tier": "B",
+    "tags": [
+      "business"
+    ],
+    "flaggedForRetiringAt": "2026-11-13T01:33:27.243Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "amgreatness",
+    "title": "American Greatness",
+    "url": "https://amgreatness.com/",
+    "description": "Conservative commentary and news on American politics.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "batimes",
+    "title": "Buenos Aires Times",
+    "url": "https://batimes.com.ar/",
+    "description": "English-language news site covering Argentina's politics, economy, society and culture.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "politics"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "billypenn",
+    "title": "Billy Penn at WHYY",
+    "url": "https://billypenn.com/",
+    "description": "Local news for Philadelphia.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "columbiaspectator",
+    "title": "Columbia Daily Spectator",
+    "url": "https://www.columbiaspectator.com/",
+    "description": "Student newspaper of Columbia University.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "editorandpublisher",
+    "title": "Editor & Publisher",
+    "url": "https://www.editorandpublisher.com/",
+    "description": "Trade publication covering the newspaper industry.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "finance-yahoo",
+    "title": "Yahoo Finance",
+    "url": "https://finance.yahoo.com/",
+    "description": "Financial news, stock quotes, markets data and business coverage.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "business"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "finance-yahoo-ca",
+    "title": "Yahoo Finance Canada",
+    "url": "https://ca.finance.yahoo.com/",
+    "description": "Canadian edition of Yahoo Finance with markets, business news and quotes.",
+    "tier": "C",
+    "tags": [
+      "business"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T13:36:04.382Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "investmentnews",
+    "title": "InvestmentNews",
+    "url": "https://www.investmentnews.com/",
+    "description": "Trade news for financial advisers covering investing, retirement and wealth management.",
+    "tier": "C",
+    "tags": [
+      "business",
+      "american"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "irishcatholic",
+    "title": "The Irish Catholic",
+    "url": "https://www.irishcatholic.com/",
+    "description": "Irish weekly newspaper covering Catholic Church news and related issues.",
+    "tier": "D",
+    "tags": [
+      "irish",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "lwn",
+    "title": "Linux Weekly News",
+    "url": "https://lwn.net/",
+    "description": "News and analysis on Linux and free software development.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "military",
+    "title": "Military.com",
+    "url": "https://www.military.com/",
+    "description": "News about the US military, veterans and defense.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T13:36:04.382Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "mississippifreepress",
+    "title": "Mississippi Free Press",
+    "url": "https://www.mississippifreepress.org/",
+    "description": "Nonprofit newsroom covering Mississippi news and politics.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "money-usnews",
+    "title": "U.S. News Money",
+    "url": "https://money.usnews.com/",
+    "description": "Personal finance and money news, including banking, investing and retirement.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "business"
+    ],
+    "flaggedForRetiringAt": "2026-11-13T01:33:27.243Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "nbcphiladelphia",
+    "title": "NBC10 Philadelphia",
+    "url": "https://www.nbcphiladelphia.com/",
+    "description": "Local TV station news for the Philadelphia area.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "news-yahoo",
+    "title": "Yahoo News",
+    "url": "https://news.yahoo.com/",
+    "description": "News portal aggregating national and world headlines from many sources.",
+    "tier": "A",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "news-yahoo-uk",
+    "title": "Yahoo News UK",
+    "url": "https://uk.news.yahoo.com/",
+    "description": "UK edition of Yahoo News covering British and world headlines.",
+    "tier": "B",
+    "tags": [
+      "british",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "quantamagazine",
+    "title": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/",
+    "description": "Publication covering mathematics, physics, biology and computer science.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T13:36:04.382Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "sports-yahoo",
+    "title": "Yahoo Sports",
+    "url": "https://sports.yahoo.com/",
+    "description": "Sports news, scores and highlights from Yahoo covering major US and international leagues.",
+    "tier": "B",
+    "tags": [
+      "sports",
+      "american"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "theshortcut",
+    "title": "The Shortcut",
+    "url": "https://www.theshortcut.com/",
+    "description": "Covers consumer technology, gadgets and the internet.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "theyeshivaworld",
+    "title": "Yeshiva World News",
+    "url": "https://www.theyeshivaworld.com/",
+    "description": "News site covering the Orthodox Jewish community, Israel and general US and world news.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "american"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "washingtonmonthly",
+    "title": "Washington Monthly",
+    "url": "https://www.washingtonmonthly.com/",
+    "description": "American magazine covering politics, government and policy from a liberal perspective.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics"
+    ],
+    "flaggedForRetiringAt": "2026-11-13T16:03:57.711Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "wral",
+    "title": "WRAL-TV",
+    "url": "https://www.wral.com/",
+    "description": "Raleigh, North Carolina television station with local news, weather and sports.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "xinhuanet",
+    "title": "Xinhua News Agency",
+    "url": "https://www.xinhuanet.com/",
+    "description": "Chinese state news agency covering domestic and international news.",
+    "tier": "A",
+    "tags": [
+      "news",
+      "politics"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  },
+  {
+    "id": "zeteo",
+    "title": "Zeteo",
+    "url": "https://zeteo.com/",
+    "description": "Progressive news and commentary outlet founded by journalist Mehdi Hasan.",
+    "tier": "C",
+    "tags": [
+      "politics",
+      "news",
+      "american"
+    ],
+    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
+    "retiredAt": "2026-11-15T11:59:42.750Z"
+  }
+]
