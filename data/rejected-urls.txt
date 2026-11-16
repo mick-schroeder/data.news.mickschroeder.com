@@ -67,3 +67,4 @@ https://www.lefigaro.fr/  # not in English
 https://www.lemonde.fr/  # not in English
 https://www.lesoir.be/  # not in English
 https://www.omelete.com.br/  # not in English
+https://studyfinds.com/  # duplicate of https://studyfinds.org/
