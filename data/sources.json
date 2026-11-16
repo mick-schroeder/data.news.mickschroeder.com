@@ -6,9 +6,7 @@
     "description": "A hand-picked personal site that earns its spot on the list by editorial fiat. Think of it as the curator's wildcard: small, idiosyncratic, and worth a quick look before you move on.",
     "tier": "E",
     "tags": [
-      "sponsor",
-      "news",
-      "american"
+      "sponsor"
     ]
   },
   {
@@ -3306,10 +3304,9 @@
     "id": "wikipedia-current-events",
     "title": "Wikipedia: Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
-    "description": "A volunteer-curated daily log of what's happening around the world, with each item neatly linked to sources. It's a no-frills way to catch up when you've missed a week.",
-    "tier": "B",
+    "description": "Wikipedia portal summarizing daily world events.",
+    "tier": "C",
     "tags": [
-      "international",
       "news"
     ]
   },
@@ -3317,12 +3314,12 @@
     "id": "trends-google",
     "title": "Google Trends",
     "url": "https://trends.google.com/",
-    "description": "A live look at what the world is searching for, from breaking events to bizarre fads. Not a newsroom, but a fascinating window into what's on everyone's mind right now.",
+    "description": "Shows trending Google searches and topics.",
     "tier": "B",
     "tags": [
-      "international",
+      "american",
       "news",
-      "culture"
+      "tech"
     ]
   },
   {
