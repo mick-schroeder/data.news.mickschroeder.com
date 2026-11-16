@@ -52,3 +52,18 @@ https://www.socialmediatoday.com/
 https://www.the-sun.com/
 https://www.themirror.com/
 https://www.barrons.com/
+https://www.bild.de/  # not in English
+https://www.clarin.com/  # not in English
+https://www.welt.de/  # not in English
+https://www.zeit.de/  # not in English
+https://www.elmundo.es/  # not in English
+https://www.elnuevodia.com/  # not in English
+https://www1.folha.uol.com.br/  # not in English
+https://wyborcza.pl/  # not in English
+https://www.la-prensa.com.mx/  # not in English
+https://www.repubblica.it/  # not in English
+https://www.lance.com.br/  # not in English
+https://www.lefigaro.fr/  # not in English
+https://www.lemonde.fr/  # not in English
+https://www.lesoir.be/  # not in English
+https://www.omelete.com.br/  # not in English

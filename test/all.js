@@ -119,6 +119,8 @@ describe('editor', function () {
     expect(ids).not.to.include('newzit')
     expect(ids).to.include('british')
     expect(ids).not.to.include('popular')
+    expect(ids).not.to.include('hand-picked')
+    expect(ids).to.include('international')
   })
 
   it('should ask only about new sites, and keep only sensible answers', async function () {
@@ -173,6 +175,13 @@ describe('editor', function () {
     ])
     expect(report.unanswered).to.eql(['me'])
     expect(report.wouldReject).to.eql([])
+  })
+
+  it('should keep hand-applied tags on refresh', function () {
+    const picked = { id: 'me', title: 'Me', url: 'https://me.com/', tags: ['sponsor'] }
+    const verdict = { url: picked.url, verdict: 'include', title: 'Me', description: 'D', tier: 'D', tags: ['news'], duplicateOf: null, reason: '' }
+    const { next } = editor.applyRefresh([picked], [picked], new Map([[picked.url, verdict]]))
+    expect(next[0].tags).to.eql(['sponsor', 'news'])
   })
 
   it('should ask about kept sites without a tier', async function () {
@@ -314,6 +323,7 @@ describe('listing', function () {
     expect(derivedTags({ feeds: ['newzit'], tier: 'A' }, tags)).to.eql(['newzit', 'popular'])
     expect(derivedTags({ feeds: [], tier: 'B' }, tags)).to.eql([])
     expect(derivedTags({ feeds: [] }, tags)).to.eql([])
+    expect(derivedTags({ feeds: ['palewire'], seeded: true, tier: 'C' }, tags)).to.eql(['news-homepages', 'hand-picked'])
   })
 
   it('should keep the first trusted feed\'s title', function () {
