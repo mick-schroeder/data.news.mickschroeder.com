@@ -159,19 +159,6 @@
     "feed": "palewire"
   },
   {
-    "id": "hand-picked",
-    "title": "Hand-picked",
-    "kind": "aggregator",
-    "icon": "hand",
-    "description": "Added by hand by the editor.",
-    "seeded": true,
-    "translations": {
-      "ga": {
-        "title": "Roghnaithe de láimh"
-      }
-    }
-  },
-  {
     "id": "popular",
     "title": "Popular",
     "kind": "tier",

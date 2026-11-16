@@ -45,7 +45,7 @@ const checkPublished = function (sites, tags) {
 // Aggregator tags from feeds and seeding, and tier tags like popular.
 const derivedTags = function (site, tags) {
   return tags
-    .filter(tag => (tag.feed && site.feeds.includes(tag.feed)) || (tag.seeded && site.seeded) || tag.tiers?.includes(site.tier))
+    .filter(tag => (tag.feed && site.feeds.includes(tag.feed)) || tag.tiers?.includes(site.tier))
     .map(tag => tag.id)
 }
 

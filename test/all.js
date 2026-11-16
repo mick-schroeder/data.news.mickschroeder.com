@@ -119,7 +119,6 @@ describe('editor', function () {
     expect(ids).not.to.include('newzit')
     expect(ids).to.include('british')
     expect(ids).not.to.include('popular')
-    expect(ids).not.to.include('hand-picked')
     expect(ids).to.include('international')
   })
 
@@ -151,12 +150,12 @@ describe('editor', function () {
     expect(asked).to.eql([known.url])
   })
 
-  it('should tell the AI which sites are hand-picked', async function () {
+  it('should tell the AI which sites are seeded', async function () {
     let asked
     const prompt = async (system, content) => { asked = judged(content); return null }
     const seeded = _.assign({}, known, { seeded: true })
     await editor.evaluate([seeded, newSite('https://www.bloomberg.com/', 'Bloomberg')], tags, prompt, [seeded, newSite('https://www.bloomberg.com/', 'Bloomberg')])
-    expect(asked.map(site => site.handPicked)).to.eql([true, undefined])
+    expect(asked.map(site => site.seeded)).to.eql([true, undefined])
   })
 
   it('should refresh stored sites, keeping ids and titles', function () {
@@ -323,7 +322,7 @@ describe('listing', function () {
     expect(derivedTags({ feeds: ['newzit'], tier: 'A' }, tags)).to.eql(['newzit', 'popular'])
     expect(derivedTags({ feeds: [], tier: 'B' }, tags)).to.eql([])
     expect(derivedTags({ feeds: [] }, tags)).to.eql([])
-    expect(derivedTags({ feeds: ['palewire'], seeded: true, tier: 'C' }, tags)).to.eql(['news-homepages', 'hand-picked'])
+    expect(derivedTags({ feeds: ['palewire'], seeded: true, tier: 'C' }, tags)).to.eql(['news-homepages'])
   })
 
   it('should keep the first trusted feed\'s title', function () {

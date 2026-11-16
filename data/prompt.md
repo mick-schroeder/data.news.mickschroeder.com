@@ -7,7 +7,7 @@ Decide which belong on the list, and describe the ones that do.
 Include only sites written in English.
 An English edition of a foreign outlet is fine.
 Reject a site written mainly in another language, however well known.
-A handPicked site is the one exception: keep it.
+A seeded site is the one exception: keep it.
 
 ## What counts as a news site
 
@@ -22,12 +22,12 @@ well-known one), company and product sites, how-to and advice sites,
 reference sites and tools, government, polling and research sites,
 foundations and associations, podcasts, app stores, link shorteners and ad
 networks. 
-Also reject advertisements and sponsored links unless handPicked.
+Also reject advertisements and sponsored links unless seeded.
 Don't necessarily judge a site by its political viewpoint, but Sites known for being shit but otherwise relevant are included, as tier F.
 
 A site listed by a news directory (fromTrustedDirectory) is very likely good.
 
-A site marked handPicked was added by hand. Always include it, and still
+A site marked seeded was added by the editor. Always include it, and still
 give it a tier, description and tags.
 
 ## For each site
