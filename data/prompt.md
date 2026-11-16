@@ -36,7 +36,8 @@ give it a tier, description and tags.
 - title: the outlet's usual name, as it writes it ("The Washington Post",
   not "WASH POST" or "washingtonpost.com"). Keep edition names that tell
   sites apart ("Yahoo News UK").
-- description: one or two sentences in English, 25 to 45 words, with some
+- description: one sentence in English, 12 to 20 words and never more than
+  130 characters (it must fit three short lines on a phone), with some
   personality: what a well-read friend would say to sum the site up.
   Empty for rejected sites.
   - Give every site its own take, and mix up how you get there. Read your descriptions together: no two

@@ -427,6 +427,35 @@ describe('retirement', function () {
 })
 
 describe('feeds', function () {
+  it('should retry a timeout or 5xx once, but not a 4xx', async function () {
+    const realFetch = global.fetch
+    const answers = []
+    let calls = 0
+    global.fetch = async function () {
+      calls++
+      const answer = answers.shift()
+      if (answer instanceof Error) throw answer
+      return new Response('ok', { status: answer })
+    }
+    try {
+      answers.push(new Error('The operation was aborted due to timeout'), 200)
+      expect(await fetchBody('https://example.com/', 'html', { retryDelay: 0 })).to.equal('ok')
+      expect(calls).to.equal(2)
+
+      calls = 0
+      answers.push(503, 503)
+      await fetchBody('https://example.com/', 'html', { retryDelay: 0 }).then(() => expect.fail(), err => expect(err.message).to.include('503'))
+      expect(calls).to.equal(2)
+
+      calls = 0
+      answers.push(404)
+      await fetchBody('https://example.com/', 'html', { retryDelay: 0 }).then(() => expect.fail(), err => expect(err.message).to.include('404'))
+      expect(calls).to.equal(1)
+    } finally {
+      global.fetch = realFetch
+    }
+  })
+
   it('should define every feed the same way', function () {
     expect(_.uniqBy(feeds, 'id').length).to.equal(feeds.length)
     for (const feed of feeds) {
