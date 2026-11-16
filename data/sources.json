@@ -3328,6 +3328,28 @@
     "tags": [
       "american",
       "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-16T15:52:23.654Z"
+  },
+  {
+    "id": "lwn",
+    "title": "Linux Weekly News",
+    "url": "https://lwn.net/",
+    "description": "News and analysis on Linux and free software development.",
+    "tier": "C",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "quantamagazine",
+    "title": "Quanta Magazine",
+    "url": "https://www.quantamagazine.org/",
+    "description": "Publication covering mathematics, physics, biology and computer science.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "science"
     ]
   }
 ]

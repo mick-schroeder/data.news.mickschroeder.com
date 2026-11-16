@@ -128,18 +128,6 @@
     "retiredAt": "2026-11-15T11:59:42.750Z"
   },
   {
-    "id": "lwn",
-    "title": "Linux Weekly News",
-    "url": "https://lwn.net/",
-    "description": "News and analysis on Linux and free software development.",
-    "tier": "C",
-    "tags": [
-      "tech"
-    ],
-    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
-    "retiredAt": "2026-11-15T11:59:42.750Z"
-  },
-  {
     "id": "military",
     "title": "Military.com",
     "url": "https://www.military.com/",
@@ -215,19 +203,6 @@
       "news"
     ],
     "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
-    "retiredAt": "2026-11-15T11:59:42.750Z"
-  },
-  {
-    "id": "quantamagazine",
-    "title": "Quanta Magazine",
-    "url": "https://www.quantamagazine.org/",
-    "description": "Publication covering mathematics, physics, biology and computer science.",
-    "tier": "B",
-    "tags": [
-      "american",
-      "science"
-    ],
-    "flaggedForRetiringAt": "2026-11-14T13:36:04.382Z",
     "retiredAt": "2026-11-15T11:59:42.750Z"
   },
   {
