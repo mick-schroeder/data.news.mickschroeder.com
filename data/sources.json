@@ -3415,6 +3415,100 @@
     "tags": [
       "science",
       "international"
+    ],
+    "flaggedForRetiringAt": "2026-11-17T16:05:07.140Z"
+  },
+  {
+    "id": "abc7ny",
+    "title": "abc7NY",
+    "url": "https://abc7ny.com/",
+    "description": "WABC's New York station site, handy for local breaking news, traffic, weather and everything happening across the five boroughs.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "benzinga",
+    "title": "Benzinga",
+    "url": "https://www.benzinga.com/",
+    "description": "Fast-moving market chatter, stock tips and trader headlines for people who refresh their brokerage app far too often.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "dnyuz",
+    "title": "DNYUZ",
+    "url": "https://dnyuz.com/",
+    "description": "A content aggregator that republishes big-name stories wholesale, so you read the headlines without chasing the paywalls.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "firstpost",
+    "title": "Firstpost",
+    "url": "https://www.firstpost.com/",
+    "description": "Indian digital news outlet with brisk takes on politics, world affairs and culture, often surfacing on Drudge with punchy headlines.",
+    "tier": "C",
+    "tags": [
+      "international",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "irishstar",
+    "title": "Irish Star",
+    "url": "https://www.irishstar.com/",
+    "description": "Tabloid-flavoured Irish news, celebrity gossip and sport, served with a cheeky grin and plenty of exclamation marks.",
+    "tier": "C",
+    "tags": [
+      "irish",
+      "news",
+      "culture",
+      "sports"
+    ]
+  },
+  {
+    "id": "occrp",
+    "title": "OCCRP",
+    "url": "https://www.occrp.org/",
+    "description": "Cross-border investigative reporters chasing organized crime and corruption, with receipts, from a global network of journalists.",
+    "tier": "C",
+    "tags": [
+      "international",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "pjmedia",
+    "title": "PJ Media",
+    "url": "https://pjmedia.com/",
+    "description": "Right-leaning opinion and news site with a conservative bent, a long-running fixture of the online right.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "thedefiant",
+    "title": "The Defiant",
+    "url": "https://thedefiant.io/",
+    "description": "Crypto-native outlet digging into decentralized finance, for readers who know their yield farms from their rug pulls.",
+    "tier": "D",
+    "tags": [
+      "business",
+      "tech"
     ]
   }
 ]
