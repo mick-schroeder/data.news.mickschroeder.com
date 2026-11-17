@@ -42,10 +42,10 @@ const checkPublished = function (sites, tags) {
   return { valid, problems: invalid.map(site => `published: dropped invalid site ${site.id || site.url}`) }
 }
 
-// Aggregator tags from feeds and seeding, and tier tags like popular.
+// Feed tags from the feeds that listed the site.
 const derivedTags = function (site, tags) {
   return tags
-    .filter(tag => (tag.feed && site.feeds.includes(tag.feed)) || tag.tiers?.includes(site.tier))
+    .filter(tag => tag.feed && site.feeds.includes(tag.feed))
     .map(tag => tag.id)
 }
 

@@ -4,101 +4,61 @@
     "title": "American",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers in the United States.",
-    "translations": {
-      "ga": {
-        "title": "Meiriceánach"
-      }
-    }
+    "description": "Written mainly for readers in the United States."
   },
   {
     "id": "british",
     "title": "British",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers in Britain (England, Scotland or Wales).",
-    "translations": {
-      "ga": {
-        "title": "Briotanach"
-      }
-    }
+    "description": "Written mainly for readers in Britain (England, Scotland or Wales)."
   },
   {
     "id": "irish",
     "title": "Irish",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers on the island of Ireland.",
-    "translations": {
-      "ga": {
-        "title": "Éireannach"
-      }
-    }
+    "description": "Written mainly for readers on the island of Ireland."
   },
   {
     "id": "canadian",
     "title": "Canadian",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers in Canada.",
-    "translations": {
-      "ga": {
-        "title": "Ceanadach"
-      }
-    }
+    "description": "Written mainly for readers in Canada."
   },
   {
     "id": "australian",
     "title": "Australian",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers in Australia.",
-    "translations": {
-      "ga": {
-        "title": "Astrálach"
-      }
-    }
+    "description": "Written mainly for readers in Australia."
   },
   {
     "id": "new-zealand",
     "title": "New Zealand",
     "kind": "region",
     "icon": "flag",
-    "description": "Written mainly for readers in New Zealand.",
-    "translations": {
-      "ga": {
-        "title": "An Nua-Shéalainn"
-      }
-    }
+    "description": "Written mainly for readers in New Zealand."
   },
   {
     "id": "international",
     "title": "International",
     "kind": "region",
     "icon": "globe",
-    "description": "Written for a worldwide English-speaking audience, not mainly one country.",
-    "translations": {
-      "ga": {
-        "title": "Idirnáisiúnta"
-      }
-    }
+    "description": "Written for a worldwide English-speaking audience, not mainly one country."
   },
   {
     "id": "gaeilge",
     "title": "Gaeilge",
     "kind": "language",
     "icon": "book-open",
-    "description": "Written in Irish (Gaeilge).",
-    "translations": {
-      "ga": {
-        "title": "Gaeilge"
-      }
-    }
+    "description": "Written in Irish (Gaeilge)."
   },
   {
     "id": "newzit",
     "title": "Newzit",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "Listed on Newzit's homepage.",
     "url": "https://www.newzit.com/",
@@ -107,7 +67,7 @@
   {
     "id": "brutalist-report",
     "title": "The Brutalist Report",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "Listed on The Brutalist Report.",
     "url": "https://brutalist.report/",
@@ -116,7 +76,7 @@
   {
     "id": "techmeme",
     "title": "Techmeme",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "On Techmeme's leaderboard of most-cited sources.",
     "url": "https://www.techmeme.com/",
@@ -125,7 +85,7 @@
   {
     "id": "memeorandum",
     "title": "Memeorandum",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "On Memeorandum's leaderboard of most-cited sources.",
     "url": "https://www.memeorandum.com/",
@@ -134,7 +94,7 @@
   {
     "id": "mediagazer",
     "title": "Mediagazer",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "On Mediagazer's leaderboard of most-cited sources.",
     "url": "https://mediagazer.com/",
@@ -143,7 +103,7 @@
   {
     "id": "drudge-report",
     "title": "Drudge Report",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "Linked from the Drudge Report homepage.",
     "url": "https://www.drudgereport.com/",
@@ -152,118 +112,67 @@
   {
     "id": "news-homepages",
     "title": "News Homepages",
-    "kind": "aggregator",
+    "kind": "feed",
     "icon": "layers",
     "description": "In the News Homepages archive of major news sites.",
     "url": "https://palewi.re/docs/news-homepages/",
     "feed": "palewire"
   },
   {
-    "id": "popular",
-    "title": "Popular",
-    "kind": "tier",
-    "icon": "tag",
-    "description": "Tier S or A.",
-    "tiers": [
-      "S",
-      "A"
-    ]
-  },
-  {
     "id": "news",
     "title": "News",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "newspaper",
-    "description": "General news: outlets covering many subjects (world, national or local news), not a single beat.",
-    "translations": {
-      "ga": {
-        "title": "Nuacht"
-      }
-    }
+    "description": "General news: outlets covering many subjects (world, national or local news), not a single beat."
   },
   {
     "id": "tech",
     "title": "Technology",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "cpu",
-    "description": "Technology news: the tech industry, software, devices and the internet.",
-    "translations": {
-      "ga": {
-        "title": "Teicneolaíocht"
-      }
-    }
+    "description": "Technology news: the tech industry, software, devices and the internet."
   },
   {
     "id": "business",
     "title": "Business",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "briefcase",
-    "description": "Business, finance and markets news.",
-    "translations": {
-      "ga": {
-        "title": "Gnó"
-      }
-    }
+    "description": "Business, finance and markets news."
   },
   {
     "id": "science",
     "title": "Science",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "flask-conical",
-    "description": "Science and research news.",
-    "translations": {
-      "ga": {
-        "title": "Eolaíocht"
-      }
-    }
+    "description": "Science and research news."
   },
   {
     "id": "gaming",
     "title": "Gaming",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "gamepad-2",
-    "description": "Video game news and reviews.",
-    "translations": {
-      "ga": {
-        "title": "Cluichíocht"
-      }
-    }
+    "description": "Video game news and reviews."
   },
   {
     "id": "culture",
     "title": "Culture",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "palette",
-    "description": "Entertainment, arts, celebrity and lifestyle news.",
-    "translations": {
-      "ga": {
-        "title": "Cultúr"
-      }
-    }
+    "description": "Entertainment, arts, celebrity and lifestyle news."
   },
   {
     "id": "politics",
     "title": "Politics",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "landmark",
-    "description": "Political news and commentary.",
-    "translations": {
-      "ga": {
-        "title": "Polaitíocht"
-      }
-    }
+    "description": "Political news and commentary."
   },
   {
     "id": "sports",
     "title": "Sports",
-    "kind": "tag",
+    "kind": "topic",
     "icon": "trophy",
-    "description": "Sports news and scores.",
-    "translations": {
-      "ga": {
-        "title": "Spórt"
-      }
-    }
+    "description": "Sports news and scores."
   },
   {
     "id": "sponsor",

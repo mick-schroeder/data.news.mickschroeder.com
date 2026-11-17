@@ -3427,7 +3427,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-17T20:38:59.310Z"
   },
   {
     "id": "benzinga",
@@ -3509,6 +3510,64 @@
     "tags": [
       "business",
       "tech"
+    ]
+  },
+  {
+    "id": "foreignaffairs",
+    "title": "Foreign Affairs",
+    "url": "https://www.foreignaffairs.com/",
+    "description": "The establishment's favorite reading on global affairs, where policy heavyweights argue about the world order at essay length.",
+    "tier": "B",
+    "tags": [
+      "politics",
+      "international",
+      "american"
+    ]
+  },
+  {
+    "id": "lbpost",
+    "title": "Long Beach Post",
+    "url": "https://lbpost.com/",
+    "description": "Hyperlocal Long Beach, California coverage, from city hall fights to port news and beach-town happenings.",
+    "tier": "D",
+    "tags": [
+      "news",
+      "american"
+    ]
+  },
+  {
+    "id": "patch",
+    "title": "Patch",
+    "url": "https://patch.com/",
+    "description": "Thousands of hyperlocal community sites under one roof: school boards, road closures, bake sales and police blotters.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "american"
+    ]
+  },
+  {
+    "id": "tehrantimes",
+    "title": "Tehran Times",
+    "url": "https://www.tehrantimes.com/",
+    "description": "Iran's English-language daily, handy for seeing how Tehran frames the news, with a state-friendly slant to match.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "politics",
+      "international"
+    ]
+  },
+  {
+    "id": "ynetnews",
+    "title": "Ynetnews",
+    "url": "https://www.ynetnews.com/",
+    "description": "English edition of Israel's Yedioth Ahronoth, quick on Middle East headlines, security stories and Israeli politics.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "politics",
+      "international"
     ]
   }
 ]

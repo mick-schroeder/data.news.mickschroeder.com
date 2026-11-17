@@ -279,7 +279,7 @@ describe('data', function () {
   })
 
   it('should give every listed site a topic tag', function () {
-    const topics = tags.filter(tag => tag.kind === 'tag').map(tag => tag.id)
+    const topics = tags.filter(tag => tag.kind === 'topic').map(tag => tag.id)
     const sponsors = tags.filter(tag => tag.kind === 'sponsor').map(tag => tag.id)
     const missing = readJson('sources.json')
       .filter(site => !_.intersection(site.tags, sponsors).length)
@@ -318,8 +318,8 @@ describe('listing', function () {
     expect(rejected.id).to.be.undefined()
   })
 
-  it('should derive aggregator and popular tags', function () {
-    expect(derivedTags({ feeds: ['newzit'], tier: 'A' }, tags)).to.eql(['newzit', 'popular'])
+  it('should derive feed tags', function () {
+    expect(derivedTags({ feeds: ['newzit'], tier: 'A' }, tags)).to.eql(['newzit'])
     expect(derivedTags({ feeds: [], tier: 'B' }, tags)).to.eql([])
     expect(derivedTags({ feeds: [] }, tags)).to.eql([])
     expect(derivedTags({ feeds: ['palewire'], seeded: true, tier: 'C' }, tags)).to.eql(['news-homepages'])
