@@ -29,8 +29,8 @@ const publishedSchema = function (tags) {
     id: slug,
     title: z.string().trim().min(1),
     url: z.url({ protocol: /^https$/ }),
-    description: z.string().optional(),
-    tier: z.enum(editor.TIERS).optional(),
+    description: z.string().trim().min(1),
+    tier: z.enum(editor.TIERS),
     tags: z.array(z.enum(tags.map(tag => tag.id))).min(1)
   })
 }

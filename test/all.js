@@ -7,6 +7,7 @@ const { readJson, makeId, parseIgnore, parseRejected, SiteIndex } = require('../
 const editor = require('../lib/editor')
 const { updateRetirement, applySeed, listSite, finishSites, derivedTags, checkPublished } = require('../index')
 const { isWebUrl, urlKey, domainOf, homepageOf, siteUrl } = require('../lib/url')
+const { publishData, similarIds } = require('../lib/publish')
 
 const tags = readJson('tags.json')
 const tagIds = tags.map(tag => tag.id)
@@ -273,10 +274,9 @@ describe('data', function () {
 
   it('should have valid tiers', function () {
     const tiers = readJson('tiers.json')
-    expect(tiers.map(tier => tier.id)).to.eql(editor.TIERS)
-    expect(_.uniq(editor.TIERS).length).to.equal(tiers.length)
+    // The site's Tier type and colours expect exactly these, best first.
+    expect(tiers.map(tier => tier.id)).to.eql(['S', 'A', 'B', 'C', 'D', 'E', 'F'])
     for (const tier of tiers) {
-      expect(tier.id).to.match(/^[A-Z]$/)
       expect(tier.title).to.be.string()
       expect(tier.description).to.be.string()
     }
@@ -364,6 +364,48 @@ describe('publishing', function () {
   it('should pass every stored site', function () {
     const stored = readJson('sources.json').map(site => _.omit(site, ['flaggedForRetiringAt', 'retiredAt']))
     expect(checkPublished(stored, tags).problems).to.eql([])
+  })
+
+  it('should add icons, similar sources and order', function () {
+    const sites = [
+      { ...good, id: 'a', url: 'https://www.a.com/', tags: ['news', 'american'] },
+      { ...good, id: 'b', url: 'https://b.com/', tags: ['news', 'american'] },
+      { ...good, id: 'c', url: 'https://c.com/', tags: ['news'], tier: 'F' },
+      { ...good, id: 'd', url: 'https://d.com/', tags: ['sports'] }
+    ]
+    const tiers = readJson('tiers.json')
+    const published = publishData(sites, tags, tiers)
+    expect(published.sources[0].icon).to.equal('https://www.google.com/s2/favicons?domain=www.a.com&sz=64')
+    expect(published.sources.map(site => site.similar)).to.eql([['b', 'c'], ['a', 'c'], ['a', 'b'], []])
+    expect(published.tags.map(tag => tag.id)).to.eql(tagIds.filter(id => ['news', 'american', 'sports'].includes(id)))
+    expect(published.tags.map(tag => tag.order)).to.eql([0, 1, 2])
+    expect(published.tiers.map(tier => [tier.id, tier.order])).to.eql(tiers.map((tier, order) => [tier.id, order]))
+  })
+
+  it('should publish a consistent contract from the stored data', function () {
+    const stored = readJson('sources.json').map(site => _.pick(site, ['id', 'title', 'url', 'description', 'tier', 'tags']))
+    const { sources, tags: used } = publishData(stored, tags, readJson('tiers.json'))
+    const ids = sources.map(site => site.id)
+    const usedIds = used.map(tag => tag.id)
+    expect(_.uniq(ids).length).to.equal(ids.length)
+    expect(_.uniq(sources.map(site => urlKey(site.url))).length).to.equal(ids.length)
+    for (const site of sources) {
+      expect(site.tags.every(tag => usedIds.includes(tag))).to.be.true()
+      expect(site.similar.length <= 6).to.be.true()
+      expect(site.similar).to.not.include(site.id)
+      expect(site.similar.every(id => ids.includes(id))).to.be.true()
+    }
+    expect(usedIds.every(id => sources.some(site => site.tags.includes(id)))).to.be.true()
+  })
+
+  it('should rank similar sources by shared topics first', function () {
+    const source = { id: 'x', tier: 'B', tags: ['news', 'politics'] }
+    const sites = [
+      source,
+      { id: 'one', title: 'One', tier: 'B', tags: ['news'] },
+      { id: 'two', title: 'Two', tier: 'C', tags: ['news', 'politics'] }
+    ]
+    expect(similarIds(source, sites, tags)).to.eql(['two', 'one'])
   })
 })
 

@@ -7,6 +7,7 @@ const Index = require('../index')
 const s3 = require('../lib/s3')
 const cloudfront = require('../lib/cloudfront')
 const { readJson } = require('../lib/sites')
+const { publishData } = require('../lib/publish')
 
 const OUT_FOLDER = path.join(__dirname, '../out')
 
@@ -53,9 +54,8 @@ const main = async function () {
   }
   fs.rmSync(OUT_FOLDER, { recursive: true, force: true })
   const listBuilder = new Index()
-  const tags = readJson('tags.json')
-  const tiers = readJson('tiers.json')
-  const sources = await listBuilder.filter()
+  const accepted = await listBuilder.filter()
+  const { sources, tags, tiers } = publishData(accepted, readJson('tags.json'), readJson('tiers.json'))
 
   // Save verdicts before publishing, so a failed upload doesn't lose them.
   const added = await listBuilder.saveSources()
