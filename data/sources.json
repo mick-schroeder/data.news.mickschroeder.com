@@ -1902,8 +1902,7 @@
     "tags": [
       "science",
       "international"
-    ],
-    "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
+    ]
   },
   {
     "id": "scientificamerican",
@@ -3458,7 +3457,8 @@
       "international",
       "news",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T12:53:45.969Z"
   },
   {
     "id": "irishstar",
@@ -3614,6 +3614,18 @@
     "tags": [
       "culture",
       "american"
+    ]
+  },
+  {
+    "id": "ndtv",
+    "title": "NDTV",
+    "url": "https://www.ndtv.com/",
+    "description": "India's go-to 24-hour news channel online, covering breaking headlines, politics, cricket and Bollywood with a big national audience.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "politics",
+      "international"
     ]
   }
 ]
