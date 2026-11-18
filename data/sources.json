@@ -3541,7 +3541,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T15:44:16.986Z"
   },
   {
     "id": "tehrantimes",
@@ -3626,6 +3627,31 @@
       "news",
       "politics",
       "international"
+    ]
+  },
+  {
+    "id": "straitstimes",
+    "title": "The Straits Times",
+    "url": "https://www.straitstimes.com/",
+    "description": "Singapore's paper of record, tidy and thorough, and a reliable window onto Southeast Asian politics and business.",
+    "tier": "B",
+    "tags": [
+      "news",
+      "international",
+      "business",
+      "politics"
+    ]
+  },
+  {
+    "id": "thestar",
+    "title": "The Star (Malaysia)",
+    "url": "https://www.thestar.com.my/",
+    "description": "Malaysia's biggest English-language daily, covering national news, business and Southeast Asian happenings with a steady regional eye.",
+    "tier": "C",
+    "tags": [
+      "news",
+      "international",
+      "business"
     ]
   }
 ]
