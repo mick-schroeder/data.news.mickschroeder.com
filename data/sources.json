@@ -1909,7 +1909,8 @@
     "tier": "C",
     "tags": [
       "science"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
   },
   {
     "id": "scientificamerican",
@@ -3427,8 +3428,7 @@
     "tags": [
       "american",
       "news"
-    ],
-    "flaggedForRetiringAt": "2026-11-17T20:38:59.310Z"
+    ]
   },
   {
     "id": "benzinga",
@@ -3568,6 +3568,41 @@
       "news",
       "politics",
       "international"
+    ],
+    "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
+  },
+  {
+    "id": "theshortcut",
+    "title": "The Shortcut",
+    "url": "https://www.theshortcut.com/",
+    "description": "Covers consumer technology, gadgets and the internet.",
+    "tier": "D",
+    "tags": [
+      "tech"
+    ]
+  },
+  {
+    "id": "broadbandbreakfast",
+    "title": "Broadband Breakfast",
+    "url": "https://broadbandbreakfast.com/",
+    "description": "Trade news for people who care deeply about fiber, spectrum and who gets the next big federal internet grant.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "tech",
+      "politics",
+      "business"
+    ]
+  },
+  {
+    "id": "spokesman",
+    "title": "The Spokesman-Review",
+    "url": "https://www.spokesman.com/",
+    "description": "Spokane's daily paper, covering the Inland Northwest with local depth that bigger national outlets simply skip.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
     ]
   }
 ]

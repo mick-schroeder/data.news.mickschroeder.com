@@ -219,18 +219,6 @@
     "retiredAt": "2026-11-15T11:59:42.750Z"
   },
   {
-    "id": "theshortcut",
-    "title": "The Shortcut",
-    "url": "https://www.theshortcut.com/",
-    "description": "Covers consumer technology, gadgets and the internet.",
-    "tier": "D",
-    "tags": [
-      "tech"
-    ],
-    "flaggedForRetiringAt": "2026-11-14T23:25:41.445Z",
-    "retiredAt": "2026-11-15T11:59:42.750Z"
-  },
-  {
     "id": "theyeshivaworld",
     "title": "Yeshiva World News",
     "url": "https://www.theyeshivaworld.com/",
