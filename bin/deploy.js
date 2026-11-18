@@ -18,7 +18,7 @@ const writeLocal = function (filename, body) {
 const uploaded = []
 
 // Files the site builds from; it only needs a rebuild when one changes.
-const SITE_FILES = ['sources.json', 'tags.json']
+const SITE_FILES = ['sources.json', 'tags.json', 'tiers.json']
 let siteChanged = false
 
 const differsFromLive = async function (filename, body) {
@@ -54,6 +54,7 @@ const main = async function () {
   fs.rmSync(OUT_FOLDER, { recursive: true, force: true })
   const listBuilder = new Index()
   const tags = readJson('tags.json')
+  const tiers = readJson('tiers.json')
   const sources = await listBuilder.filter()
 
   // Save verdicts before publishing, so a failed upload doesn't lose them.
@@ -61,7 +62,8 @@ const main = async function () {
   console.log({ addedToData: added.length })
   console.log({ retirement: await listBuilder.retirement() })
 
-  // Tags first, so a new tag exists before any site that uses it.
+  // Tags and tiers first, so they exist before any site that uses them.
+  await publishJson('tiers.json', tiers)
   await publishJson('tags.json', tags)
   await publishJson('sources.json', sources)
   await publishJson(`sources-${new Date().toISOString().slice(0, 10).replaceAll('-', '')}.json`, sources)

@@ -271,6 +271,22 @@ describe('data', function () {
     }
   })
 
+  it('should have valid tiers', function () {
+    const tiers = readJson('tiers.json')
+    expect(tiers.map(tier => tier.id)).to.eql(editor.TIERS)
+    expect(_.uniq(editor.TIERS).length).to.equal(tiers.length)
+    for (const tier of tiers) {
+      expect(tier.id).to.match(/^[A-Z]$/)
+      expect(tier.title).to.be.string()
+      expect(tier.description).to.be.string()
+    }
+  })
+
+  it('should brief the editor on every tier', function () {
+    const prompt = require('fs').readFileSync(require('path').join(__dirname, '../data/prompt.md'), 'utf8')
+    for (const id of editor.TIERS) expect(prompt).to.match(new RegExp(`^\\s*- ${id}: `, 'm'))
+  })
+
   it('should not have a site both listed and retired', function () {
     const sources = readJson('sources.json')
     const retired = readJson('retired.json')

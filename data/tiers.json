@@ -1,0 +1,37 @@
+[
+  {
+    "id": "S",
+    "title": "Agenda setters",
+    "description": "The few sites that set the news agenda, checked all day by everyone."
+  },
+  {
+    "id": "A",
+    "title": "Major",
+    "description": "Major national and international outlets most people know."
+  },
+  {
+    "id": "B",
+    "title": "Influential",
+    "description": "Well known and influential in their country or beat."
+  },
+  {
+    "id": "C",
+    "title": "Established",
+    "description": "Established, with a smaller audience or a narrower niche."
+  },
+  {
+    "id": "D",
+    "title": "Minor",
+    "description": "Minor, local or very niche sites and newsletters."
+  },
+  {
+    "id": "E",
+    "title": "Unranked",
+    "description": "Not ranked: the editor didn't know the site well enough to judge."
+  },
+  {
+    "id": "F",
+    "title": "Unreliable",
+    "description": "Low quality, or known for misinformation or made-up stories."
+  }
+]

@@ -14,7 +14,8 @@ https://data.news.mickschroeder.com/sources.json
 
   * This file is regenerated nightly so it is recommended that you
     only poll this file once per day
-  * Each source has an `id`, `title`, `url`, `description`, `tier` and `tags`
+  * Each source has an `id`, `title`, `url`, `description`, `tier` and `tags`;
+    tiers and tags are described in `tiers.json` and `tags.json`
 
 If you're looking for historical files, you can amend a date to the
 main file like so:
@@ -25,8 +26,10 @@ https://data.news.mickschroeder.com/sources-20261112.json
 
 ## Tiers
 
-Sources are ranked `S`, `A`, `B`, `C`, `D` or `F`, best to worst. `E` means
-the LLM didn't know the source well enough to rank it.
+Tiers are listed in [tiers.json](https://data.news.mickschroeder.com/tiers.json),
+best first. Each has an `id` (`S`, `A`, `B`, `C`, `D`, `E` or `F`), a `title`
+and a `description`. `E` means the LLM didn't know the source well enough to
+rank it.
 
 ## Tags
 

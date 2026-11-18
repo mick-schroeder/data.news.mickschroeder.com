@@ -1,35 +1,35 @@
 [
   {
     "id": "american",
-    "title": "American",
+    "title": "America",
     "kind": "region",
     "icon": "flag",
     "description": "Written mainly for readers in the United States."
   },
   {
     "id": "british",
-    "title": "British",
+    "title": "Britain",
     "kind": "region",
     "icon": "flag",
     "description": "Written mainly for readers in Britain (England, Scotland or Wales)."
   },
   {
     "id": "irish",
-    "title": "Irish",
+    "title": "Ireland",
     "kind": "region",
     "icon": "flag",
     "description": "Written mainly for readers on the island of Ireland."
   },
   {
     "id": "canadian",
-    "title": "Canadian",
+    "title": "Canada",
     "kind": "region",
     "icon": "flag",
     "description": "Written mainly for readers in Canada."
   },
   {
     "id": "australian",
-    "title": "Australian",
+    "title": "Australia",
     "kind": "region",
     "icon": "flag",
     "description": "Written mainly for readers in Australia."
@@ -43,7 +43,7 @@
   },
   {
     "id": "international",
-    "title": "International",
+    "title": "World",
     "kind": "region",
     "icon": "globe",
     "description": "Written for a worldwide English-speaking audience, not mainly one country."
