@@ -6,8 +6,7 @@
     "description": "The editor's own corner of the web, a small personal site that earns its spot by being seeded.",
     "tier": "D",
     "tags": [
-      "sponsor",
-      "news"
+      "sponsor"
     ]
   },
   {
@@ -3268,10 +3267,9 @@
     "id": "wikipedia-current-events",
     "title": "Wikipedia: Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
-    "description": "Volunteer-curated daily digest of world events, sourced and surprisingly handy as a news summary.",
-    "tier": "B",
+    "description": "Wikipedia portal summarizing daily world events.",
+    "tier": "C",
     "tags": [
-      "international",
       "news"
     ]
   },
@@ -3279,11 +3277,12 @@
     "id": "trends-google",
     "title": "Google Trends",
     "url": "https://trends.google.com/",
-    "description": "A live look at what the world is searching, handy for spotting what everyone is suddenly curious about.",
+    "description": "Shows trending Google searches and topics.",
     "tier": "B",
     "tags": [
-      "international",
-      "news"
+      "american",
+      "news",
+      "tech"
     ]
   },
   {
@@ -3435,7 +3434,8 @@
     "tags": [
       "american",
       "business"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T12:14:26.256Z"
   },
   {
     "id": "dnyuz",
@@ -3505,7 +3505,8 @@
     "tags": [
       "business",
       "tech"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T12:14:26.256Z"
   },
   {
     "id": "foreignaffairs",
@@ -3528,7 +3529,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T12:14:26.256Z"
   },
   {
     "id": "patch",
@@ -3551,7 +3553,8 @@
       "international",
       "news",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-18T12:14:26.256Z"
   },
   {
     "id": "ynetnews",
@@ -3599,6 +3602,17 @@
     "tags": [
       "news",
       "sports",
+      "american"
+    ]
+  },
+  {
+    "id": "thepointmag",
+    "title": "The Point Magazine",
+    "url": "https://thepointmag.com/",
+    "description": "A Chicago-born philosophical quarterly where essayists take everyday life apart slowly, for readers who like their culture with footnotes.",
+    "tier": "D",
+    "tags": [
+      "culture",
       "american"
     ]
   }
