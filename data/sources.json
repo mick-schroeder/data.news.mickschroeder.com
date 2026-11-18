@@ -3,27 +3,29 @@
     "id": "mickschroeder",
     "title": "Mick Schroeder",
     "url": "https://mickschroeder.com",
-    "description": "A seeded personal pick that earns its spot on the list by editorial decree rather than by sheer traffic.",
-    "tier": "E",
+    "description": "The editor's own corner of the web, a small personal site that earns its spot by being seeded.",
+    "tier": "D",
     "tags": [
-      "sponsor"
+      "sponsor",
+      "news"
     ]
   },
   {
     "id": "phys",
     "title": "Phys.org",
     "url": "https://phys.org/",
-    "description": "Daily dispatches from labs worldwide, so you can sound clever about physics, space and nanotech at dinner.",
+    "description": "A tireless firehose of university press releases and research findings, handy for pretending you read the journals.",
     "tier": "B",
     "tags": [
-      "science"
+      "science",
+      "international"
     ]
   },
   {
     "id": "politics-co-uk",
     "title": "Politics.co.uk",
     "url": "https://politics.co.uk",
-    "description": "Westminster's goings-on served up for people who read the small print of British political life.",
+    "description": "Westminster's daily gossip and analysis, for readers who like their British politics with a side of procedure.",
     "tier": "C",
     "tags": [
       "british",
@@ -34,7 +36,7 @@
     "id": "404media",
     "title": "404 Media",
     "url": "https://www.404media.co/",
-    "description": "Worker-owned tech reporting that digs into the weird, shady corners of the internet others skip.",
+    "description": "Worker-owned tech reporting that digs into the weird, shady corners of the internet the big outlets skip.",
     "tier": "B",
     "tags": [
       "american",
@@ -45,7 +47,7 @@
     "id": "9to5mac",
     "title": "9to5Mac",
     "url": "https://9to5mac.com/",
-    "description": "Apple news around the clock, for anyone who refreshes for iPhone rumors before breakfast.",
+    "description": "Apple news around the clock, for people who refresh the page before every keynote.",
     "tier": "B",
     "tags": [
       "american",
@@ -56,7 +58,7 @@
     "id": "abcnews-go",
     "title": "ABC News",
     "url": "https://abcnews.go.com/",
-    "description": "Network staple with Good Morning America energy and solid breaking coverage for the American living room.",
+    "description": "Network news staple with Good Morning America energy and solid breaking coverage.",
     "tier": "A",
     "tags": [
       "american",
@@ -67,11 +69,10 @@
     "id": "advocate",
     "title": "Advocate",
     "url": "https://www.advocate.com/",
-    "description": "America's long-running LGBTQ+ news and culture magazine, covering politics, entertainment and community with real heritage.",
+    "description": "America's longtime LGBTQ+ news magazine, covering politics, culture and community with pride.",
     "tier": "C",
     "tags": [
       "american",
-      "news",
       "culture",
       "politics"
     ],
@@ -81,7 +82,7 @@
     "id": "adweek",
     "title": "Adweek",
     "url": "https://www.adweek.com/",
-    "description": "Trade paper for the ad world: campaigns, brand drama and who just won the big account.",
+    "description": "Where marketers go to read about marketers, with Super Bowl ad season as its Super Bowl.",
     "tier": "C",
     "tags": [
       "american",
@@ -93,7 +94,7 @@
     "id": "africanews",
     "title": "Africanews",
     "url": "https://www.africanews.com/",
-    "description": "Pan-African coverage in English from the Euronews family, filling a gap many global outlets leave open.",
+    "description": "Pan-African news in English from the Euronews family, covering a continent too often squeezed into a footnote.",
     "tier": "C",
     "tags": [
       "international",
@@ -104,19 +105,18 @@
     "id": "aftermath",
     "title": "Aftermath",
     "url": "https://aftermath.site/",
-    "description": "Independent, writer-owned games coverage from ex-Kotaku refugees, with sharp opinions and no corporate polish.",
+    "description": "Scrappy, writer-owned games coverage from ex-Kotaku refugees, with plenty of attitude and zero corporate polish.",
     "tier": "C",
     "tags": [
       "american",
-      "gaming",
-      "culture"
+      "gaming"
     ]
   },
   {
     "id": "aljazeera",
     "title": "Al Jazeera",
     "url": "https://www.aljazeera.com/",
-    "description": "Qatar-based global broadcaster with deep reach across the Middle East and the Global South.",
+    "description": "Qatar-based global broadcaster with deep on-the-ground reporting from the Middle East and the wider world.",
     "tier": "A",
     "tags": [
       "international",
@@ -127,7 +127,7 @@
     "id": "androidauthority",
     "title": "Android Authority",
     "url": "https://www.androidauthority.com/",
-    "description": "The go-to place for phone reviews, Android leaks and deciding which Pixel to buy next.",
+    "description": "Phone reviews, leaks and how-tos for people who think a stock Pixel is a personality.",
     "tier": "B",
     "tags": [
       "tech",
@@ -138,7 +138,7 @@
     "id": "andscape",
     "title": "Andscape",
     "url": "https://andscape.com/",
-    "description": "ESPN-backed home for sports and culture stories through a Black lens, formerly known as The Undefeated.",
+    "description": "ESPN's home for stories on Black culture, sports and identity, told with real depth.",
     "tier": "C",
     "tags": [
       "american",
@@ -150,7 +150,7 @@
     "id": "aol",
     "title": "AOL",
     "url": "https://www.aol.com/",
-    "description": "The old dial-up portal still has a news front page, and somehow millions still log in.",
+    "description": "The old-school portal that somehow survived, still serving headlines, email and nostalgia on one page.",
     "tier": "B",
     "tags": [
       "american",
@@ -161,18 +161,18 @@
     "id": "appleinsider",
     "title": "AppleInsider",
     "url": "https://appleinsider.com/",
-    "description": "Mac, iPhone and iPad news plus buying guides for devotees of the walled garden.",
+    "description": "Rumors, reviews and deals for devoted Apple fans who read the fine print on every iOS update.",
     "tier": "C",
     "tags": [
-      "tech",
-      "american"
+      "american",
+      "tech"
     ]
   },
   {
     "id": "arabnews",
     "title": "Arab News",
     "url": "https://www.arabnews.com/",
-    "description": "Saudi Arabia's English-language daily, handy for a Gulf perspective on regional and world affairs.",
+    "description": "Saudi Arabia's English-language daily, a window onto Gulf politics, business and regional affairs.",
     "tier": "C",
     "tags": [
       "international",
@@ -183,7 +183,7 @@
     "id": "arstechnica",
     "title": "Ars Technica",
     "url": "https://arstechnica.com/",
-    "description": "Nerdy and rigorous tech and science coverage, with comment sections that are weirdly worth reading.",
+    "description": "Deep, nerdy tech and science reporting with a commenter community that actually knows its stuff.",
     "tier": "A",
     "tags": [
       "american",
@@ -195,7 +195,7 @@
     "id": "apnews",
     "title": "Associated Press News",
     "url": "https://apnews.com/",
-    "description": "The wire service behind half the headlines you read, prized for sober, down-the-middle reporting.",
+    "description": "The wire service everyone else quietly relies on, fast, fact-first and refreshingly short on adjectives.",
     "tier": "S",
     "tags": [
       "international",
@@ -207,7 +207,7 @@
     "id": "ajc",
     "title": "Atlanta Journal-Constitution",
     "url": "https://www.ajc.com/",
-    "description": "Georgia's big-city daily, strong on Southern politics, Atlanta business and Braves obsession.",
+    "description": "Georgia's big-city paper, essential for Atlanta politics, Southern news and Braves-adjacent civic pride.",
     "tier": "B",
     "tags": [
       "american",
@@ -218,7 +218,7 @@
     "id": "axios",
     "title": "Axios",
     "url": "https://www.axios.com/",
-    "description": "Smart Brevity at its finest: bullet-pointed politics and business news for people who skim for a living.",
+    "description": "Smart Brevity at its finest: bullet points, bolded labels and the news boiled down to its essentials.",
     "tier": "A",
     "tags": [
       "american",
@@ -231,7 +231,7 @@
     "id": "bbc",
     "title": "BBC News",
     "url": "https://www.bbc.co.uk/news",
-    "description": "Britain's public broadcaster and a global benchmark for calm, thorough reporting on pretty much everything.",
+    "description": "Britain's public broadcaster and a global default for steady, trusted reporting from just about anywhere.",
     "tier": "S",
     "tags": [
       "british",
@@ -243,7 +243,7 @@
     "id": "billboard",
     "title": "Billboard",
     "url": "https://www.billboard.com/",
-    "description": "The music industry's scorekeeper, from chart-toppers to touring numbers and the occasional album-sales brawl.",
+    "description": "The music industry's scoreboard, home of the charts that launch careers and settle fan arguments.",
     "tier": "B",
     "tags": [
       "american",
@@ -254,7 +254,7 @@
     "id": "bleacherreport",
     "title": "Bleacher Report",
     "url": "https://bleacherreport.com/",
-    "description": "Sports news with a meme-friendly, social-first attitude, for fans who live in the highlights.",
+    "description": "Sports news with a social-media accent, heavy on highlights, memes and hot takes.",
     "tier": "B",
     "tags": [
       "american",
@@ -265,18 +265,18 @@
     "id": "bleepingcomputer",
     "title": "BleepingComputer",
     "url": "https://www.bleepingcomputer.com/",
-    "description": "First stop for ransomware, data breaches and patch-now warnings, plus helpful tech support forums.",
+    "description": "The go-to for ransomware, breaches and patch-day panic, written by people who clearly enjoy a good exploit.",
     "tier": "B",
     "tags": [
       "tech",
-      "american"
+      "international"
     ]
   },
   {
     "id": "bloomberg",
     "title": "Bloomberg",
     "url": "https://www.bloomberg.com/",
-    "description": "Markets, deals and economic news from the terminal people actually pay thousands for.",
+    "description": "Markets, money and power, delivered with terminal-grade speed and a very nice paywall.",
     "tier": "S",
     "tags": [
       "international",
@@ -288,7 +288,7 @@
     "id": "news-bloomberglaw",
     "title": "Bloomberg Law",
     "url": "https://news.bloomberglaw.com/",
-    "description": "Legal news for lawyers: court rulings, regulation and big-firm gossip, mostly behind a paywall.",
+    "description": "Legal and regulatory news for lawyers who bill by the hour and read by the minute.",
     "tier": "C",
     "tags": [
       "american",
@@ -300,7 +300,7 @@
     "id": "bnonews",
     "title": "BNO News",
     "url": "https://bnonews.com/",
-    "description": "Rapid-fire breaking news alerts on outbreaks, disasters and crises, often ahead of the big networks.",
+    "description": "Fast-twitch breaking news alerts that often land before the big networks have finished their coffee.",
     "tier": "C",
     "tags": [
       "international",
@@ -311,7 +311,7 @@
     "id": "boingboing",
     "title": "Boing Boing",
     "url": "https://boingboing.net/",
-    "description": "A directory of wonderful things: quirky tech, internet culture and digital-rights rabble-rousing since the 90s.",
+    "description": "A directory of wonderful things from the weirder web, still curious and delightfully nerdy after decades.",
     "tier": "C",
     "tags": [
       "american",
@@ -323,7 +323,7 @@
     "id": "boltsmag",
     "title": "Bolts",
     "url": "https://boltsmag.org/",
-    "description": "Nonprofit outlet obsessed with local elections, prosecutors and the unglamorous machinery of American democracy.",
+    "description": "Nonprofit reporting on local elections, prosecutors and power, the unglamorous stuff that shapes everything.",
     "tier": "D",
     "tags": [
       "american",
@@ -334,7 +334,7 @@
     "id": "boston",
     "title": "Boston.com",
     "url": "https://www.boston.com/",
-    "description": "The Boston Globe's lighter sibling for local news, sports rivalries and where to get chowder.",
+    "description": "Boston's friendly all-purpose site for local news, sports obsession and everything about the Red Sox.",
     "tier": "C",
     "tags": [
       "american",
@@ -346,19 +346,18 @@
     "id": "bostonherald",
     "title": "Boston Herald",
     "url": "https://bostonherald.com/",
-    "description": "Boston's feisty tabloid, with punchy headlines, a conservative-leaning editorial page and heavy sports love.",
+    "description": "Boston's scrappy tabloid, with punchy headlines, a conservative lean and an unapologetic sports section.",
     "tier": "C",
     "tags": [
       "american",
-      "news",
-      "sports"
+      "news"
     ]
   },
   {
     "id": "breitbart",
     "title": "Breitbart",
     "url": "https://www.breitbart.com/",
-    "description": "Combative right-wing outlet that thrives on populist outrage and shares loved by its base, often questioned elsewhere.",
+    "description": "Combative right-wing outlet known for populist fire, and for facts that often need a second source.",
     "tier": "F",
     "tags": [
       "american",
@@ -370,20 +369,20 @@
     "id": "businessinsider",
     "title": "Business Insider",
     "url": "https://www.businessinsider.com/",
-    "description": "Fast, clicky business and tech coverage, from startup drama to what billionaires eat for lunch.",
+    "description": "Business, tech and workplace stories in snackable form, with a knack for a viral salary story.",
     "tier": "A",
     "tags": [
       "american",
       "business",
-      "tech",
-      "news"
+      "news",
+      "tech"
     ]
   },
   {
     "id": "c-span",
     "title": "C-SPAN",
     "url": "https://www.c-span.org/",
-    "description": "Unfiltered Congress and Washington events, gloriously free of pundits and commentary, for the truly committed.",
+    "description": "Congress and Washington events, unfiltered and uninterrupted, for those who like their politics with no commentary.",
     "tier": "B",
     "tags": [
       "american",
@@ -394,7 +393,7 @@
     "id": "cbslocal",
     "title": "CBS Local",
     "url": "https://cbslocal.com/",
-    "description": "Hub for CBS-owned stations' local news, weather and traffic in cities across the country.",
+    "description": "A hub for CBS-owned stations, serving up city-by-city news, weather and traffic across America.",
     "tier": "C",
     "tags": [
       "american",
@@ -405,7 +404,7 @@
     "id": "cbsnews",
     "title": "CBS News",
     "url": "https://www.cbsnews.com/",
-    "description": "Old-school network journalism home to 60 Minutes and a steady, mainstream take on the day.",
+    "description": "Broadcast heavyweight home to 60 Minutes, with steady national coverage and a classic anchor-desk feel.",
     "tier": "A",
     "tags": [
       "american",
@@ -416,19 +415,18 @@
     "id": "suntimes",
     "title": "Chicago Sun-Times",
     "url": "https://www.suntimes.com/",
-    "description": "Chicago's scrappy tabloid-style paper, now nonprofit-run, with a strong local and sports bent.",
+    "description": "Chicago's tabloid-spirited daily, now nonprofit-owned, with sharp local reporting and a big-shouldered sports section.",
     "tier": "B",
     "tags": [
       "american",
-      "news",
-      "sports"
+      "news"
     ]
   },
   {
     "id": "chicagotribune",
     "title": "Chicago Tribune",
     "url": "https://www.chicagotribune.com/",
-    "description": "The Midwest's historic broadsheet, covering Chicago, Illinois politics and the Cubs with big-city ambition.",
+    "description": "The Windy City's long-running broadsheet, covering city hall, the Bears and everything in between.",
     "tier": "B",
     "tags": [
       "american",
@@ -439,7 +437,7 @@
     "id": "cnbc",
     "title": "CNBC",
     "url": "https://www.cnbc.com/",
-    "description": "Wall Street on TV and online, with market tickers, earnings and Jim Cramer's sound effects.",
+    "description": "Stock tickers, market chatter and Jim Cramer sound effects, for the Wall Street day-trader in you.",
     "tier": "A",
     "tags": [
       "american",
@@ -451,7 +449,7 @@
     "id": "cnet",
     "title": "CNET",
     "url": "https://www.cnet.com/",
-    "description": "Veteran gadget reviewer and buying guide, good for deciding which laptop or TV deserves your money.",
+    "description": "Veteran consumer tech site with reviews, deals and explainers to help you decide which gadget to regret.",
     "tier": "B",
     "tags": [
       "american",
@@ -462,49 +460,48 @@
     "id": "cnn",
     "title": "CNN",
     "url": "https://www.cnn.com/us",
-    "description": "The 24-hour news pioneer, with red banners, breaking alerts and a huge global footprint.",
+    "description": "The 24-hour news pioneer, still big on breaking alerts and the dramatic red banner.",
     "tier": "A",
     "tags": [
       "american",
       "international",
-      "news",
-      "politics"
+      "news"
     ]
   },
   {
     "id": "coindesk",
     "title": "CoinDesk",
     "url": "https://www.coindesk.com/",
-    "description": "Crypto's trade paper, tracking prices, regulation and the next big blockchain drama as it unfolds.",
+    "description": "Crypto's trade paper, tracking token prices, regulation and the next big thing that may or may not be.",
     "tier": "B",
     "tags": [
       "business",
       "tech",
-      "american"
+      "international"
     ]
   },
   {
     "id": "cjr",
     "title": "Columbia Journalism Review",
     "url": "https://www.cjr.org/",
-    "description": "Journalism's own critic, picking apart how the press covers the news, with scholarly poise.",
+    "description": "The press watching the press, with thoughtful critiques for those who like their media navel-gazing well sourced.",
     "tier": "C",
     "tags": [
       "american",
-      "culture",
-      "politics"
+      "news",
+      "culture"
     ]
   },
   {
     "id": "current",
     "title": "Current",
     "url": "https://current.org/",
-    "description": "Trade news for public radio and TV folks, tracking funding fights, station mergers and PBS and NPR business.",
+    "description": "Trade news for public radio and TV folks, tracking funding fights and station drama.",
     "tier": "D",
     "tags": [
       "american",
       "culture",
-      "business"
+      "news"
     ],
     "flaggedForRetiringAt": "2026-11-15T18:01:39.675Z"
   },
@@ -512,7 +509,7 @@
     "id": "dailykos",
     "title": "Daily Kos",
     "url": "https://www.dailykos.com/",
-    "description": "Community-driven liberal blog and news hub, openly Democratic and beloved by progressive activists.",
+    "description": "Progressive community blog turned political powerhouse, where the diaries are passionate and the fundraising emails are plentiful.",
     "tier": "C",
     "tags": [
       "american",
@@ -523,8 +520,8 @@
     "id": "dailystar",
     "title": "Daily Star",
     "url": "https://www.dailystar.co.uk/",
-    "description": "Britain's cheeky tabloid, big on celebrity gossip, offbeat stories and headlines that raise eyebrows.",
-    "tier": "D",
+    "description": "British tabloid with a gleefully silly streak, heavy on celebrities, UFOs and outrageous headlines.",
+    "tier": "F",
     "tags": [
       "british",
       "news",
@@ -535,7 +532,7 @@
     "id": "deadline",
     "title": "Deadline",
     "url": "https://deadline.com/",
-    "description": "Hollywood's breaking-news machine for box office, deals, casting and TV renewals before everyone else hears.",
+    "description": "Hollywood's breaking-news desk, first with the deals, box office numbers and casting scoops insiders crave.",
     "tier": "B",
     "tags": [
       "american",
@@ -547,20 +544,19 @@
     "id": "deadspin",
     "title": "Deadspin",
     "url": "https://deadspin.com/",
-    "description": "The irreverent sports blog reborn under new owners, still poking fun at the sporting world.",
+    "description": "The irreverent sports blog reborn under new owners, still hunting for a little of its old mischief.",
     "tier": "C",
     "tags": [
       "american",
-      "sports",
-      "culture"
+      "sports"
     ]
   },
   {
     "id": "defector",
     "title": "Defector",
     "url": "https://defector.com/",
-    "description": "Worker-owned sports and culture site from ex-Deadspin writers, funded by loyal subscribers and sharp wit.",
-    "tier": "C",
+    "description": "Worker-owned sports and culture writing with proper wit, born from Deadspin's ashes and better for it.",
+    "tier": "B",
     "tags": [
       "american",
       "sports",
@@ -571,7 +567,7 @@
     "id": "democracydocket",
     "title": "Democracy Docket",
     "url": "https://www.democracydocket.com/",
-    "description": "Marc Elias's outlet tracking voting-rights lawsuits and election law, with an openly pro-Democratic lens.",
+    "description": "Tracks voting rights and election lawsuits closely, from a clearly progressive point of view.",
     "tier": "C",
     "tags": [
       "american",
@@ -582,7 +578,7 @@
     "id": "dw",
     "title": "Deutsche Welle",
     "url": "https://www.dw.com/",
-    "description": "Germany's public international broadcaster, offering a steady, sensible view of Europe and the world in English.",
+    "description": "Germany's international broadcaster, giving the world a steady, sensible view of Europe and beyond in English.",
     "tier": "A",
     "tags": [
       "international",
@@ -594,7 +590,7 @@
     "id": "digg",
     "title": "Digg",
     "url": "https://digg.com/",
-    "description": "The old front-page-of-the-internet is back, curating whatever the web is chattering about today.",
+    "description": "The old-school front page of the internet, back from the dead and curating the day's top links again.",
     "tier": "B",
     "tags": [
       "american",
@@ -607,7 +603,7 @@
     "id": "digiday",
     "title": "Digiday",
     "url": "https://digiday.com/",
-    "description": "Media and marketing industry news for people who care how publishers and brands actually make their money.",
+    "description": "Trade read for media and marketing insiders who want to know where the ad dollars are going.",
     "tier": "C",
     "tags": [
       "american",
@@ -619,7 +615,7 @@
     "id": "drudgereport",
     "title": "Drudge Report",
     "url": "https://www.drudgereport.com/",
-    "description": "A wall of blue links and screaming red headlines that still steers the daily news cycle.",
+    "description": "Those siren headlines in all caps are still the internet's most famous no-frills link page.",
     "tier": "S",
     "tags": [
       "american",
@@ -631,7 +627,7 @@
     "id": "eonline",
     "title": "E! News",
     "url": "https://www.eonline.com/",
-    "description": "Red carpets, celebrity gossip and reality TV recaps, served with plenty of exclamation points.",
+    "description": "Celebrity gossip, red carpet chatter and Kardashian updates served up with plenty of sparkle.",
     "tier": "B",
     "tags": [
       "american",
@@ -642,7 +638,7 @@
     "id": "elpais",
     "title": "El País English",
     "url": "https://english.elpais.com/",
-    "description": "Spain's leading daily in translation, handy for Spanish politics, Latin America and European affairs.",
+    "description": "Spain's leading daily translated for English readers, with a good view of Spanish and Latin American affairs.",
     "tier": "B",
     "tags": [
       "international",
@@ -654,7 +650,7 @@
     "id": "engadget",
     "title": "Engadget",
     "url": "https://www.engadget.com/",
-    "description": "Gadget reviews and tech news from a long-running blog that still knows its way around a launch event.",
+    "description": "Gadget reviews and launch-day coverage for people who read spec sheets for fun.",
     "tier": "B",
     "tags": [
       "american",
@@ -665,7 +661,7 @@
     "id": "ew",
     "title": "Entertainment Weekly",
     "url": "https://www.ew.com/",
-    "description": "Movies, TV and music coverage from the magazine that has long told you what to binge next.",
+    "description": "A long-running pop culture staple covering TV, film and music with fan-friendly enthusiasm.",
     "tier": "B",
     "tags": [
       "american",
@@ -676,7 +672,7 @@
     "id": "espn",
     "title": "ESPN",
     "url": "https://www.espn.com/",
-    "description": "The big-league home of scores, highlights and hot takes, for when the game is all that matters.",
+    "description": "The American sports behemoth, where scores, highlights and hot takes never stop rolling.",
     "tier": "A",
     "tags": [
       "american",
@@ -687,7 +683,7 @@
     "id": "espn-uk",
     "title": "ESPN UK",
     "url": "https://www.espn.co.uk/",
-    "description": "ESPN's British edition, with football and cricket up front and the American leagues tucked in behind.",
+    "description": "ESPN's British edition, with football front and center and the American games a little further back.",
     "tier": "B",
     "tags": [
       "british",
@@ -698,8 +694,8 @@
     "id": "esquire",
     "title": "Esquire",
     "url": "https://www.esquire.com/",
-    "description": "Menswear, culture and long reads, with a bit of politics, all delivered in a well-pressed suit.",
-    "tier": "B",
+    "description": "Menswear, long reads and culture coverage with a well-cut jacket and a raised eyebrow.",
+    "tier": "C",
     "tags": [
       "american",
       "culture"
@@ -709,7 +705,7 @@
     "id": "euronews",
     "title": "Euronews",
     "url": "https://www.euronews.com/",
-    "description": "Pan-European broadcaster giving a continental take on news, from Brussels briefings to local headlines.",
+    "description": "Pan-European news channel that gives you the continent's headlines without picking a single capital.",
     "tier": "B",
     "tags": [
       "international",
@@ -721,7 +717,7 @@
     "id": "standard-co-uk",
     "title": "Evening Standard",
     "url": "https://www.standard.co.uk/",
-    "description": "London's paper for the commute home, covering the capital's politics, property and nightlife.",
+    "description": "London's go-to paper for city news, commuter gossip and the capital's political drama.",
     "tier": "B",
     "tags": [
       "british",
@@ -733,8 +729,8 @@
     "id": "express",
     "title": "Express.co.uk",
     "url": "https://www.express.co.uk/",
-    "description": "Royals, weather warnings and pension tips galore in this loud British tabloid, not always known for restraint.",
-    "tier": "D",
+    "description": "Tabloid-style British headlines heavy on royals, weather warnings and pension tips.",
+    "tier": "C",
     "tags": [
       "british",
       "news"
@@ -744,8 +740,8 @@
     "id": "fandom",
     "title": "Fandom",
     "url": "https://www.fandom.com/",
-    "description": "Wiki empire turned entertainment news hub, where superfans meet their favourite franchises.",
-    "tier": "C",
+    "description": "Wiki empire turned entertainment site, perfect for settling arguments about franchise lore.",
+    "tier": "B",
     "tags": [
       "american",
       "culture",
@@ -756,7 +752,7 @@
     "id": "fark",
     "title": "Fark",
     "url": "https://www.fark.com/",
-    "description": "The original link-sharing community, famous for snarky headlines and the Florida Man genre.",
+    "description": "The wry, long-lived link aggregator where odd news meets even odder headline tags.",
     "tier": "B",
     "tags": [
       "american",
@@ -768,7 +764,7 @@
     "id": "fastcompany",
     "title": "Fast Company",
     "url": "https://www.fastcompany.com/",
-    "description": "Business magazine fixated on innovation, design and the people trying to reinvent how we work.",
+    "description": "Business magazine fixated on innovation, design and whatever the next big company idea might be.",
     "tier": "B",
     "tags": [
       "american",
@@ -780,31 +776,33 @@
     "id": "ft",
     "title": "Financial Times",
     "url": "https://www.ft.com/",
-    "description": "The salmon-pink bible of global finance, essential reading when you want markets explained by grown-ups.",
+    "description": "The salmon-pink bible of global finance, authoritative on markets and politics alike.",
     "tier": "S",
     "tags": [
       "british",
       "international",
       "business",
-      "news"
+      "news",
+      "politics"
     ]
   },
   {
     "id": "forbes",
     "title": "Forbes",
     "url": "https://www.forbes.com/",
-    "description": "Billionaire lists, business news and a huge contributor network, so quality varies from sharp to shiny.",
+    "description": "Billionaire lists, business coverage and a vast contributor network of varying polish.",
     "tier": "A",
     "tags": [
       "american",
-      "business"
+      "business",
+      "news"
     ]
   },
   {
     "id": "fortune",
     "title": "Fortune",
     "url": "https://fortune.com/",
-    "description": "Home of the Fortune 500, covering corporate America and the executives steering it.",
+    "description": "Home of the Fortune 500, covering big business and the executives who run it.",
     "tier": "A",
     "tags": [
       "american",
@@ -815,7 +813,7 @@
     "id": "foxnews",
     "title": "Fox News",
     "url": "https://www.foxnews.com/",
-    "description": "Cable news giant with a conservative slant, dominating ratings and driving much of the American political conversation.",
+    "description": "Cable news ratings giant with a conservative lean and a huge, loyal audience.",
     "tier": "A",
     "tags": [
       "american",
@@ -827,7 +825,7 @@
     "id": "foxsports",
     "title": "Fox Sports",
     "url": "https://www.foxsports.com/",
-    "description": "NFL, MLB and college sports coverage from the network that gets the big Sunday games.",
+    "description": "Game-day coverage of the NFL, MLB and more, with big broadcast personalities attached.",
     "tier": "B",
     "tags": [
       "american",
@@ -838,8 +836,8 @@
     "id": "france24",
     "title": "France 24",
     "url": "https://www.france24.com/",
-    "description": "Paris-based round-the-clock news channel offering a French perspective on world events, in English.",
-    "tier": "B",
+    "description": "Paris-based round-the-clock news channel offering a French angle on world events in English.",
+    "tier": "A",
     "tags": [
       "international",
       "news",
@@ -850,7 +848,7 @@
     "id": "freethink",
     "title": "Freethink",
     "url": "https://www.freethink.com/",
-    "description": "Optimistic science and tech stories about people building solutions, a nice break from doomscrolling.",
+    "description": "Optimistic tech and science stories about people building the future, minus the doom scrolling.",
     "tier": "C",
     "tags": [
       "american",
@@ -862,7 +860,7 @@
     "id": "frontofficesports",
     "title": "Front Office Sports",
     "url": "https://frontofficesports.com/",
-    "description": "The business of sports: media rights, team sales and league drama, for fans who read the contracts.",
+    "description": "The business of sports: media rights, team sales and the money behind your favorite league.",
     "tier": "B",
     "tags": [
       "american",
@@ -874,7 +872,7 @@
     "id": "futurism",
     "title": "Futurism",
     "url": "https://futurism.com/",
-    "description": "Quirky science and tech stories about AI, space and gadgets, with a dash of sci-fi wonder.",
+    "description": "Sci-fi-flavored coverage of AI, space and weird tech, often with a cheeky headline.",
     "tier": "C",
     "tags": [
       "american",
@@ -886,7 +884,7 @@
     "id": "gamesbeat",
     "title": "GamesBeat",
     "url": "https://gamesbeat.com/",
-    "description": "VentureBeat's games desk, tracking the business of gaming, studios and industry deals.",
+    "description": "VentureBeat's games desk, tracking the business and buzz of the video game industry.",
     "tier": "C",
     "tags": [
       "american",
@@ -898,7 +896,7 @@
     "id": "gbnews",
     "title": "GB News",
     "url": "https://www.gbnews.com/",
-    "description": "Britain's opinionated right-leaning news channel, built around loud debate and presenter-led shows.",
+    "description": "Britain's upstart opinionated news channel, unapologetically populist and often at the center of debate.",
     "tier": "C",
     "tags": [
       "british",
@@ -910,7 +908,7 @@
     "id": "geekwire",
     "title": "GeekWire",
     "url": "https://www.geekwire.com/",
-    "description": "Pacific Northwest tech scene coverage, from Amazon and Microsoft to the startups in their shadow.",
+    "description": "Pacific Northwest tech scene's hometown paper, with plenty on Amazon, Microsoft and startups.",
     "tier": "C",
     "tags": [
       "american",
@@ -922,7 +920,7 @@
     "id": "gizmodo",
     "title": "Gizmodo",
     "url": "https://gizmodo.com/",
-    "description": "Snarky tech and science blog that covers gadgets, space and the weirder corners of the internet.",
+    "description": "Snarky, curious tech and science blog that still loves a good gadget and a good rant.",
     "tier": "B",
     "tags": [
       "american",
@@ -934,7 +932,7 @@
     "id": "globes",
     "title": "Globes",
     "url": "https://en.globes.co.il/",
-    "description": "Israel's business daily in English, a good window onto the country's tech and startup economy.",
+    "description": "Israel's business daily in English, handy for startup news and the local economy.",
     "tier": "C",
     "tags": [
       "international",
@@ -946,7 +944,7 @@
     "id": "gothamist",
     "title": "Gothamist",
     "url": "https://gothamist.com/",
-    "description": "Local New York City news with attitude, covering the subway, City Hall and everything between.",
+    "description": "New York City local news with plenty of neighborhood attitude and public-radio backing.",
     "tier": "C",
     "tags": [
       "american",
@@ -958,7 +956,7 @@
     "id": "haaretz",
     "title": "Haaretz",
     "url": "https://www.haaretz.com/",
-    "description": "Israel's left-leaning broadsheet, known for sharp investigative reporting and critical takes on its own government.",
+    "description": "Israel's venerable liberal daily, known for sharp reporting and strong opinions on Middle East affairs.",
     "tier": "B",
     "tags": [
       "international",
@@ -970,31 +968,29 @@
     "id": "hackaday",
     "title": "Hackaday",
     "url": "https://hackaday.com/",
-    "description": "Tinkerers' paradise of clever hardware hacks, retro computing and weekend electronics projects.",
+    "description": "A tinkerer's paradise of clever hardware hacks, retro builds and soldering-iron triumphs.",
     "tier": "C",
     "tags": [
-      "tech",
-      "science"
+      "tech"
     ]
   },
   {
     "id": "heavy",
     "title": "Heavy",
     "url": "https://heavy.com/",
-    "description": "High-volume celebrity, sports and trending-story site that chases whatever Google says people are searching for.",
+    "description": "High-volume, trend-chasing site covering sports, celebrities and whatever everyone is searching for right now.",
     "tier": "D",
     "tags": [
       "american",
       "culture",
-      "sports",
-      "news"
+      "sports"
     ]
   },
   {
     "id": "hindustantimes",
     "title": "Hindustan Times",
     "url": "https://www.hindustantimes.com/",
-    "description": "Major Indian daily covering national politics, Bollywood and cricket for a huge readership.",
+    "description": "One of India's biggest dailies, covering national politics, cricket and Bollywood in English.",
     "tier": "B",
     "tags": [
       "international",
@@ -1007,7 +1003,7 @@
     "id": "hotair",
     "title": "HotAir",
     "url": "https://hotair.com/",
-    "description": "Long-running conservative blog serving daily political commentary and links for the right-leaning crowd.",
+    "description": "Long-running conservative blog and commentary site with a daily dose of political snark.",
     "tier": "C",
     "tags": [
       "american",
@@ -1018,7 +1014,7 @@
     "id": "huffpost",
     "title": "HuffPost",
     "url": "https://www.huffpost.com/",
-    "description": "Progressive-leaning news and opinion site that helped define the digital-native newsroom.",
+    "description": "Progressive-leaning news and opinion site that grew from blog aggregator into a mainstay.",
     "tier": "A",
     "tags": [
       "american",
@@ -1031,7 +1027,7 @@
     "id": "huffpost-uk",
     "title": "HuffPost UK",
     "url": "https://huffingtonpost.co.uk/",
-    "description": "The British arm of HuffPost, with a left-of-centre view on UK politics and culture.",
+    "description": "The British branch of HuffPost, blending UK politics with lifestyle and opinion pieces.",
     "tier": "C",
     "tags": [
       "british",
@@ -1044,7 +1040,7 @@
     "id": "hurriyetdailynews",
     "title": "Hürriyet Daily News",
     "url": "https://www.hurriyetdailynews.com/",
-    "description": "Turkey's English-language daily, a practical read on Ankara politics, the economy and regional affairs.",
+    "description": "Turkey's English-language daily, a useful window on Ankara politics and regional affairs.",
     "tier": "C",
     "tags": [
       "international",
@@ -1056,7 +1052,7 @@
     "id": "inews",
     "title": "i News",
     "url": "https://inews.co.uk/",
-    "description": "Compact, centrist British paper that boils the day's news down for busy readers.",
+    "description": "Compact, no-fuss British news brand that boils the day down for busy readers.",
     "tier": "B",
     "tags": [
       "british",
@@ -1068,8 +1064,8 @@
     "id": "indiewire",
     "title": "IndieWire",
     "url": "https://www.indiewire.com/",
-    "description": "Film and TV coverage for cinephiles, from festival buzz to awards season handicapping.",
-    "tier": "B",
+    "description": "Film and TV coverage for cinephiles, strong on festivals, reviews and awards-season handicapping.",
+    "tier": "C",
     "tags": [
       "american",
       "culture"
@@ -1079,7 +1075,7 @@
     "id": "insideradio",
     "title": "Inside Radio",
     "url": "https://www.insideradio.com/",
-    "description": "Trade news for radio executives, covering stations, ratings and the audio business.",
+    "description": "Trade publication for the radio business, tracking ratings, mergers and the future of broadcasting.",
     "tier": "D",
     "tags": [
       "american",
@@ -1091,7 +1087,7 @@
     "id": "irishexaminer",
     "title": "Irish Examiner",
     "url": "https://www.irishexaminer.com/",
-    "description": "Cork-rooted national daily with solid reporting on Irish politics, the south and everyday life.",
+    "description": "Cork-rooted national daily with solid coverage of Irish news, politics and sport.",
     "tier": "B",
     "tags": [
       "irish",
@@ -1104,7 +1100,7 @@
     "id": "independent-ie",
     "title": "Irish Independent",
     "url": "https://www.independent.ie/",
-    "description": "Ireland's best-selling broadsheet, a busy mix of national news, business, sport and opinion.",
+    "description": "Ireland's best-selling daily broadsheet, covering news, business and sport with national reach.",
     "tier": "A",
     "tags": [
       "irish",
@@ -1117,7 +1113,7 @@
     "id": "kotaku",
     "title": "Kotaku",
     "url": "https://kotaku.com/",
-    "description": "Gaming news with attitude, covering games, the culture around them and the industry's messy side.",
+    "description": "Irreverent video game news and culture coverage with a fan's heart and a critic's tongue.",
     "tier": "B",
     "tags": [
       "american",
@@ -1129,7 +1125,7 @@
     "id": "kyodonews",
     "title": "Kyodo News",
     "url": "https://english.kyodonews.net/",
-    "description": "Japan's major wire service in English, reliable for Tokyo politics, business and Asia-Pacific news.",
+    "description": "Japan's major wire service in English, quick and dependable on Tokyo and Asia-Pacific stories.",
     "tier": "B",
     "tags": [
       "international",
@@ -1141,7 +1137,7 @@
     "id": "lawfaremedia",
     "title": "Lawfare",
     "url": "https://www.lawfaremedia.org/",
-    "description": "Wonky, thoughtful analysis of national security, law and tech policy, popular with Washington insiders.",
+    "description": "Wonky national security and legal analysis that lawyers and policy nerds read closely.",
     "tier": "C",
     "tags": [
       "american",
@@ -1152,7 +1148,7 @@
     "id": "dailynews",
     "title": "Los Angeles Daily News",
     "url": "https://www.dailynews.com/",
-    "description": "The San Fernando Valley's daily, covering local news, crime and sports around greater LA.",
+    "description": "San Fernando Valley's longtime local paper, covering LA-area news, crime and sports.",
     "tier": "C",
     "tags": [
       "american",
@@ -1164,7 +1160,7 @@
     "id": "lamag",
     "title": "Los Angeles Magazine",
     "url": "https://lamag.com/",
-    "description": "Glossy city magazine on LA's food, culture, power players and traffic-adjacent living.",
+    "description": "Glossy guide to the city's food, culture and power players, with long-form pieces too.",
     "tier": "D",
     "tags": [
       "american",
@@ -1188,7 +1184,7 @@
     "id": "macrumors",
     "title": "MacRumors",
     "url": "https://www.macrumors.com/",
-    "description": "The place to find out what Apple might do next, usually months before Apple does anything.",
+    "description": "Your daily fix of iPhone leaks, iOS beta notes and speculation about whatever Apple does next.",
     "tier": "B",
     "tags": [
       "american",
@@ -1199,11 +1195,10 @@
     "id": "dailymail",
     "title": "MailOnline",
     "url": "https://www.dailymail.com/home/index.html",
-    "description": "Britain's sidebar-of-shame powerhouse: relentless, sprawling, celebrity-soaked and weirdly impossible to stop scrolling.",
-    "tier": "A",
+    "description": "The sidebar of shame in full glory: celebrity snaps, royal gossip and relentless headlines you will click anyway.",
+    "tier": "B",
     "tags": [
       "british",
-      "international",
       "news",
       "culture"
     ]
@@ -1212,7 +1207,7 @@
     "id": "dailymail-us",
     "title": "MailOnline US",
     "url": "https://www.dailymail.com/ushome/index.html",
-    "description": "The Mail's American edition, serving up crime, royals and Hollywood gossip in huge, headline-heavy helpings.",
+    "description": "The Daily Mail's tabloid recipe, remixed for American readers with extra crime, celebrities and scandal.",
     "tier": "B",
     "tags": [
       "american",
@@ -1224,7 +1219,7 @@
     "id": "marketwatch",
     "title": "MarketWatch",
     "url": "https://www.marketwatch.com/",
-    "description": "Quick-hit market news, stock tickers and personal finance takes from the Dow Jones family.",
+    "description": "Stock tickers, retirement worries and market moves explained for everyday investors with a Dow Jones pedigree.",
     "tier": "B",
     "tags": [
       "american",
@@ -1235,7 +1230,7 @@
     "id": "mashable",
     "title": "Mashable",
     "url": "https://mashable.com/",
-    "description": "Internet culture, gadgets and viral oddities, still the go-to for finding out why everyone is talking about that meme.",
+    "description": "Internet culture, gadgets and viral oddities from the site that practically invented shareable content.",
     "tier": "B",
     "tags": [
       "american",
@@ -1247,7 +1242,7 @@
     "id": "mcclatchydc",
     "title": "McClatchy DC",
     "url": "https://www.mcclatchydc.com/",
-    "description": "McClatchy's Washington bureau, feeding Capitol Hill and federal government stories to its chain of local papers.",
+    "description": "The Washington bureau of McClatchy's local papers, digging into Congress and federal agencies with a regional lens.",
     "tier": "C",
     "tags": [
       "american",
@@ -1259,7 +1254,7 @@
     "id": "mediamatters",
     "title": "Media Matters for America",
     "url": "https://mediamatters.org/",
-    "description": "Progressive watchdog dissecting conservative media, one clip and correction at a time; openly partisan about it.",
+    "description": "A progressive watchdog that spends its days fact-checking conservative media, with a clear point of view.",
     "tier": "C",
     "tags": [
       "american",
@@ -1270,7 +1265,7 @@
     "id": "mediaplaynews",
     "title": "Media Play News",
     "url": "https://www.mediaplaynews.com/",
-    "description": "Trade news on streaming, home entertainment and the business of getting movies onto your couch.",
+    "description": "Trade coverage of streaming, home entertainment and disc sales for people who still care about Blu-ray.",
     "tier": "D",
     "tags": [
       "american",
@@ -1282,7 +1277,7 @@
     "id": "mediaite",
     "title": "Mediaite",
     "url": "https://www.mediaite.com/",
-    "description": "Cable news and media-world chatter, ideal for catching up on who said what on television last night.",
+    "description": "Cable news obsessives' favorite, tracking every on-air spat, gaffe and ratings fight in the media world.",
     "tier": "B",
     "tags": [
       "american",
@@ -1294,7 +1289,7 @@
     "id": "meidasnews",
     "title": "MeidasTouch",
     "url": "https://meidasnews.com/",
-    "description": "Fiery, unapologetically anti-Trump news and video from the Meiselas brothers' popular progressive network.",
+    "description": "Fiercely anti-Trump news and video outlet from the Meiselas brothers, popular with the progressive faithful.",
     "tier": "C",
     "tags": [
       "american",
@@ -1306,7 +1301,7 @@
     "id": "metro",
     "title": "Metro",
     "url": "https://metro.co.uk/",
-    "description": "Britain's commuter freebie gone digital: bite-sized news, celebrity fluff and TV recaps for a short train ride.",
+    "description": "Britain's commuter tabloid online: quick, chatty and happy to mix soap gossip with serious news.",
     "tier": "B",
     "tags": [
       "british",
@@ -1318,7 +1313,7 @@
     "id": "miamiherald",
     "title": "Miami Herald",
     "url": "https://www.miamiherald.com/",
-    "description": "South Florida's hometown paper, strong on Latin America, hurricanes and Florida politics with a Pulitzer-winning pedigree.",
+    "description": "South Florida's flagship paper, with Pulitzer-winning investigations, Latin America coverage and plenty of sunshine-state weirdness.",
     "tier": "B",
     "tags": [
       "american",
@@ -1330,7 +1325,7 @@
     "id": "mirror",
     "title": "Mirror Online",
     "url": "https://www.mirror.co.uk/",
-    "description": "Labour-leaning British tabloid mixing campaigning headlines with royals, soaps and a healthy dose of celebrity.",
+    "description": "Left-leaning British tabloid mixing campaigning headlines, celebrity tittle-tattle and big, bold splashes.",
     "tier": "B",
     "tags": [
       "british",
@@ -1342,7 +1337,7 @@
     "id": "technologyreview",
     "title": "MIT Technology Review",
     "url": "https://www.technologyreview.com/",
-    "description": "Thoughtful, MIT-backed deep dives into AI, biotech and climate tech, minus the usual gadget hype.",
+    "description": "MIT's thoughtful look at AI, biotech and climate tech, minus the usual gadget hype.",
     "tier": "B",
     "tags": [
       "american",
@@ -1354,7 +1349,7 @@
     "id": "motherjones",
     "title": "Mother Jones",
     "url": "https://www.motherjones.com/",
-    "description": "Investigative, left-leaning magazine with a long record of digging into money, power and politics.",
+    "description": "Muckraking progressive magazine with a nose for investigations, politics and money in power.",
     "tier": "B",
     "tags": [
       "american",
@@ -1366,7 +1361,7 @@
     "id": "msnbc",
     "title": "MSNBC",
     "url": "https://www.msnbc.com/",
-    "description": "Left-leaning cable news network and website, now rebranded, still home to primetime political commentary.",
+    "description": "Left-leaning cable news and commentary, now rebranded, still the home of prime-time progressive punditry.",
     "tier": "A",
     "tags": [
       "american",
@@ -1378,7 +1373,7 @@
     "id": "mtv",
     "title": "MTV News",
     "url": "https://www.mtv.com/news/",
-    "description": "Music and pop culture headlines from the channel that once defined both; a shadow of its VMAs-era self.",
+    "description": "Music, movies and pop culture headlines from the channel that once ruled teenage bedrooms.",
     "tier": "C",
     "tags": [
       "american",
@@ -1389,7 +1384,7 @@
     "id": "nationalreview",
     "title": "National Review",
     "url": "https://www.nationalreview.com/",
-    "description": "William F. Buckley's conservative magazine, still the intellectual home base for the traditional American right.",
+    "description": "Buckley's conservative magazine, still the intellectual home base for right-of-center essays and policy argument.",
     "tier": "B",
     "tags": [
       "american",
@@ -1401,7 +1396,7 @@
     "id": "nbcnews",
     "title": "NBC News",
     "url": "https://www.nbcnews.com/",
-    "description": "Broadcast network news with deep reporting bench, from the Today show to Meet the Press and beyond.",
+    "description": "Broadcast heavyweight with reliably broad coverage, from Meet the Press to breaking stories around the clock.",
     "tier": "A",
     "tags": [
       "american",
@@ -1414,30 +1409,29 @@
     "id": "neowin",
     "title": "Neowin",
     "url": "https://www.neowin.net/",
-    "description": "Windows-centric tech news and software downloads for enthusiasts who still care about their operating system.",
+    "description": "Longtime Windows and software fan site, great for betas, patches and PC tinkering news.",
     "tier": "C",
     "tags": [
-      "tech",
-      "american"
+      "tech"
     ]
   },
   {
     "id": "newscientist",
     "title": "New Scientist",
     "url": "https://www.newscientist.com/",
-    "description": "Weekly British science magazine that makes quantum physics and dinosaur discoveries sound like thrilling gossip.",
+    "description": "Weekly science with a sense of wonder, from black holes to brain quirks, in plain English.",
     "tier": "B",
     "tags": [
       "british",
-      "international",
-      "science"
+      "science",
+      "international"
     ]
   },
   {
     "id": "newstatesman",
     "title": "New Statesman",
     "url": "https://www.newstatesman.com/",
-    "description": "Britain's centre-left weekly, full of long reads and political analysis for Westminster watchers.",
+    "description": "Britain's centre-left weekly, strong on political essays, Westminster gossip and long-form culture pieces.",
     "tier": "B",
     "tags": [
       "british",
@@ -1449,7 +1443,7 @@
     "id": "nydailynews",
     "title": "New York Daily News",
     "url": "https://www.nydailynews.com/",
-    "description": "The classic New York tabloid: punchy headlines, city crime and sports delivered with proper Big Apple attitude.",
+    "description": "Gritty New York tabloid with punchy headlines, crime, sports and City Hall coverage.",
     "tier": "B",
     "tags": [
       "american",
@@ -1461,7 +1455,7 @@
     "id": "nymag",
     "title": "New York Magazine",
     "url": "https://www.nymag.com/",
-    "description": "Smart, stylish mix of politics, culture and city life, home to Vulture, the Cut and Intelligencer.",
+    "description": "Smart, gossipy New York institution covering politics, culture and the city's endless self-obsession.",
     "tier": "B",
     "tags": [
       "american",
@@ -1474,13 +1468,12 @@
     "id": "nypost",
     "title": "New York Post",
     "url": "https://nypost.com/",
-    "description": "Brash, right-leaning New York tabloid with famously punny headlines and a knack for the scoop.",
+    "description": "Brash tabloid famous for pun-heavy front pages, city crime, Page Six and conservative-leaning politics.",
     "tier": "A",
     "tags": [
       "american",
       "news",
       "politics",
-      "sports",
       "culture"
     ]
   },
@@ -1488,8 +1481,8 @@
     "id": "newsmax",
     "title": "Newsmax",
     "url": "https://www.newsmax.com/",
-    "description": "Pro-Trump cable and web outlet, a loyal conservative alternative to Fox News with its own cheering section.",
-    "tier": "C",
+    "description": "Pro-Trump cable and web outlet, popular on the right and often accused of airing election claims without evidence.",
+    "tier": "D",
     "tags": [
       "american",
       "news",
@@ -1500,7 +1493,7 @@
     "id": "newsnationnow",
     "title": "NewsNation",
     "url": "https://www.newsnationnow.com/",
-    "description": "Nexstar's cable network pitching straight-down-the-middle news, with plenty of local affiliate stories in the mix.",
+    "description": "Nexstar's cable news channel pitching itself as the straight-down-the-middle alternative, with a growing audience.",
     "tier": "C",
     "tags": [
       "american",
@@ -1512,7 +1505,7 @@
     "id": "newsweek",
     "title": "Newsweek",
     "url": "https://www.newsweek.com/",
-    "description": "Once a weekly newsstand staple, now a high-volume web outlet chasing clicks across politics, health and trending topics.",
+    "description": "Once a weekly print giant, now a high-volume web outlet chasing every trending political and viral story.",
     "tier": "B",
     "tags": [
       "american",
@@ -1525,8 +1518,8 @@
     "id": "newzit",
     "title": "Newzit",
     "url": "https://www.newzit.com/",
-    "description": "A no-frills hub of headlines and links to the web's best news sites, all in one place.",
-    "tier": "C",
+    "description": "A no-fuss front page of front pages, rounding up the day's top news sites in one place.",
+    "tier": "B",
     "tags": [
       "international",
       "news"
@@ -1536,7 +1529,7 @@
     "id": "niemanlab",
     "title": "Nieman Lab",
     "url": "https://www.niemanlab.org/",
-    "description": "Harvard's journalism think-tank blog on where the news business is heading, and how it may survive.",
+    "description": "Harvard's journalism think tank, dissecting how news gets made and funded, for media nerds.",
     "tier": "C",
     "tags": [
       "american",
@@ -1548,12 +1541,11 @@
     "id": "asia-nikkei",
     "title": "Nikkei Asia",
     "url": "https://asia.nikkei.com/",
-    "description": "Japan's business paper goes global, with sharp coverage of Asian economies, supply chains and politics.",
+    "description": "Japan's business daily in English, giving sharp coverage of Asian economies, tech supply chains and geopolitics.",
     "tier": "B",
     "tags": [
       "international",
       "business",
-      "politics",
       "news"
     ]
   },
@@ -1561,7 +1553,7 @@
     "id": "npr",
     "title": "NPR",
     "url": "https://www.npr.org/",
-    "description": "Public radio's calm, curious voice online, with news, culture and driveway-moment stories you'll want to hear out.",
+    "description": "Public radio's calm, well-researched home for news, interviews and the soothing voices of Morning Edition.",
     "tier": "A",
     "tags": [
       "american",
@@ -1574,7 +1566,7 @@
     "id": "okayplayer",
     "title": "Okayplayer",
     "url": "https://www.okayplayer.com/",
-    "description": "Hip-hop, soul and Black culture coverage, founded by The Roots' crew and loved by serious music heads.",
+    "description": "Hip-hop, soul and Black music culture, started by The Roots' circle and still a tastemaker.",
     "tier": "C",
     "tags": [
       "american",
@@ -1585,7 +1577,7 @@
     "id": "pagesix",
     "title": "Page Six",
     "url": "https://pagesix.com/",
-    "description": "The New York Post's gossip column turned empire, dishing celebrity scandals and Manhattan society chatter daily.",
+    "description": "New York Post's gossip column turned empire, serving celebrity feuds, society scandal and breakups before anyone else.",
     "tier": "B",
     "tags": [
       "american",
@@ -1596,32 +1588,31 @@
     "id": "pbs",
     "title": "PBS NewsHour",
     "url": "https://www.pbs.org/",
-    "description": "Sober, thorough public television news; the broadcast equivalent of eating your vegetables, and thankful for it.",
+    "description": "Sober, thorough evening news from public television, the antidote to shouting-head cable debates.",
     "tier": "A",
     "tags": [
       "american",
       "news",
-      "politics",
-      "culture"
+      "politics"
     ]
   },
   {
     "id": "pcgamer",
     "title": "PC Gamer",
     "url": "https://www.pcgamer.com/",
-    "description": "The long-running home of PC gaming reviews, hardware guides and mod news for keyboard-and-mouse devotees.",
+    "description": "The PC master race's magazine, with hardware guides, reviews and cheerfully opinionated game coverage.",
     "tier": "B",
     "tags": [
       "gaming",
-      "american",
-      "international"
+      "tech",
+      "american"
     ]
   },
   {
     "id": "people",
     "title": "People",
     "url": "https://people.com/",
-    "description": "America's celebrity glossy online, delivering royals, red carpets and heartwarming human-interest tales in one friendly package.",
+    "description": "Celebrity weddings, babies and red-carpet moments in a warm, supermarket-checkout glow.",
     "tier": "A",
     "tags": [
       "american",
@@ -1632,7 +1623,7 @@
     "id": "people-cn",
     "title": "People's Daily Online",
     "url": "https://en.people.cn/",
-    "description": "English edition of the Chinese Communist Party's flagship paper, offering the official Beijing view of world events.",
+    "description": "English edition of the Chinese Communist Party's mouthpiece, useful for seeing Beijing's official line.",
     "tier": "D",
     "tags": [
       "international",
@@ -1644,19 +1635,18 @@
     "id": "phoronix",
     "title": "Phoronix",
     "url": "https://www.phoronix.com/",
-    "description": "Linux and open-source hardware news with benchmarks galore, a must-read for kernel and driver nerds.",
+    "description": "Linux kernel, open-source drivers and benchmark numbers galore, a happy place for penguin enthusiasts.",
     "tier": "C",
     "tags": [
-      "tech",
-      "international"
+      "tech"
     ]
   },
   {
     "id": "politico",
     "title": "Politico",
     "url": "https://www.politico.com/",
-    "description": "Washington's insider read, obsessed with who's up, who's down and what's happening on the Hill.",
-    "tier": "A",
+    "description": "Washington's insider read, packed with scoops, Playbook gossip and the daily inside baseball of power.",
+    "tier": "B",
     "tags": [
       "american",
       "politics",
@@ -1667,11 +1657,11 @@
     "id": "polygon",
     "title": "Polygon",
     "url": "https://www.polygon.com/",
-    "description": "Video game news, reviews and guides with a thoughtful, culture-minded streak and lots of visual flair.",
+    "description": "Video game news, reviews and guides with a culture-minded eye and a lively, modern voice.",
     "tier": "B",
     "tags": [
-      "american",
       "gaming",
+      "american",
       "culture"
     ]
   },
@@ -1679,7 +1669,7 @@
     "id": "popsugar",
     "title": "Popsugar",
     "url": "https://www.popsugar.com/",
-    "description": "Bright, shareable celebrity, fashion and lifestyle content aimed squarely at readers who love a good listicle.",
+    "description": "Celebrity news, fashion, beauty and lifestyle fluff, perfect for a lunchtime scroll.",
     "tier": "C",
     "tags": [
       "american",
@@ -1690,18 +1680,19 @@
     "id": "poynter",
     "title": "Poynter",
     "url": "https://www.poynter.org/",
-    "description": "The journalism school's site on media ethics, fact-checking and craft, essentially reporters writing about reporters.",
+    "description": "A journalism school's home for media ethics, fact-checking and craft, aimed at reporters and editors.",
     "tier": "C",
     "tags": [
       "american",
-      "culture"
+      "culture",
+      "news"
     ]
   },
   {
     "id": "pressgazette",
     "title": "Press Gazette",
     "url": "https://www.pressgazette.co.uk/",
-    "description": "Britain's trade title for journalists, tracking newsroom layoffs, circulation numbers and Fleet Street power plays.",
+    "description": "British media trade paper tracking newsroom layoffs, circulation numbers and who just joined which newspaper.",
     "tier": "C",
     "tags": [
       "british",
@@ -1713,7 +1704,7 @@
     "id": "ptinews",
     "title": "Press Trust of India",
     "url": "https://www.ptinews.com/",
-    "description": "India's biggest news agency, supplying the wire copy that much of the subcontinent's press runs on.",
+    "description": "India's biggest wire service, delivering a steady stream of national, political and business headlines.",
     "tier": "B",
     "tags": [
       "international",
@@ -1725,7 +1716,7 @@
     "id": "proofnews",
     "title": "Proof News",
     "url": "https://www.proofnews.org/",
-    "description": "Nonprofit newsroom using data and science to investigate health, tech and consumer claims.",
+    "description": "Nonprofit newsroom using data and lab testing to investigate science, health and technology claims.",
     "tier": "D",
     "tags": [
       "american",
@@ -1737,7 +1728,7 @@
     "id": "propublica",
     "title": "ProPublica",
     "url": "https://www.propublica.org/",
-    "description": "Nonprofit investigative powerhouse that keeps winning Pulitzers by sticking with a story long after others move on.",
+    "description": "Nonprofit investigative powerhouse whose Pulitzer-winning exposes keep the powerful on their toes.",
     "tier": "A",
     "tags": [
       "american",
@@ -1749,7 +1740,7 @@
     "id": "publishersweekly",
     "title": "Publishers Weekly",
     "url": "https://www.publishersweekly.com/",
-    "description": "The book trade's bible: bestseller lists, reviews and deal news for authors, agents and bookshop devotees.",
+    "description": "The book trade's bible, with reviews, bestseller lists and industry gossip for readers and publishers.",
     "tier": "C",
     "tags": [
       "american",
@@ -1761,7 +1752,7 @@
     "id": "puck",
     "title": "Puck",
     "url": "https://puck.news/",
-    "description": "Insider newsletter-style outlet serving Hollywood, Wall Street and Washington gossip for readers who like their scoops with a side of snark.",
+    "description": "Insider-y subscription outlet serving up the scoops on Hollywood, Washington, Wall Street and media power players.",
     "tier": "C",
     "tags": [
       "american",
@@ -1774,11 +1765,12 @@
     "id": "qz",
     "title": "Quartz",
     "url": "https://qz.com/",
-    "description": "Business news with a global outlook, written in a breezy, smart voice that keeps the jargon at the door.",
+    "description": "Business news with a global lens and a breezy, smart-friend voice that makes the economy feel less like homework.",
     "tier": "B",
     "tags": [
       "business",
       "news",
+      "american",
       "international"
     ]
   },
@@ -1786,7 +1778,7 @@
     "id": "rawstory",
     "title": "Raw Story",
     "url": "https://www.rawstory.com/",
-    "description": "Progressive politics site that turns cable chatter and Trump-world drama into a never-ending stream of fast headlines.",
+    "description": "Fast-turnaround progressive political coverage, heavy on aggregation and headlines built to get clicked and shared.",
     "tier": "C",
     "tags": [
       "politics",
@@ -1798,7 +1790,7 @@
     "id": "reddit",
     "title": "Reddit",
     "url": "https://www.reddit.com/",
-    "description": "The front page of the internet, where breaking news, memes and 40,000 niche arguments all share one roof.",
+    "description": "The front page of the internet, where breaking news, memes and strong opinions all share one giant comment section.",
     "tier": "A",
     "tags": [
       "american",
@@ -1811,7 +1803,7 @@
     "id": "redstate",
     "title": "RedState",
     "url": "https://redstate.com/",
-    "description": "Conservative blog-turned-news-site serving up right-leaning takes on politics for readers who like their commentary spicy.",
+    "description": "Conservative political blog-turned-outlet, a regular stop for right-leaning commentary on the day's Washington fights.",
     "tier": "C",
     "tags": [
       "politics",
@@ -1822,7 +1814,7 @@
     "id": "reuters",
     "title": "Reuters",
     "url": "https://www.reuters.com/",
-    "description": "The wire service everyone else quietly relies on: fast, sober and light on adjectives.",
+    "description": "The wire service everyone else quietly relies on: fast, sober, global and light on adjectives.",
     "tier": "S",
     "tags": [
       "news",
@@ -1835,8 +1827,8 @@
     "id": "rollcall",
     "title": "Roll Call",
     "url": "https://www.rollcall.com/",
-    "description": "Capitol Hill's hometown paper, where congressional procedure gets the loving detail only staffers and political nerds appreciate.",
-    "tier": "C",
+    "description": "Capitol Hill's hometown paper, tracking Congress, committees and campaigns with insider-level attention to the legislative weeds.",
+    "tier": "B",
     "tags": [
       "politics",
       "american"
@@ -1846,8 +1838,8 @@
     "id": "rollingstone",
     "title": "Rolling Stone",
     "url": "https://www.rollingstone.com/",
-    "description": "Legendary music magazine that also does culture and politics with a rock-and-roll swagger.",
-    "tier": "B",
+    "description": "Legendary music magazine that also swings hard at politics and pop culture, with a famously rock-and-roll attitude.",
+    "tier": "A",
     "tags": [
       "culture",
       "politics",
@@ -1858,24 +1850,25 @@
     "id": "rte",
     "title": "RTÉ",
     "url": "https://www.rte.ie/",
-    "description": "Ireland's national broadcaster, and the place most of the country turns to for news, sport and telly.",
+    "description": "Ireland's national broadcaster, and the default place for news, sport and the Late Late Show chatter.",
     "tier": "A",
     "tags": [
+      "irish",
       "news",
       "sports",
-      "culture",
-      "irish"
+      "culture"
     ]
   },
   {
     "id": "salon",
     "title": "Salon",
     "url": "https://www.salon.com/",
-    "description": "One of the web's original digital magazines, still pairing progressive politics with long reads and culture essays.",
-    "tier": "C",
+    "description": "Long-running progressive web magazine mixing politics, culture and pointed opinion since the dial-up days.",
+    "tier": "B",
     "tags": [
       "politics",
       "culture",
+      "news",
       "american"
     ]
   },
@@ -1883,7 +1876,7 @@
     "id": "sfchronicle",
     "title": "San Francisco Chronicle",
     "url": "https://www.sfchronicle.com/",
-    "description": "The Bay Area's big daily, covering tech money, city politics and the fog with equal dedication.",
+    "description": "The Bay Area's big daily, covering tech money, city politics, wildfires and the 49ers with local pride.",
     "tier": "B",
     "tags": [
       "news",
@@ -1894,7 +1887,7 @@
     "id": "sbnation",
     "title": "SB Nation",
     "url": "https://www.sbnation.com/",
-    "description": "A sprawling network of team blogs where fans write about their sports with more heart than restraint.",
+    "description": "A network of fan-minded team blogs, where die-hards dissect their squads with more passion than any beat writer.",
     "tier": "B",
     "tags": [
       "sports",
@@ -1905,10 +1898,11 @@
     "id": "sciencedaily",
     "title": "ScienceDaily",
     "url": "https://www.sciencedaily.com/",
-    "description": "A tidy firehose of university press releases rewritten into digestible science headlines.",
+    "description": "Press releases from labs worldwide, neatly sorted so you can feel clever about new research before lunch.",
     "tier": "C",
     "tags": [
-      "science"
+      "science",
+      "international"
     ],
     "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
   },
@@ -1916,23 +1910,25 @@
     "id": "scientificamerican",
     "title": "Scientific American",
     "url": "https://www.scientificamerican.com/",
-    "description": "America's long-running science magazine, still explaining the universe to curious non-specialists since 1845.",
-    "tier": "B",
+    "description": "The venerable science magazine that explains discoveries for curious non-specialists, with the credibility of a very long archive.",
+    "tier": "A",
     "tags": [
       "science",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "semafor",
     "title": "Semafor",
     "url": "https://www.semafor.com/",
-    "description": "Newsy startup that separates the facts from the writer's take, ideal for the busy global reader.",
+    "description": "Newer global news outlet that separates the facts from the writer's take, in tidy, skimmable packages.",
     "tier": "B",
     "tags": [
       "news",
       "politics",
       "business",
+      "american",
       "international"
     ]
   },
@@ -1941,7 +1937,7 @@
     "title": "ServeTheHome",
     "url": "https://www.servethehome.com/",
     "description": "Server, networking and homelab reviews for people who consider a rack of blinking lights a hobby.",
-    "tier": "D",
+    "tier": "C",
     "tags": [
       "tech"
     ]
@@ -1950,7 +1946,7 @@
     "id": "sfgate",
     "title": "SFGATE",
     "url": "https://www.sfgate.com/",
-    "description": "San Francisco Chronicle's more casual sibling, mixing Bay Area news with local culture and quirks.",
+    "description": "The San Francisco Chronicle's looser sibling, serving Bay Area news, culture and the occasional viral oddity.",
     "tier": "C",
     "tags": [
       "news",
@@ -1962,7 +1958,7 @@
     "id": "showbiz411",
     "title": "Showbiz411",
     "url": "https://www.showbiz411.com/",
-    "description": "Roger Friedman's entertainment gossip and music-industry scoops, delivered with old-school Hollywood-insider attitude.",
+    "description": "Roger Friedman's one-man-flavored entertainment gossip column, full of music and Hollywood scoops with a veteran's sniff for stories.",
     "tier": "D",
     "tags": [
       "culture",
@@ -1973,7 +1969,7 @@
     "id": "news-sky",
     "title": "Sky News",
     "url": "https://news.sky.com/",
-    "description": "British 24-hour news channel online, quick on breaking stories and loud with its live blogs.",
+    "description": "British 24-hour news channel online, quick on breaking stories and fond of a dramatic live blog.",
     "tier": "A",
     "tags": [
       "news",
@@ -1986,12 +1982,12 @@
     "id": "slate",
     "title": "Slate",
     "url": "https://slate.com/",
-    "description": "Clever, contrarian and chatty, Slate has been explaining why the obvious take is wrong since 1996.",
+    "description": "Smart, contrarian-leaning takes on politics and culture, home of the explainer nobody asked for but everyone reads.",
     "tier": "B",
     "tags": [
-      "news",
       "politics",
       "culture",
+      "news",
       "american"
     ]
   },
@@ -1999,7 +1995,7 @@
     "id": "readsludge",
     "title": "Sludge",
     "url": "https://readsludge.com/",
-    "description": "Investigative outlet tracking money in politics and lobbying, for readers who like to follow the cash.",
+    "description": "Small investigative outlet that follows money in politics, lobbying and campaign finance so you don't have to squint at filings.",
     "tier": "D",
     "tags": [
       "politics",
@@ -2010,7 +2006,7 @@
     "id": "socialmediatoday",
     "title": "Social Media Today",
     "url": "https://www.socialmediatoday.com/",
-    "description": "Trade news for marketers, tracking every algorithm tweak and new feature across the social platforms.",
+    "description": "Marketing-minded news on platform updates, algorithm shifts and whatever the social networks changed this week.",
     "tier": "D",
     "tags": [
       "tech",
@@ -2022,30 +2018,32 @@
     "id": "space",
     "title": "Space.com",
     "url": "https://www.space.com/",
-    "description": "Launches, telescopes, meteor showers and skywatching tips, aimed at anyone who still looks up.",
+    "description": "Launches, meteor showers and Mars rovers served up for armchair astronauts looking skyward.",
     "tier": "B",
     "tags": [
       "science",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "spacenews",
     "title": "SpaceNews",
     "url": "https://spacenews.com/",
-    "description": "The industry's trade paper for rockets, satellites and space policy, with a focus on business and contracts.",
+    "description": "The trade-press view of the space business: contracts, satellites, rockets and the policy behind them.",
     "tier": "C",
     "tags": [
       "science",
       "business",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "si",
     "title": "Sports Illustrated",
     "url": "https://www.si.com/",
-    "description": "Iconic sports brand now mostly digital, still wrapping big-name coverage in the glossy tradition of its magazine days.",
+    "description": "Storied sports magazine with a famous name, now a broad digital mix of scores, features and fandom.",
     "tier": "B",
     "tags": [
       "sports",
@@ -2056,7 +2054,7 @@
     "id": "statnews",
     "title": "STAT",
     "url": "https://www.statnews.com/",
-    "description": "Sharp health, biotech and medicine reporting that pharma executives and doctors read before their morning coffee.",
+    "description": "Sharp health, medicine and biotech reporting that people in the industry actually read before their morning meetings.",
     "tier": "B",
     "tags": [
       "science",
@@ -2068,11 +2066,11 @@
     "id": "stateline",
     "title": "Stateline",
     "url": "https://stateline.org/",
-    "description": "Nonprofit newsroom reporting on what state governments are doing, the policy beat that rarely gets enough love.",
+    "description": "Nonpartisan reporting on what state legislatures and governors are doing while Washington gets all the attention.",
     "tier": "C",
     "tags": [
-      "politics",
       "news",
+      "politics",
       "american"
     ]
   },
@@ -2080,7 +2078,7 @@
     "id": "studyfinds",
     "title": "Study Finds",
     "url": "https://studyfinds.org/",
-    "description": "Bite-sized summaries of quirky research papers, perfect for dinner-table trivia about what scientists just discovered.",
+    "description": "Bite-sized summaries of quirky studies, great for dinner-table trivia about what scientists say about coffee and sleep.",
     "tier": "D",
     "tags": [
       "science",
@@ -2091,7 +2089,7 @@
     "id": "talkingpointsmemo",
     "title": "Talking Points Memo",
     "url": "https://talkingpointsmemo.com/",
-    "description": "Josh Marshall's scrappy liberal political site, a blog-era survivor with a loyal readership and a nose for scandal.",
+    "description": "Josh Marshall's veteran progressive politics site, quick to chase scandals and long on Washington context.",
     "tier": "B",
     "tags": [
       "politics",
@@ -2103,19 +2101,20 @@
     "id": "techcrunch",
     "title": "TechCrunch",
     "url": "https://techcrunch.com/",
-    "description": "Startup bible for funding rounds, product launches and Silicon Valley gossip, read by founders and the people pitching them.",
+    "description": "Startup and Silicon Valley central, from funding rounds to the latest AI gold rush.",
     "tier": "A",
     "tags": [
       "tech",
       "business",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "techdirt",
     "title": "Techdirt",
     "url": "https://www.techdirt.com/",
-    "description": "Long-running tech-policy blog with strong opinions about copyright, free speech and the tech industry's worst ideas.",
+    "description": "Long-running tech-policy blog that champions free speech, privacy and the open internet, with a skeptical eye on copyright maximalists.",
     "tier": "C",
     "tags": [
       "tech",
@@ -2127,18 +2126,19 @@
     "id": "techmeme",
     "title": "Techmeme",
     "url": "https://www.techmeme.com/",
-    "description": "The tech industry's front page, a no-frills aggregator that keeps Silicon Valley insiders informed minute by minute.",
+    "description": "The tech industry's daily briefing, an aggregator that ranks stories so you skip straight to what matters.",
     "tier": "A",
     "tags": [
       "tech",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "technical",
     "title": "Technical.ly",
     "url": "https://technical.ly/",
-    "description": "Local tech and startup news from East Coast cities, proof that innovation happens beyond Silicon Valley.",
+    "description": "Local tech and startup news from East Coast cities, rooting for founders outside the Silicon Valley bubble.",
     "tier": "D",
     "tags": [
       "tech",
@@ -2150,10 +2150,11 @@
     "id": "techradar",
     "title": "TechRadar",
     "url": "https://www.techradar.com/",
-    "description": "Gadget reviews and buying guides galore, the place to check before you spend money on a new TV or laptop.",
+    "description": "Gadget reviews, buying guides and how-tos for deciding which phone, laptop or TV deserves your paycheck.",
     "tier": "B",
     "tags": [
       "tech",
+      "american",
       "british",
       "international"
     ]
@@ -2162,8 +2163,8 @@
     "id": "texasmonthly",
     "title": "Texas Monthly",
     "url": "https://www.texasmonthly.com/",
-    "description": "Everything is bigger in Texas, including the long-form storytelling, barbecue rankings and political profiles in this beloved state magazine.",
-    "tier": "C",
+    "description": "Big-hearted long-form journalism on Texas politics, barbecue and culture, proof everything really is bigger there.",
+    "tier": "B",
     "tags": [
       "news",
       "culture",
@@ -2175,7 +2176,7 @@
     "id": "avclub",
     "title": "The A.V. Club",
     "url": "https://www.avclub.com/",
-    "description": "Smart, wry coverage of TV, film, music and games, born at The Onion and still sharp.",
+    "description": "Wry TV, film, music and book coverage from critics who love pop culture enough to be picky.",
     "tier": "B",
     "tags": [
       "culture",
@@ -2186,10 +2187,11 @@
     "id": "prospect",
     "title": "The American Prospect",
     "url": "https://www.prospect.org/",
-    "description": "Liberal policy magazine that digs into economics, labor and power, written for wonks who like a clear point of view.",
+    "description": "Liberal policy magazine digging into economics, labor and power, for readers who want wonk with their outrage.",
     "tier": "C",
     "tags": [
       "politics",
+      "business",
       "american"
     ]
   },
@@ -2197,10 +2199,11 @@
     "id": "theargumentmag",
     "title": "The Argument",
     "url": "https://www.theargumentmag.com/",
-    "description": "Fresh opinion magazine that stages debates across the center-left, built for readers who enjoy a good intellectual scrap.",
+    "description": "A newer opinion magazine staging debates on politics and ideas, where disagreement is the product.",
     "tier": "D",
     "tags": [
       "politics",
+      "culture",
       "american"
     ],
     "flaggedForRetiringAt": "2026-11-15T18:01:39.675Z"
@@ -2209,7 +2212,7 @@
     "id": "theathletic",
     "title": "The Athletic",
     "url": "https://theathletic.com/",
-    "description": "New York Times-owned sports site with deep beat reporting and long reads for fans who want more than scores.",
+    "description": "Deeply reported sports coverage with beat writers for every team, now under the New York Times roof.",
     "tier": "A",
     "tags": [
       "sports",
@@ -2221,7 +2224,7 @@
     "id": "theatlantic",
     "title": "The Atlantic",
     "url": "https://www.theatlantic.com/",
-    "description": "Venerable magazine of big ideas and long reads, equally comfortable with presidential politics and the case against everything.",
+    "description": "Intellectual heavyweight of long reads, essays and big-idea politics, with a pedigree dating to the 1850s.",
     "tier": "A",
     "tags": [
       "news",
@@ -2234,19 +2237,20 @@
     "id": "theblock",
     "title": "The Block",
     "url": "https://www.theblock.co/",
-    "description": "Crypto news and data for people who track blockchain markets and regulation, with fewer moonshot promises than most.",
+    "description": "Crypto and digital-asset news with a business-press bent, tracking markets, regulation and the next token drama.",
     "tier": "C",
     "tags": [
       "tech",
       "business",
-      "american"
+      "american",
+      "international"
     ]
   },
   {
     "id": "thebulwark",
     "title": "The Bulwark",
     "url": "https://www.thebulwark.com/",
-    "description": "Anti-Trump conservatives turned independent media outfit, offering sharp commentary on politics from a right-of-center exile's perspective.",
+    "description": "Anti-Trump conservatives turned independent media, mixing commentary, newsletters and podcasts about the state of American politics.",
     "tier": "B",
     "tags": [
       "politics",
@@ -2257,7 +2261,7 @@
     "id": "csmonitor",
     "title": "The Christian Science Monitor",
     "url": "https://www.csmonitor.com/",
-    "description": "Calm, constructive and surprisingly global, this daily is a refreshing break from the usual outrage cycle.",
+    "description": "A calm, constructive voice in the news storm, with global reporting and an unusually low blood pressure.",
     "tier": "B",
     "tags": [
       "news",
@@ -2270,11 +2274,12 @@
     "id": "theconversation",
     "title": "The Conversation",
     "url": "https://theconversation.com/",
-    "description": "Academics explain the news in plain English, so you get expert takes without needing a footnote-filled paper.",
+    "description": "Academics write for the public here, turning research into readable explainers on news you keep seeing.",
     "tier": "B",
     "tags": [
       "news",
       "science",
+      "politics",
       "international"
     ]
   },
@@ -2282,7 +2287,7 @@
     "id": "thedailybeast",
     "title": "The Daily Beast",
     "url": "https://www.thedailybeast.com/",
-    "description": "Brash, gossipy and scoop-hungry, mixing politics, celebrity and media intrigue into a tabloid-flavoured digital cocktail.",
+    "description": "Snarky, scoop-hungry mix of politics, media and celebrity news with plenty of attitude and headlines to match.",
     "tier": "B",
     "tags": [
       "news",
@@ -2295,8 +2300,8 @@
     "id": "dailycaller",
     "title": "The Daily Caller",
     "url": "https://dailycaller.com/",
-    "description": "Conservative news and opinion site co-founded by Tucker Carlson, fast on viral stories and combative on politics.",
-    "tier": "C",
+    "description": "Conservative news and opinion site with a quick-hit style, popular on the right and often cited on cable.",
+    "tier": "B",
     "tags": [
       "news",
       "politics",
@@ -2307,7 +2312,7 @@
     "id": "dailyclimate",
     "title": "The Daily Climate",
     "url": "https://www.dailyclimate.org/",
-    "description": "A nonprofit's daily roundup of climate and energy coverage, for readers tracking what a warming world means.",
+    "description": "Climate and energy coverage compiled for people who want the planet's progress without the doom-scrolling.",
     "tier": "D",
     "tags": [
       "science",
@@ -2319,18 +2324,19 @@
     "id": "the-decoder",
     "title": "The Decoder",
     "url": "https://the-decoder.com/",
-    "description": "AI news in English, covering models, research and industry moves for anyone trying to keep up with the machines.",
+    "description": "Artificial intelligence news and research updates, written for readers who want to follow the machine-learning boom closely.",
     "tier": "D",
     "tags": [
       "tech",
-      "science"
+      "science",
+      "international"
     ]
   },
   {
     "id": "thediplomat",
     "title": "The Diplomat",
     "url": "https://thediplomat.com/",
-    "description": "Asia-Pacific politics and security analysis, go-to reading for understanding what's happening from Beijing to Canberra.",
+    "description": "Asia-Pacific politics and security coverage, the go-to for making sense of the region's geopolitical chess.",
     "tier": "B",
     "tags": [
       "news",
@@ -2342,7 +2348,7 @@
     "id": "the-downballot",
     "title": "The Downballot",
     "url": "https://www.the-downballot.com/",
-    "description": "Election nerd heaven, covering redistricting, special elections and down-ticket races the big outlets overlook.",
+    "description": "Election nerds' paradise, with data-rich coverage of races from Congress to county level, long after the headline races end.",
     "tier": "D",
     "tags": [
       "politics",
@@ -2353,34 +2359,33 @@
     "id": "economist",
     "title": "The Economist",
     "url": "https://www.economist.com/",
-    "description": "Weekly British newspaper-magazine that explains the world with dry wit, firm opinions and the occasional pun-laden headline.",
+    "description": "Weekly British authority on world affairs and markets, famous for dry wit and anonymous bylines.",
     "tier": "A",
     "tags": [
       "news",
       "business",
       "politics",
-      "international",
-      "british"
+      "british",
+      "international"
     ]
   },
   {
     "id": "thefp",
     "title": "The Free Press",
     "url": "https://www.thefp.com/",
-    "description": "Bari Weiss's contrarian media upstart, publishing heterodox takes on culture and politics that mainstream outlets supposedly won't touch.",
+    "description": "Bari Weiss's contrarian newsroom, mixing heterodox essays and reporting for readers tired of the usual media script.",
     "tier": "B",
     "tags": [
       "american",
-      "politics",
       "news",
-      "culture"
+      "politics"
     ]
   },
   {
     "id": "thefutoncritic",
     "title": "The Futon Critic",
     "url": "https://www.thefutoncritic.com/",
-    "description": "The TV industry's quiet bulletin board for premiere dates, press releases and scheduling news, beloved by network watchers.",
+    "description": "The TV industry's inside scoop: premiere dates, press releases and ratings, no couch required.",
     "tier": "C",
     "tags": [
       "american",
@@ -2391,7 +2396,7 @@
     "id": "theguardian",
     "title": "The Guardian",
     "url": "https://www.theguardian.com/",
-    "description": "Britain's big liberal-leaning paper with a huge global reach, strong on investigations, opinion and climate coverage.",
+    "description": "Left-leaning British heavyweight with a huge global reach and a website that is free to read.",
     "tier": "A",
     "tags": [
       "british",
@@ -2405,7 +2410,7 @@
     "id": "thehill",
     "title": "The Hill",
     "url": "https://thehill.com/",
-    "description": "Capitol Hill's fast-moving daily read, packed with Congress, White House and campaign headlines for political obsessives.",
+    "description": "Capitol Hill's daily scorecard: Congress, the White House and campaigns, served fast and to the point.",
     "tier": "A",
     "tags": [
       "american",
@@ -2417,19 +2422,18 @@
     "id": "hollywoodreporter",
     "title": "The Hollywood Reporter",
     "url": "https://www.hollywoodreporter.com/",
-    "description": "Tinseltown's trade bible, covering deals, box office, awards races and studio intrigue with a glossy finish.",
-    "tier": "A",
+    "description": "Trade bible for Tinseltown, covering box office, deals and awards-season drama with insider polish.",
+    "tier": "B",
     "tags": [
       "american",
-      "culture",
-      "business"
+      "culture"
     ]
   },
   {
     "id": "independent-uk",
     "title": "The Independent",
     "url": "https://www.independent.co.uk/",
-    "description": "Britain's online-only national paper, free of paywalls, covering politics, world news and lifestyle at a brisk clip.",
+    "description": "Online-only British daily with a global audience, a liberal-leaning voice and a mile-wide news menu.",
     "tier": "A",
     "tags": [
       "british",
@@ -2442,7 +2446,7 @@
     "id": "theinformation",
     "title": "The Information",
     "url": "https://www.theinformation.com/",
-    "description": "Pricey, scoop-hungry tech journalism that Silicon Valley insiders read to find out what their rivals are up to.",
+    "description": "Pricey paywalled tech scoops that Silicon Valley insiders read before the rest of us hear about them.",
     "tier": "B",
     "tags": [
       "american",
@@ -2454,7 +2458,7 @@
     "id": "theintercept",
     "title": "The Intercept",
     "url": "https://theintercept.com/",
-    "description": "Adversarial investigative outlet born from the Snowden leaks, digging into surveillance, national security and power.",
+    "description": "Adversarial investigative outlet born from the Snowden leaks, still poking at power and national security.",
     "tier": "B",
     "tags": [
       "american",
@@ -2466,46 +2470,46 @@
     "id": "irishtimes",
     "title": "The Irish Times",
     "url": "https://www.irishtimes.com/",
-    "description": "Ireland's paper of record, dependable, thoughtful and the place for serious national news and commentary.",
+    "description": "Ireland's paper of record, a sober, authoritative read on Dublin, Brussels and everywhere in between.",
     "tier": "A",
     "tags": [
       "irish",
       "news",
       "politics",
-      "business",
-      "culture"
+      "business"
     ]
   },
   {
     "id": "japannews-yomiuri",
     "title": "The Japan News by The Yomiuri Shimbun",
     "url": "https://japannews.yomiuri.co.jp/",
-    "description": "English-language window onto Japan's biggest-selling daily, handy for domestic politics and Asia-Pacific affairs.",
+    "description": "English window onto Japan's biggest-circulation daily, handy for politics, economy and regional affairs.",
     "tier": "C",
     "tags": [
       "international",
       "news",
-      "politics"
+      "politics",
+      "business"
     ]
   },
   {
     "id": "japantimes",
     "title": "The Japan Times",
     "url": "https://www.japantimes.co.jp/",
-    "description": "Japan's long-running English-language daily, useful for expats and anyone tracking Tokyo's politics, business and culture.",
+    "description": "Japan's long-running English-language daily, a reliable guide to Tokyo politics, business and culture.",
     "tier": "B",
     "tags": [
       "international",
       "news",
-      "business",
-      "culture"
+      "culture",
+      "business"
     ]
   },
   {
     "id": "jpost",
     "title": "The Jerusalem Post",
     "url": "https://www.jpost.com/",
-    "description": "Israel's veteran English-language daily, with a center-right lean and wall-to-wall coverage of the region.",
+    "description": "Israel's veteran English daily, with Middle East coverage from a center-right vantage point.",
     "tier": "B",
     "tags": [
       "international",
@@ -2517,7 +2521,7 @@
     "id": "kyivindependent",
     "title": "The Kyiv Independent",
     "url": "https://kyivindependent.com/",
-    "description": "Born from a newsroom's defiance, now the go-to English-language source for frontline news and Ukrainian politics.",
+    "description": "Ukraine's English-language newsroom, reporting the war and its politics from the people living through it.",
     "tier": "B",
     "tags": [
       "international",
@@ -2529,7 +2533,7 @@
     "id": "themarkup",
     "title": "The Markup",
     "url": "https://themarkup.org/",
-    "description": "Data-driven watchdog journalism that audits algorithms and Big Tech, with receipts and methodology notes included.",
+    "description": "Nonprofit that audits the algorithms and big tech, with data-driven reporting that shows its work.",
     "tier": "C",
     "tags": [
       "american",
@@ -2540,7 +2544,7 @@
     "id": "themoscowtimes",
     "title": "The Moscow Times",
     "url": "https://www.themoscowtimes.com/",
-    "description": "Independent Russian news in English, now run from exile, and a steady window on the Kremlin's doings.",
+    "description": "Independent Russian news in English, now reporting from exile with an eye on the Kremlin.",
     "tier": "B",
     "tags": [
       "international",
@@ -2552,7 +2556,7 @@
     "id": "thenation",
     "title": "The Nation",
     "url": "https://www.thenation.com/",
-    "description": "America's oldest weekly, unapologetically progressive, with long-form reporting and opinion that rarely hides its heart.",
+    "description": "America's oldest weekly magazine, proudly progressive and always up for an argument with the establishment.",
     "tier": "B",
     "tags": [
       "american",
@@ -2564,19 +2568,19 @@
     "id": "theneweuropean",
     "title": "The New European",
     "url": "https://www.theneweuropean.co.uk/",
-    "description": "A pro-EU British weekly born after Brexit, mixing commentary, history and a wry sense of lingering grievance.",
+    "description": "Pro-EU British weekly that still can't quite let Brexit go, with plenty of wit along the way.",
     "tier": "C",
     "tags": [
       "british",
-      "politics",
-      "news"
+      "news",
+      "politics"
     ]
   },
   {
     "id": "newrepublic",
     "title": "The New Republic",
     "url": "https://newrepublic.com/",
-    "description": "Century-old liberal magazine with sharp-elbowed political commentary and long reads that like to pick a fight.",
+    "description": "Century-old liberal magazine with sharp-elbowed politics commentary and a taste for the long read.",
     "tier": "B",
     "tags": [
       "american",
@@ -2588,14 +2592,13 @@
     "id": "nytimes",
     "title": "The New York Times",
     "url": "https://www.nytimes.com/",
-    "description": "The Gray Lady, America's paper of record, from world news to Wordle, and the one everyone cites.",
+    "description": "The Gray Lady: newspaper of record, Wordle host and the front page half the country reads first.",
     "tier": "S",
     "tags": [
       "american",
       "international",
       "news",
       "politics",
-      "business",
       "culture"
     ]
   },
@@ -2603,7 +2606,7 @@
     "id": "newyorker",
     "title": "The New Yorker",
     "url": "https://www.newyorker.com/",
-    "description": "Long, polished essays, reporting and cartoons for readers who treat a magazine as a weekend project.",
+    "description": "Long-form reporting, razor-sharp essays and those famously puzzling cartoons, all with a very literate accent.",
     "tier": "A",
     "tags": [
       "american",
@@ -2615,7 +2618,7 @@
     "id": "theonion",
     "title": "The Onion",
     "url": "https://theonion.com/",
-    "description": "America's finest news source, which happens to be fake, and has been nailing the headline joke for decades.",
+    "description": "America's finest news source, if by finest you mean hilarious fake headlines that sting with truth.",
     "tier": "B",
     "tags": [
       "american",
@@ -2627,7 +2630,7 @@
     "id": "thepointsguy",
     "title": "The Points Guy",
     "url": "https://thepointsguy.com/",
-    "description": "Travel-hacking central for credit card points, airline deals and lounge reviews, so your next flight might be cheaper.",
+    "description": "Travel news and credit-card-points wizardry for people who plan vacations around lounge access.",
     "tier": "C",
     "tags": [
       "american",
@@ -2639,19 +2642,18 @@
     "id": "therecord",
     "title": "The Record",
     "url": "https://therecord.media/",
-    "description": "Recorded Future's newsroom covering cybercrime, ransomware and digital espionage with surprising speed and real depth.",
+    "description": "Recorded Future's newsroom covering cybercrime, hacking and digital policy with real depth.",
     "tier": "C",
     "tags": [
       "international",
-      "tech",
-      "news"
+      "tech"
     ]
   },
   {
     "id": "theregister",
     "title": "The Register",
     "url": "https://www.theregister.com/",
-    "description": "Snarky British IT news that skewers vendors and sysadmin woes with gleeful, deadpan wit.",
+    "description": "Snarky British IT news that loves a sysadmin, a vendor blunder and a gloriously dry headline.",
     "tier": "B",
     "tags": [
       "british",
@@ -2663,7 +2665,7 @@
     "id": "theringer",
     "title": "The Ringer",
     "url": "https://www.theringer.com/",
-    "description": "Bill Simmons's sports and pop culture hangout, where podcasts, hot takes and fandom happily collide.",
+    "description": "Bill Simmons's hangout for sports, movies, music and TV, with a podcast-first, fan-next vibe.",
     "tier": "B",
     "tags": [
       "american",
@@ -2675,8 +2677,8 @@
     "id": "riotimesonline",
     "title": "The Rio Times",
     "url": "https://www.riotimesonline.com/",
-    "description": "English-language news from Brazil and Latin America, leaning on markets, politics and the odd football story.",
-    "tier": "C",
+    "description": "English-language view of Brazil and Latin America, handy for markets, politics and the occasional carnival.",
+    "tier": "D",
     "tags": [
       "international",
       "news",
@@ -2687,12 +2689,11 @@
     "id": "sfstandard",
     "title": "The San Francisco Standard",
     "url": "https://sfstandard.com/",
-    "description": "A slick, well-funded local outlet covering Bay Area power, tech money and city drama with a lively voice.",
+    "description": "Bay Area digital outlet covering city politics, tech money and local life with a sleek modern look.",
     "tier": "C",
     "tags": [
       "american",
       "news",
-      "tech",
       "culture"
     ]
   },
@@ -2700,7 +2701,7 @@
     "id": "scotsman",
     "title": "The Scotsman",
     "url": "https://www.scotsman.com/",
-    "description": "Edinburgh's national daily, covering Scottish politics, business and sport with a stately old-school accent.",
+    "description": "Edinburgh's national daily, essential reading for Scottish politics, business and sport.",
     "tier": "B",
     "tags": [
       "british",
@@ -2713,7 +2714,7 @@
     "id": "thesmokinggun",
     "title": "The Smoking Gun",
     "url": "https://thesmokinggun.com/",
-    "description": "Famous for digging up mug shots, court filings and legal documents on celebrities and criminals, deadpan style.",
+    "description": "Crime and celebrity scandal told through leaked documents, mug shots and other wonderfully awkward paperwork.",
     "tier": "C",
     "tags": [
       "american",
@@ -2725,8 +2726,8 @@
     "id": "thesun",
     "title": "The Sun",
     "url": "https://www.thesun.co.uk/",
-    "description": "Britain's brash tabloid, all puns, football, celebrity gossip and bold headlines, not famed for restraint or accuracy.",
-    "tier": "C",
+    "description": "Britain's brash tabloid king, heavy on celebrity, football and punning headlines.",
+    "tier": "B",
     "tags": [
       "british",
       "news",
@@ -2738,8 +2739,8 @@
     "id": "smh",
     "title": "The Sydney Morning Herald",
     "url": "https://www.smh.com.au/",
-    "description": "Sydney's venerable broadsheet, serving up Australian news, politics and business with a harbour-city perspective.",
-    "tier": "A",
+    "description": "Sydney's venerable broadsheet, covering Australian news, politics and business with a harbour-city accent.",
+    "tier": "B",
     "tags": [
       "australian",
       "news",
@@ -2751,7 +2752,7 @@
     "id": "telegraph",
     "title": "The Telegraph",
     "url": "https://www.telegraph.co.uk/",
-    "description": "Britain's conservative broadsheet, known for solid politics coverage, business reporting and a sturdy paywall.",
+    "description": "Conservative-leaning British broadsheet with a loyal readership, strong on politics, money and royals.",
     "tier": "A",
     "tags": [
       "british",
@@ -2765,7 +2766,7 @@
     "id": "texastribune",
     "title": "The Texas Tribune",
     "url": "https://www.texastribune.org/",
-    "description": "Nonprofit newsroom with the definitive account of Texas politics, policy and the Lone Star State's big ideas.",
+    "description": "Nonprofit newsroom keeping a close watch on Austin, state politics and everything bigger in Texas.",
     "tier": "B",
     "tags": [
       "american",
@@ -2777,7 +2778,7 @@
     "id": "thetimes",
     "title": "The Times",
     "url": "https://www.thetimes.com/",
-    "description": "Britain's storied paper of record, centre-right, with heavyweight politics, comment and a famously firm paywall.",
+    "description": "Britain's old-guard newspaper of record, now behind a paywall, with sharp politics and sports.",
     "tier": "A",
     "tags": [
       "british",
@@ -2790,20 +2791,20 @@
     "id": "timesofindia-indiatimes",
     "title": "The Times of India",
     "url": "https://timesofindia.indiatimes.com/",
-    "description": "One of the world's biggest English dailies, a sprawling feed of Indian news, Bollywood and cricket.",
-    "tier": "A",
+    "description": "India's giant English-language daily, covering everything from Bollywood to Parliament at tremendous volume.",
+    "tier": "B",
     "tags": [
       "international",
       "news",
       "culture",
-      "sports"
+      "politics"
     ]
   },
   {
     "id": "theverge",
     "title": "The Verge",
     "url": "https://www.theverge.com/",
-    "description": "Slick tech coverage with gadget reviews, internet culture and a taste for the weird edges of Silicon Valley.",
+    "description": "Slick tech and gadget coverage where devices, culture and a good review all meet.",
     "tier": "B",
     "tags": [
       "american",
@@ -2815,7 +2816,7 @@
     "id": "wsj",
     "title": "The Wall Street Journal",
     "url": "https://www.wsj.com/",
-    "description": "The business world's daily newspaper of record, with deep markets coverage and a conservative-leaning opinion page.",
+    "description": "Business bible with a conservative editorial page and scoops that move markets before lunch.",
     "tier": "S",
     "tags": [
       "american",
@@ -2829,7 +2830,7 @@
     "id": "freebeacon",
     "title": "The Washington Free Beacon",
     "url": "https://freebeacon.com/",
-    "description": "Conservative Washington outlet that mixes opposition research-style scoops with right-leaning politics and media coverage.",
+    "description": "Conservative D.C. outlet that mixes opposition research with scoops and unabashed right-leaning reporting.",
     "tier": "C",
     "tags": [
       "american",
@@ -2840,8 +2841,8 @@
     "id": "washingtonpost",
     "title": "The Washington Post",
     "url": "https://www.washingtonpost.com/",
-    "description": "Democracy Dies in Darkness, and so does your free article count; a Beltway powerhouse for politics and investigations.",
-    "tier": "S",
+    "description": "Capital-city powerhouse behind Watergate, still the go-to for Washington politics and big investigations.",
+    "tier": "A",
     "tags": [
       "american",
       "international",
@@ -2853,7 +2854,7 @@
     "id": "washingtontimes",
     "title": "The Washington Times",
     "url": "https://www.washingtontimes.com/",
-    "description": "The capital's conservative daily, delivering Beltway politics and national security news with an unmistakably right-leaning view.",
+    "description": "Conservative D.C. daily offering a right-of-center counterweight to the capital's other big paper.",
     "tier": "C",
     "tags": [
       "american",
@@ -2865,7 +2866,7 @@
     "id": "weather",
     "title": "The Weather Channel",
     "url": "https://weather.com/",
-    "description": "Forecasts, radar and storm coverage from the people who put a hurricane reporter in the wind.",
+    "description": "Forecasts, radar and storm drama from America's go-to weather brand, hurricane-coverage intensity included.",
     "tier": "B",
     "tags": [
       "american",
@@ -2877,12 +2878,12 @@
     "id": "thedesk",
     "title": "TheDesk.net",
     "url": "https://thedesk.net/",
-    "description": "Trade news on cable, broadcast and streaming TV distribution, a niche read for people who run the pipes.",
+    "description": "Trade site tracking the TV and streaming business, from carriage fights to broadcast tech.",
     "tier": "D",
     "tags": [
       "american",
-      "culture",
-      "business"
+      "business",
+      "culture"
     ],
     "flaggedForRetiringAt": "2026-11-15T18:01:39.675Z"
   },
@@ -2890,8 +2891,8 @@
     "id": "thejournal",
     "title": "TheJournal.ie",
     "url": "https://www.thejournal.ie/",
-    "description": "Ireland's digital-native news site, fast, shareable and crammed with breaking stories, explainers and reader-driven investigations.",
-    "tier": "A",
+    "description": "Ireland's digital-first newsroom, fast with breaking stories and popular with readers who live on their phones.",
+    "tier": "B",
     "tags": [
       "irish",
       "news",
@@ -2902,7 +2903,7 @@
     "id": "thewrap",
     "title": "TheWrap",
     "url": "https://www.thewrap.com/",
-    "description": "Hollywood business and entertainment news with plenty of box-office numbers, awards chatter and studio gossip.",
+    "description": "Hollywood business and awards-season chatter from an outlet that loves a good industry exclusive.",
     "tier": "B",
     "tags": [
       "american",
@@ -2914,7 +2915,7 @@
     "id": "time",
     "title": "Time",
     "url": "https://time.com/",
-    "description": "The weekly newsmagazine now doing daily digital, famous for its red-bordered covers and Person of the Year.",
+    "description": "Iconic newsweekly with its red border, Person of the Year and a surprisingly busy website.",
     "tier": "A",
     "tags": [
       "american",
@@ -2928,7 +2929,7 @@
     "id": "tmz",
     "title": "TMZ",
     "url": "https://www.tmz.com/",
-    "description": "Celebrity gossip that gets there first, from police blotters to red carpets, with a camera always in the right place.",
+    "description": "Celebrity gossip machine that usually gets the scoop first, whether or not the star wanted it out.",
     "tier": "B",
     "tags": [
       "american",
@@ -2939,7 +2940,7 @@
     "id": "tomshardware",
     "title": "Tom's Hardware",
     "url": "https://www.tomshardware.com/",
-    "description": "Long-running PC hardware authority with benchmarks, CPU and GPU reviews, and build guides for enthusiasts.",
+    "description": "PC-builder's companion with CPU and GPU benchmarks, reviews and a soft spot for overclocking.",
     "tier": "B",
     "tags": [
       "american",
@@ -2951,54 +2952,53 @@
     "id": "torrentfreak",
     "title": "TorrentFreak",
     "url": "https://torrentfreak.com/",
-    "description": "The go-to read for piracy, copyright fights and file-sharing news, with a front-row seat to the legal cat-and-mouse.",
+    "description": "The go-to for piracy, copyright fights and file-sharing news, with a decidedly internet-freedom bent.",
     "tier": "C",
     "tags": [
       "international",
-      "tech",
-      "news"
+      "tech"
     ]
   },
   {
     "id": "truthout",
     "title": "Truthout",
     "url": "https://truthout.org/",
-    "description": "Nonprofit progressive outlet reporting on social justice, labor and the environment from the left of the dial.",
+    "description": "Nonprofit progressive outlet with advocacy-minded reporting on social justice, labor and the environment.",
     "tier": "C",
     "tags": [
       "american",
-      "politics",
-      "news"
+      "news",
+      "politics"
     ]
   },
   {
     "id": "tvtechnology",
     "title": "TV Tech",
     "url": "https://www.tvtechnology.com/",
-    "description": "Trade site for broadcast engineers, covering production gear, streaming workflows and the standards that keep screens lit.",
+    "description": "Broadcast-engineering trade publication for people who obsess over transmitters, streaming workflows and ATSC 3.0.",
     "tier": "D",
     "tags": [
-      "tech",
-      "business",
-      "american"
+      "american",
+      "tech"
     ]
   },
   {
     "id": "usnews",
     "title": "U.S. News & World Report",
     "url": "https://www.usnews.com/",
-    "description": "Best known for college and hospital rankings, with a steady news desk running alongside the league tables.",
+    "description": "Best known for college and hospital rankings, with a steady news and opinion desk bolted on.",
     "tier": "B",
     "tags": [
       "american",
-      "news"
+      "news",
+      "politics"
     ]
   },
   {
     "id": "usmagazine",
     "title": "Us Weekly",
     "url": "https://www.usmagazine.com/",
-    "description": "Celebrity gossip checkout-aisle style: who's dating, who's splitting, and who wore it better.",
+    "description": "Celebrity gossip staple for anyone who needs to know who's dating, splitting or sunbathing.",
     "tier": "B",
     "tags": [
       "american",
@@ -3009,19 +3009,18 @@
     "id": "usatoday",
     "title": "USA Today",
     "url": "https://www.usatoday.com/",
-    "description": "The colorful national paper that's been tossed on hotel doorsteps for decades, now with a big digital reach.",
+    "description": "The colorful national paper that made airport hotel doorsteps a thing, now a broad digital newsroom.",
     "tier": "A",
     "tags": [
       "american",
-      "news",
-      "international"
+      "news"
     ]
   },
   {
     "id": "vanityfair",
     "title": "Vanity Fair",
     "url": "https://www.vanityfair.com/",
-    "description": "Glossy long reads on Hollywood, power and scandal, with photography worth lingering over.",
+    "description": "Glossy long reads on Hollywood, power and scandal, with enough polish to sparkle on a coffee table.",
     "tier": "A",
     "tags": [
       "american",
@@ -3033,7 +3032,7 @@
     "id": "variety",
     "title": "Variety",
     "url": "https://variety.com/",
-    "description": "Hollywood's trade bible: box office numbers, deals and awards chatter before the rest of us hear it.",
+    "description": "Hollywood's trade bible: box office numbers, deals and awards chatter before everyone else hears it.",
     "tier": "A",
     "tags": [
       "american",
@@ -3045,8 +3044,8 @@
     "id": "venturebeat",
     "title": "VentureBeat",
     "url": "https://venturebeat.com/",
-    "description": "Enterprise tech and AI coverage for people who say 'scaling' unironically.",
-    "tier": "B",
+    "description": "Enterprise tech and AI coverage for people who read funding rounds for fun.",
+    "tier": "C",
     "tags": [
       "american",
       "tech",
@@ -3057,8 +3056,8 @@
     "id": "vogue",
     "title": "Vogue",
     "url": "https://www.vogue.com/",
-    "description": "The fashion world's front row, from runway reports to celebrity covers.",
-    "tier": "A",
+    "description": "The fashion world's front row: runway reports, cover stars and trend verdicts that shape closets.",
+    "tier": "B",
     "tags": [
       "american",
       "culture"
@@ -3068,8 +3067,8 @@
     "id": "vogue-uk",
     "title": "Vogue UK",
     "url": "https://www.vogue.co.uk/",
-    "description": "British Vogue's take on style, royals and culture, with a distinctly London accent.",
-    "tier": "B",
+    "description": "British edition of the fashion bible, with royal-adjacent style and London's catwalk gossip.",
+    "tier": "C",
     "tags": [
       "british",
       "culture"
@@ -3079,7 +3078,7 @@
     "id": "vox",
     "title": "Vox",
     "url": "https://www.vox.com/",
-    "description": "Explainers that unpack the news, for readers who want the why behind the headline.",
+    "description": "Explainer journalism that answers the question you were too embarrassed to ask, usually with charts.",
     "tier": "B",
     "tags": [
       "american",
@@ -3092,7 +3091,7 @@
     "id": "vulture",
     "title": "Vulture",
     "url": "https://www.vulture.com/",
-    "description": "New York Magazine's pop culture hub, sharp on TV, movies, music and the discourse around them.",
+    "description": "New York Magazine's pop culture arm, equally happy dissecting prestige TV and a pop star's feud.",
     "tier": "B",
     "tags": [
       "american",
@@ -3103,23 +3102,23 @@
     "id": "washingtonexaminer",
     "title": "Washington Examiner",
     "url": "https://www.washingtonexaminer.com/",
-    "description": "Conservative-leaning Beltway coverage and opinion, with a focus on Congress and the White House.",
+    "description": "Conservative-leaning Beltway coverage and commentary, popular on right-of-center news aggregators.",
     "tier": "B",
     "tags": [
       "american",
-      "politics",
-      "news"
+      "news",
+      "politics"
     ]
   },
   {
     "id": "whats-on-netflix",
     "title": "What's on Netflix",
     "url": "https://www.whats-on-netflix.com/",
-    "description": "The unofficial guide to what's streaming, arriving and quietly vanishing from Netflix.",
+    "description": "Your guide to what's arriving and leaving the streamer, so the endless scroll has a plan.",
     "tier": "C",
     "tags": [
-      "culture",
-      "international"
+      "american",
+      "culture"
     ],
     "flaggedForRetiringAt": "2026-11-15T18:01:39.675Z"
   },
@@ -3127,7 +3126,7 @@
     "id": "windowscentral",
     "title": "Windows Central",
     "url": "https://www.windowscentral.com/",
-    "description": "Microsoft fans' home base for Windows, Xbox and Surface news, reviews and tips.",
+    "description": "Microsoft fan HQ covering Windows, Xbox and Surface with enthusiasm and a lot of reviews.",
     "tier": "C",
     "tags": [
       "american",
@@ -3139,18 +3138,17 @@
     "id": "windowslatest",
     "title": "Windows Latest",
     "url": "https://www.windowslatest.com/",
-    "description": "Fast, nitpicky coverage of every Windows update, bug and feature tweak.",
-    "tier": "C",
+    "description": "Rapid-fire Windows news, update bugs and tips for anyone living inside Microsoft's ecosystem.",
+    "tier": "D",
     "tags": [
-      "tech",
-      "international"
+      "tech"
     ]
   },
   {
     "id": "wired",
     "title": "Wired",
     "url": "https://www.wired.com/",
-    "description": "Where tech, science and culture collide, with a flair for big ambitious features.",
+    "description": "Where technology meets culture, with smart features on AI, security and the future arriving early.",
     "tier": "A",
     "tags": [
       "american",
@@ -3163,7 +3161,7 @@
     "id": "worldofreel",
     "title": "World of Reel",
     "url": "https://www.worldofreel.com/",
-    "description": "Film columnist Jeff Wells-style blog turned movie news hub, heavy on awards season gossip and opinions.",
+    "description": "Film news and awards-season handicapping with a strong opinion about nearly every release.",
     "tier": "D",
     "tags": [
       "american",
@@ -3174,7 +3172,7 @@
     "id": "zdnet",
     "title": "ZDNET",
     "url": "https://www.zdnet.com/",
-    "description": "Long-running tech site for product reviews, enterprise news and buying advice.",
+    "description": "Long-running tech outlet for product reviews, enterprise news and practical gadget buying advice.",
     "tier": "B",
     "tags": [
       "american",
@@ -3186,7 +3184,7 @@
     "id": "zerohedge",
     "title": "Zero Hedge",
     "url": "https://www.zerohedge.com/",
-    "description": "Doomy finance blog with a conspiratorial streak, loved by bears and frequently questioned by fact-checkers.",
+    "description": "Doom-leaning finance blog under a pseudonym, beloved by markets traders and conspiracy-curious alike.",
     "tier": "F",
     "tags": [
       "american",
@@ -3198,7 +3196,7 @@
     "id": "thesun-us",
     "title": "The Sun US",
     "url": "https://www.the-sun.com/",
-    "description": "The British tabloid's American edition, serving up celebrity, crime and viral stories at full volume.",
+    "description": "American edition of the British tabloid, heavy on celebrity, crime and cheeky headlines.",
     "tier": "C",
     "tags": [
       "american",
@@ -3223,7 +3221,7 @@
     "id": "independent-seachtain",
     "title": "Seachtain",
     "url": "https://www.independent.ie/seachtain/",
-    "description": "The Irish Independent's Irish-language section, keeping Gaeilge readers up to date.",
+    "description": "The Irish Independent's weekly Irish-language section, with news and features for Gaeilge readers.",
     "tier": "D",
     "tags": [
       "irish",
@@ -3235,7 +3233,7 @@
     "id": "thejournal-gaeilge",
     "title": "TheJournal.ie as Gaeilge",
     "url": "https://www.thejournal.ie/gaeilge/news/",
-    "description": "TheJournal.ie's Irish-language corner, bringing the quick, digital-first news to Gaeilge readers.",
+    "description": "TheJournal's Irish-language desk, bringing the day's headlines to readers in Gaeilge.",
     "tier": "D",
     "tags": [
       "irish",
@@ -3247,34 +3245,33 @@
     "id": "tuairisc",
     "title": "Tuairisc.ie",
     "url": "https://tuairisc.ie/",
-    "description": "Independent Irish-language news site with a focus on politics, current affairs and community stories.",
+    "description": "Independent Irish-language news site with current affairs, politics and sport written as Gaeilge.",
     "tier": "C",
     "tags": [
       "irish",
       "gaeilge",
-      "news",
-      "politics"
+      "news"
     ]
   },
   {
     "id": "news-ycombinator",
     "title": "Hacker News",
     "url": "https://news.ycombinator.com/",
-    "description": "Y Combinator's no-frills link board where startup folk and programmers argue about everything.",
+    "description": "Y Combinator's minimalist link board where programmers argue brilliantly about startups, code and everything else.",
     "tier": "A",
     "tags": [
       "international",
-      "tech",
-      "business"
+      "tech"
     ]
   },
   {
     "id": "wikipedia-current-events",
     "title": "Wikipedia: Current events",
     "url": "https://en.wikipedia.org/wiki/Portal:Current_events",
-    "description": "Wikipedia portal summarizing daily world events.",
-    "tier": "C",
+    "description": "Volunteer-curated daily digest of world events, sourced and surprisingly handy as a news summary.",
+    "tier": "B",
     "tags": [
+      "international",
       "news"
     ]
   },
@@ -3282,19 +3279,18 @@
     "id": "trends-google",
     "title": "Google Trends",
     "url": "https://trends.google.com/",
-    "description": "Shows trending Google searches and topics.",
+    "description": "A live look at what the world is searching, handy for spotting what everyone is suddenly curious about.",
     "tier": "B",
     "tags": [
-      "american",
-      "news",
-      "tech"
+      "international",
+      "news"
     ]
   },
   {
     "id": "unherd",
     "title": "UnHerd",
     "url": "https://unherd.com/",
-    "description": "Contrarian British commentary that likes to poke at the consensus of whichever herd is nearest.",
+    "description": "British contrarian outlet running heterodox essays and commentary that deliberately resists the herd.",
     "tier": "C",
     "tags": [
       "british",
@@ -3306,7 +3302,7 @@
     "id": "liberalcurrents",
     "title": "Liberal Currents",
     "url": "https://www.liberalcurrents.com/",
-    "description": "A small left-liberal magazine of essays and commentary on political ideas and theory.",
+    "description": "Small left-liberal magazine publishing essays on politics and ideas for the theory-loving reader.",
     "tier": "D",
     "tags": [
       "american",
@@ -3318,7 +3314,7 @@
     "id": "mississippitoday",
     "title": "Mississippi Today",
     "url": "https://mississippitoday.org/",
-    "description": "Nonprofit newsroom digging into state government, schools and health in Mississippi.",
+    "description": "Nonprofit newsroom doing serious statehouse and accountability reporting for Mississippi.",
     "tier": "C",
     "tags": [
       "american",
@@ -3330,7 +3326,7 @@
     "id": "barrons",
     "title": "Barron's",
     "url": "https://www.barrons.com/",
-    "description": "Dow Jones's weekly investing authority, where stock picks and market skepticism come in equal supply.",
+    "description": "Dow Jones weekly-turned-digital for investors, with stock picks and market analysis.",
     "tier": "B",
     "tags": [
       "american",
@@ -3342,7 +3338,7 @@
     "id": "gamespot",
     "title": "GameSpot",
     "url": "https://www.gamespot.com/",
-    "description": "Veteran gaming site with reviews, trailers and news that have guided purchases since the 90s.",
+    "description": "Veteran game site with reviews, trailers and news that has been scoring games since the dial-up days.",
     "tier": "B",
     "tags": [
       "american",
@@ -3353,7 +3349,7 @@
     "id": "themirror",
     "title": "The Mirror US",
     "url": "https://www.themirror.com/",
-    "description": "The British tabloid's American edition, with celebrity, royals and true crime in big bold type.",
+    "description": "The British tabloid's American edition, mixing celebrity, royals and viral stories for US readers.",
     "tier": "C",
     "tags": [
       "american",
@@ -3366,7 +3362,7 @@
     "id": "alaskapublic",
     "title": "Alaska Public Media",
     "url": "https://alaskapublic.org/",
-    "description": "Public radio and TV news from the Last Frontier, covering state politics, wildlife and rural life.",
+    "description": "Public radio and TV newsroom covering Alaska, from state politics to life at the edge of the map.",
     "tier": "C",
     "tags": [
       "american",
@@ -3377,18 +3373,19 @@
     "id": "contrariannews",
     "title": "The Contrarian",
     "url": "https://www.contrariannews.org/",
-    "description": "A progressive commentary outlet that pairs opinion pieces with news analysis from a left-leaning crowd.",
+    "description": "Progressive news and commentary outlet with a Resistance-friendly voice and a growing roster of writers.",
     "tier": "D",
     "tags": [
       "american",
-      "politics"
+      "politics",
+      "news"
     ]
   },
   {
     "id": "gulfcoastnewsnow",
     "title": "Gulf Coast News Now",
     "url": "https://www.gulfcoastnewsnow.com/",
-    "description": "Local TV station site for Mississippi's Gulf Coast, with weather, crime and community headlines.",
+    "description": "Local TV news for the Mississippi Gulf Coast, from weather to city hall.",
     "tier": "D",
     "tags": [
       "american",
@@ -3400,22 +3397,21 @@
     "id": "lwn",
     "title": "Linux Weekly News",
     "url": "https://lwn.net/",
-    "description": "The Linux and open source community's trusted weekly read, deep on kernels and licenses.",
+    "description": "The respected Linux and open source journal, where kernel developments get proper depth and subscribers get early peeks.",
     "tier": "C",
     "tags": [
-      "tech",
-      "international"
+      "tech"
     ]
   },
   {
     "id": "quantamagazine",
     "title": "Quanta Magazine",
     "url": "https://www.quantamagazine.org/",
-    "description": "Beautifully written math and science stories that explain big ideas without dumbing them down.",
+    "description": "Beautifully written math and science stories that make black holes and proofs feel approachable.",
     "tier": "B",
     "tags": [
       "science",
-      "international"
+      "american"
     ],
     "flaggedForRetiringAt": "2026-11-17T16:05:07.140Z"
   },
@@ -3423,7 +3419,7 @@
     "id": "abc7ny",
     "title": "abc7NY",
     "url": "https://abc7ny.com/",
-    "description": "WABC's New York station site, handy for local breaking news, traffic, weather and everything happening across the five boroughs.",
+    "description": "WABC's New York City local news, with breaking stories, traffic and the weather you'll grumble about.",
     "tier": "C",
     "tags": [
       "american",
@@ -3434,7 +3430,7 @@
     "id": "benzinga",
     "title": "Benzinga",
     "url": "https://www.benzinga.com/",
-    "description": "Fast-moving market chatter, stock tips and trader headlines for people who refresh their brokerage app far too often.",
+    "description": "Fast stock market news, analyst moves and trader chatter for the retail investing crowd.",
     "tier": "C",
     "tags": [
       "american",
@@ -3445,8 +3441,8 @@
     "id": "dnyuz",
     "title": "DNYUZ",
     "url": "https://dnyuz.com/",
-    "description": "A content aggregator that republishes big-name stories wholesale, so you read the headlines without chasing the paywalls.",
-    "tier": "D",
+    "description": "Aggregator that republishes stories from major outlets, so it's often a mirror of better-known reporting.",
+    "tier": "E",
     "tags": [
       "american",
       "news"
@@ -3456,7 +3452,7 @@
     "id": "firstpost",
     "title": "Firstpost",
     "url": "https://www.firstpost.com/",
-    "description": "Indian digital news outlet with brisk takes on politics, world affairs and culture, often surfacing on Drudge with punchy headlines.",
+    "description": "Indian digital news outlet with brisk coverage of politics, world affairs and explainers.",
     "tier": "C",
     "tags": [
       "international",
@@ -3468,21 +3464,20 @@
     "id": "irishstar",
     "title": "Irish Star",
     "url": "https://www.irishstar.com/",
-    "description": "Tabloid-flavoured Irish news, celebrity gossip and sport, served with a cheeky grin and plenty of exclamation marks.",
+    "description": "Irish tabloid edition serving up celebrity, crime, sport and viral oddities in big bold headlines.",
     "tier": "C",
     "tags": [
       "irish",
       "news",
-      "culture",
-      "sports"
+      "culture"
     ]
   },
   {
     "id": "occrp",
     "title": "OCCRP",
     "url": "https://www.occrp.org/",
-    "description": "Cross-border investigative reporters chasing organized crime and corruption, with receipts, from a global network of journalists.",
-    "tier": "C",
+    "description": "Investigative network tracking organized crime and corruption across borders, with serious journalists and receipts.",
+    "tier": "B",
     "tags": [
       "international",
       "news",
@@ -3493,7 +3488,7 @@
     "id": "pjmedia",
     "title": "PJ Media",
     "url": "https://pjmedia.com/",
-    "description": "Right-leaning opinion and news site with a conservative bent, a long-running fixture of the online right.",
+    "description": "Right-leaning American news and opinion site with brisk takes on politics and culture-war flashpoints.",
     "tier": "C",
     "tags": [
       "american",
@@ -3505,7 +3500,7 @@
     "id": "thedefiant",
     "title": "The Defiant",
     "url": "https://thedefiant.io/",
-    "description": "Crypto-native outlet digging into decentralized finance, for readers who know their yield farms from their rug pulls.",
+    "description": "Crypto-focused outlet explaining DeFi, tokens and web3 for readers trying to follow the money.",
     "tier": "D",
     "tags": [
       "business",
@@ -3516,58 +3511,58 @@
     "id": "foreignaffairs",
     "title": "Foreign Affairs",
     "url": "https://www.foreignaffairs.com/",
-    "description": "The establishment's favorite reading on global affairs, where policy heavyweights argue about the world order at essay length.",
+    "description": "The establishment's go-to journal for foreign policy essays, written by diplomats, scholars and prospective cabinet members.",
     "tier": "B",
     "tags": [
-      "politics",
+      "american",
       "international",
-      "american"
+      "politics"
     ]
   },
   {
     "id": "lbpost",
     "title": "Long Beach Post",
     "url": "https://lbpost.com/",
-    "description": "Hyperlocal Long Beach, California coverage, from city hall fights to port news and beach-town happenings.",
+    "description": "Local news from Long Beach, California: city hall, the port, food and neighborhood happenings.",
     "tier": "D",
     "tags": [
-      "news",
-      "american"
+      "american",
+      "news"
     ]
   },
   {
     "id": "patch",
     "title": "Patch",
     "url": "https://patch.com/",
-    "description": "Thousands of hyperlocal community sites under one roof: school boards, road closures, bake sales and police blotters.",
+    "description": "Hyperlocal news network covering thousands of American towns, from school boards to bake sales.",
     "tier": "C",
     "tags": [
-      "news",
-      "american"
+      "american",
+      "news"
     ]
   },
   {
     "id": "tehrantimes",
     "title": "Tehran Times",
     "url": "https://www.tehrantimes.com/",
-    "description": "Iran's English-language daily, handy for seeing how Tehran frames the news, with a state-friendly slant to match.",
-    "tier": "C",
+    "description": "Iran's English-language daily, offering the Tehran establishment's view of regional and world events.",
+    "tier": "D",
     "tags": [
+      "international",
       "news",
-      "politics",
-      "international"
+      "politics"
     ]
   },
   {
     "id": "ynetnews",
     "title": "Ynetnews",
     "url": "https://www.ynetnews.com/",
-    "description": "English edition of Israel's Yedioth Ahronoth, quick on Middle East headlines, security stories and Israeli politics.",
-    "tier": "B",
+    "description": "English edition of Israel's Yedioth Ahronoth, covering Israeli news, security and society.",
+    "tier": "C",
     "tags": [
+      "international",
       "news",
-      "politics",
-      "international"
+      "politics"
     ],
     "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
   },
@@ -3575,34 +3570,36 @@
     "id": "theshortcut",
     "title": "The Shortcut",
     "url": "https://www.theshortcut.com/",
-    "description": "Covers consumer technology, gadgets and the internet.",
+    "description": "A food-and-drink site that digs into what's behind your groceries, restaurant trends and kitchen gadgets, with a curious eye.",
     "tier": "D",
     "tags": [
-      "tech"
+      "culture",
+      "american"
     ]
   },
   {
     "id": "broadbandbreakfast",
     "title": "Broadband Breakfast",
     "url": "https://broadbandbreakfast.com/",
-    "description": "Trade news for people who care deeply about fiber, spectrum and who gets the next big federal internet grant.",
+    "description": "Trade news for people who care deeply about fiber, spectrum and who gets the federal internet money.",
     "tier": "D",
     "tags": [
-      "american",
       "tech",
+      "business",
       "politics",
-      "business"
+      "american"
     ]
   },
   {
     "id": "spokesman",
     "title": "The Spokesman-Review",
     "url": "https://www.spokesman.com/",
-    "description": "Spokane's daily paper, covering the Inland Northwest with local depth that bigger national outlets simply skip.",
+    "description": "Spokane's daily paper, covering Eastern Washington and the Inland Northwest with proper old-school local reporting and sports.",
     "tier": "C",
     "tags": [
-      "american",
-      "news"
+      "news",
+      "sports",
+      "american"
     ]
   }
 ]
