@@ -3410,8 +3410,7 @@
     "tags": [
       "science",
       "american"
-    ],
-    "flaggedForRetiringAt": "2026-11-17T16:05:07.140Z"
+    ]
   },
   {
     "id": "abc7ny",
@@ -3422,7 +3421,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
   },
   {
     "id": "benzinga",
@@ -3470,7 +3470,8 @@
       "irish",
       "news",
       "culture"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
   },
   {
     "id": "occrp",
@@ -3518,7 +3519,8 @@
       "american",
       "international",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
   },
   {
     "id": "lbpost",
@@ -3627,7 +3629,8 @@
       "news",
       "politics",
       "international"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
   },
   {
     "id": "straitstimes",
@@ -3640,7 +3643,8 @@
       "international",
       "business",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
   },
   {
     "id": "thestar",
@@ -3652,6 +3656,67 @@
       "news",
       "international",
       "business"
+    ],
+    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
+  },
+  {
+    "id": "accuweather",
+    "title": "AccuWeather",
+    "url": "https://www.accuweather.com/",
+    "description": "Forecasts, storm alerts and hurricane tracking, the site you open the moment the sky looks suspicious.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "international",
+      "news",
+      "science"
+    ]
+  },
+  {
+    "id": "govexec",
+    "title": "GovExec.com",
+    "url": "https://www.govexec.com/",
+    "description": "Covers the federal government beat for the people who work in it: agencies, workforce, contracting and Washington bureaucracy.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "politics",
+      "news"
+    ]
+  },
+  {
+    "id": "pennlive",
+    "title": "PennLive",
+    "url": "https://www.pennlive.com/",
+    "description": "Central Pennsylvania's local paper online, from Harrisburg politics to Penn State football and everything in between.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news",
+      "sports"
+    ]
+  },
+  {
+    "id": "the-express",
+    "title": "The Express US",
+    "url": "https://www.the-express.com/",
+    "description": "The Daily Express's American cousin, serving up royals, celebrity and quick-hit headlines with plenty of tabloid flair.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news",
+      "culture"
+    ]
+  },
+  {
+    "id": "thebiglead",
+    "title": "The Big Lead",
+    "url": "https://www.thebiglead.com/",
+    "description": "Sports news with a bar-stool attitude, mixing scoops, media gossip and hot takes for the fan who reads everything.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "sports"
     ]
   }
 ]
