@@ -14,8 +14,10 @@ https://data.news.mickschroeder.com/sources.json
 
   * This file is regenerated nightly so it is recommended that you
     only poll this file once per day
-  * Each source has an `id`, `title`, `url`, `description`, `tier` and `tags`;
-    tiers and tags are described in `tiers.json` and `tags.json`
+  * Each source has an `id`, `title`, `url`, `description`, `tier`, `tags`,
+    `icon` (a 64px favicon URL) and `similar` (up to 6 ids of sources sharing
+    a topic, best match first); tiers and tags are described in `tiers.json`
+    and `tags.json`
 
 If you're looking for historical files, you can amend a date to the
 main file like so:
@@ -27,15 +29,16 @@ https://data.news.mickschroeder.com/sources-20261112.json
 ## Tiers
 
 Tiers are listed in [tiers.json](https://data.news.mickschroeder.com/tiers.json),
-best first. Each has an `id` (`S`, `A`, `B`, `C`, `D`, `E` or `F`), a `title`
-and a `description`. `E` means the LLM didn't know the source well enough to
+best first. Each has an `id` (`S`, `A`, `B`, `C`, `D`, `E` or `F`), an `order`,
+a `title` and a `description`. `E` means the LLM didn't know the source well enough to
 rank it.
 
 ## Tags
 
-Tags are listed in [tags.json](https://data.news.mickschroeder.com/tags.json).
-Each has an `id`, `title`, `kind`, `icon` ([Lucide](https://lucide.dev/icons/)
-name) and `description`; feed tags also have the feed's `url`.
+Tags are listed in [tags.json](https://data.news.mickschroeder.com/tags.json),
+only those some source uses. Each has an `id`, `order`, `title`, `kind`, `icon` ([Lucide](https://lucide.dev/icons/)
+name) and `description`; feed tags also have the feed's `url` and topic tags a `color` ([Tailwind](https://tailwindcss.com/docs/colors) colour name)
+and country regions a `country` (ISO 3166-1 alpha-2 code).
 
 | Kind | Tags | Meaning |
 | -- | -- | -- |

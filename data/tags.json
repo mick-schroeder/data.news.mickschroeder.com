@@ -4,6 +4,7 @@
     "title": "America",
     "kind": "region",
     "icon": "flag",
+    "country": "US",
     "description": "Written mainly for readers in the United States."
   },
   {
@@ -11,6 +12,7 @@
     "title": "Britain",
     "kind": "region",
     "icon": "flag",
+    "country": "GB",
     "description": "Written mainly for readers in Britain (England, Scotland or Wales)."
   },
   {
@@ -18,6 +20,7 @@
     "title": "Ireland",
     "kind": "region",
     "icon": "flag",
+    "country": "IE",
     "description": "Written mainly for readers on the island of Ireland."
   },
   {
@@ -25,6 +28,7 @@
     "title": "Canada",
     "kind": "region",
     "icon": "flag",
+    "country": "CA",
     "description": "Written mainly for readers in Canada."
   },
   {
@@ -32,6 +36,7 @@
     "title": "Australia",
     "kind": "region",
     "icon": "flag",
+    "country": "AU",
     "description": "Written mainly for readers in Australia."
   },
   {
@@ -39,6 +44,7 @@
     "title": "New Zealand",
     "kind": "region",
     "icon": "flag",
+    "country": "NZ",
     "description": "Written mainly for readers in New Zealand."
   },
   {
@@ -123,6 +129,7 @@
     "title": "News",
     "kind": "topic",
     "icon": "newspaper",
+    "color": "blue",
     "description": "General news: outlets covering many subjects (world, national or local news), not a single beat."
   },
   {
@@ -130,6 +137,7 @@
     "title": "Technology",
     "kind": "topic",
     "icon": "cpu",
+    "color": "teal",
     "description": "Technology news: the tech industry, software, devices and the internet."
   },
   {
@@ -137,6 +145,7 @@
     "title": "Business",
     "kind": "topic",
     "icon": "briefcase",
+    "color": "amber",
     "description": "Business, finance and markets news."
   },
   {
@@ -144,6 +153,7 @@
     "title": "Science",
     "kind": "topic",
     "icon": "flask-conical",
+    "color": "sky",
     "description": "Science and research news."
   },
   {
@@ -151,6 +161,7 @@
     "title": "Gaming",
     "kind": "topic",
     "icon": "gamepad-2",
+    "color": "violet",
     "description": "Video game news and reviews."
   },
   {
@@ -158,6 +169,7 @@
     "title": "Culture",
     "kind": "topic",
     "icon": "palette",
+    "color": "pink",
     "description": "Entertainment, arts, celebrity and lifestyle news."
   },
   {
@@ -165,6 +177,7 @@
     "title": "Politics",
     "kind": "topic",
     "icon": "landmark",
+    "color": "rose",
     "description": "Political news and commentary."
   },
   {
@@ -172,6 +185,7 @@
     "title": "Sports",
     "kind": "topic",
     "icon": "trophy",
+    "color": "lime",
     "description": "Sports news and scores."
   },
   {

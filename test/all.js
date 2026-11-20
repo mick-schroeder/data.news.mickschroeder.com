@@ -11,6 +11,7 @@ const { publishData, similarIds } = require('../lib/publish')
 
 const tags = readJson('tags.json')
 const tagIds = tags.map(tag => tag.id)
+const TAG_COLORS = ['red', 'orange', 'amber', 'yellow', 'lime', 'green', 'emerald', 'teal', 'cyan', 'sky', 'blue', 'indigo', 'violet', 'purple', 'fuchsia', 'pink', 'rose']
 const feed = id => feeds.find(feed => feed.id === id)
 
 const expectSite = function (site) {
@@ -269,6 +270,10 @@ describe('data', function () {
       expect(tag.kind).to.be.string()
       if (tag.feed !== undefined) expect(feeds.map(feed => feed.id)).to.include(tag.feed)
       if (tag.url !== undefined) expect(tag.url).to.match(/^https:\/\/[^\s]+$/)
+      // The site maps these Tailwind colour names to tile fills.
+      if (tag.color !== undefined || tag.kind === 'topic') expect(TAG_COLORS).to.include(tag.color)
+      // ISO 3166-1 alpha-2, for the site's flag icons.
+      if (tag.country !== undefined) expect(tag.country).to.match(/^[A-Z]{2}$/)
     }
   })
 
