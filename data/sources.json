@@ -3581,7 +3581,8 @@
     "tags": [
       "culture",
       "american"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-21T14:42:36.763Z"
   },
   {
     "id": "broadbandbreakfast",
@@ -3732,6 +3733,29 @@
       "american",
       "news",
       "politics"
+    ]
+  },
+  {
+    "id": "commondreams",
+    "title": "Common Dreams",
+    "url": "https://www.commondreams.org/",
+    "description": "Nonprofit progressive newsroom that wears its left-leaning heart on its sleeve, with daily headlines on politics, climate and economic justice.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news",
+      "politics"
+    ]
+  },
+  {
+    "id": "wjla",
+    "title": "WJLA",
+    "url": "https://wjla.com/",
+    "description": "Washington, D.C.'s ABC affiliate, serving up local headlines, traffic, weather and the occasional Capitol Hill spillover.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
     ]
   }
 ]
