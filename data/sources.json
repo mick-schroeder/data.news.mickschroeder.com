@@ -698,7 +698,8 @@
     "tags": [
       "american",
       "culture"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
   },
   {
     "id": "euronews",
@@ -1902,7 +1903,8 @@
     "tags": [
       "science",
       "international"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
   },
   {
     "id": "scientificamerican",
@@ -3399,7 +3401,8 @@
     "tier": "C",
     "tags": [
       "tech"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
   },
   {
     "id": "quantamagazine",
@@ -3410,7 +3413,8 @@
     "tags": [
       "science",
       "american"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
   },
   {
     "id": "abc7ny",
@@ -3519,8 +3523,7 @@
       "american",
       "international",
       "politics"
-    ],
-    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
+    ]
   },
   {
     "id": "lbpost",
@@ -3756,6 +3759,29 @@
     "tags": [
       "american",
       "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
+  },
+  {
+    "id": "fox2detroit",
+    "title": "FOX 2 Detroit",
+    "url": "https://www.fox2detroit.com/",
+    "description": "Detroit's local Fox station, serving up Motor City headlines, weather, traffic and sports, with a few national stories mixed in.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "theunpopulist",
+    "title": "The UnPopulist",
+    "url": "https://www.theunpopulist.net/",
+    "description": "A pro-liberal-democracy publication that pushes back on populism of every stripe, with plenty of essays and earnest argument.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "politics"
     ]
   }
 ]
