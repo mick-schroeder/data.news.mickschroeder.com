@@ -3343,7 +3343,8 @@
     "tags": [
       "american",
       "gaming"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-22T20:51:54.554Z"
   },
   {
     "id": "themirror",
@@ -3425,8 +3426,7 @@
     "tags": [
       "american",
       "news"
-    ],
-    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
+    ]
   },
   {
     "id": "benzinga",
@@ -3572,8 +3572,7 @@
       "international",
       "news",
       "politics"
-    ],
-    "flaggedForRetiringAt": "2026-11-18T11:26:54.971Z"
+    ]
   },
   {
     "id": "theshortcut",
