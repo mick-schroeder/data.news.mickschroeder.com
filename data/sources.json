@@ -698,8 +698,7 @@
     "tags": [
       "american",
       "culture"
-    ],
-    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
+    ]
   },
   {
     "id": "euronews",
@@ -1903,8 +1902,7 @@
     "tags": [
       "science",
       "international"
-    ],
-    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
+    ]
   },
   {
     "id": "scientificamerican",
@@ -1940,7 +1938,8 @@
     "tier": "C",
     "tags": [
       "tech"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-23T18:25:07.751Z"
   },
   {
     "id": "sfgate",
@@ -3178,7 +3177,8 @@
       "american",
       "tech",
       "business"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-23T18:25:07.751Z"
   },
   {
     "id": "zerohedge",
@@ -3343,8 +3343,7 @@
     "tags": [
       "american",
       "gaming"
-    ],
-    "flaggedForRetiringAt": "2026-11-22T20:51:54.554Z"
+    ]
   },
   {
     "id": "themirror",
@@ -3402,8 +3401,7 @@
     "tier": "C",
     "tags": [
       "tech"
-    ],
-    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
+    ]
   },
   {
     "id": "quantamagazine",
@@ -3414,8 +3412,7 @@
     "tags": [
       "science",
       "american"
-    ],
-    "flaggedForRetiringAt": "2026-11-22T14:38:37.068Z"
+    ]
   },
   {
     "id": "abc7ny",
@@ -3572,7 +3569,8 @@
       "international",
       "news",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-23T18:25:07.751Z"
   },
   {
     "id": "theshortcut",
@@ -3770,7 +3768,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-23T18:25:07.751Z"
   },
   {
     "id": "theunpopulist",
@@ -3781,6 +3780,17 @@
     "tags": [
       "american",
       "politics"
+    ]
+  },
+  {
+    "id": "telegraphherald",
+    "title": "Telegraph Herald",
+    "url": "https://www.telegraphherald.com/",
+    "description": "Dubuque's hometown daily, covering Iowa, Illinois and Wisconsin tri-state news with the local detail big outlets skip.",
+    "tier": "D",
+    "tags": [
+      "american",
+      "news"
     ]
   }
 ]

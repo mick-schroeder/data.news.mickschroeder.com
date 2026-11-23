@@ -73,3 +73,5 @@ https://www.modelrepublic.org/
 https://subscriber.politicopro.com/
 https://earthquake.usgs.gov/
 https://www.heatherdelaneyreese.com/
+https://www.americanprogress.org/
+https://www.bbc.com/  # duplicate of https://www.bbc.co.uk/news
