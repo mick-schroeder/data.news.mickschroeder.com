@@ -1938,8 +1938,7 @@
     "tier": "C",
     "tags": [
       "tech"
-    ],
-    "flaggedForRetiringAt": "2026-11-23T18:25:07.751Z"
+    ]
   },
   {
     "id": "sfgate",
@@ -3412,7 +3411,8 @@
     "tags": [
       "science",
       "american"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-24T17:54:50.405Z"
   },
   {
     "id": "abc7ny",
@@ -3790,6 +3790,40 @@
     "tier": "D",
     "tags": [
       "american",
+      "news"
+    ]
+  },
+  {
+    "id": "abc7news",
+    "title": "ABC7 News San Francisco",
+    "url": "https://abc7news.com/",
+    "description": "KGO's Bay Area station for local breaking news, traffic, weather and everything happening from San Jose to the Golden Gate.",
+    "tier": "C",
+    "tags": [
+      "american",
+      "news"
+    ]
+  },
+  {
+    "id": "inc",
+    "title": "Inc",
+    "url": "https://www.inc.com/",
+    "description": "Startup and small-business magazine with founder profiles, growth advice and its famous Inc. 5000 list of fast-growing companies.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "business"
+    ]
+  },
+  {
+    "id": "politico-2",
+    "title": "Politico Europe",
+    "url": "https://www.politico.eu/",
+    "description": "Brussels insider reading: the EU's power games, trade fights and policy gossip, served with Politico's trademark swagger.",
+    "tier": "B",
+    "tags": [
+      "international",
+      "politics",
       "news"
     ]
   }
