@@ -1745,7 +1745,8 @@
       "american",
       "culture",
       "business"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-25T17:22:55.515Z"
   },
   {
     "id": "puck",
@@ -1938,7 +1939,8 @@
     "tier": "C",
     "tags": [
       "tech"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-25T17:22:55.515Z"
   },
   {
     "id": "sfgate",
@@ -3411,8 +3413,7 @@
     "tags": [
       "science",
       "american"
-    ],
-    "flaggedForRetiringAt": "2026-11-24T17:54:50.405Z"
+    ]
   },
   {
     "id": "abc7ny",
@@ -3423,7 +3424,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-25T17:22:55.515Z"
   },
   {
     "id": "benzinga",
@@ -3543,8 +3545,7 @@
     "tags": [
       "american",
       "news"
-    ],
-    "flaggedForRetiringAt": "2026-11-18T15:44:16.986Z"
+    ]
   },
   {
     "id": "tehrantimes",
@@ -3824,6 +3825,18 @@
     "tags": [
       "international",
       "politics",
+      "news"
+    ],
+    "flaggedForRetiringAt": "2026-11-25T17:22:55.515Z"
+  },
+  {
+    "id": "tennessean",
+    "title": "The Tennessean",
+    "url": "https://www.tennessean.com/",
+    "description": "Nashville's daily paper, covering Music City politics, country music, Titans football and everything else happening across Tennessee.",
+    "tier": "C",
+    "tags": [
+      "american",
       "news"
     ]
   }
