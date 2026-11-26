@@ -1141,7 +1141,8 @@
     "tags": [
       "american",
       "politics"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-26T17:02:20.443Z"
   },
   {
     "id": "dailynews",
@@ -1939,8 +1940,7 @@
     "tier": "C",
     "tags": [
       "tech"
-    ],
-    "flaggedForRetiringAt": "2026-11-25T17:22:55.515Z"
+    ]
   },
   {
     "id": "sfgate",
@@ -3413,7 +3413,8 @@
     "tags": [
       "science",
       "american"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-26T17:02:20.443Z"
   },
   {
     "id": "abc7ny",
@@ -3473,8 +3474,7 @@
       "irish",
       "news",
       "culture"
-    ],
-    "flaggedForRetiringAt": "2026-11-19T15:48:24.656Z"
+    ]
   },
   {
     "id": "occrp",
@@ -3545,7 +3545,8 @@
     "tags": [
       "american",
       "news"
-    ]
+    ],
+    "flaggedForRetiringAt": "2026-11-26T17:02:20.443Z"
   },
   {
     "id": "tehrantimes",
@@ -3838,6 +3839,19 @@
     "tags": [
       "american",
       "news"
+    ]
+  },
+  {
+    "id": "inquirer",
+    "title": "The Philadelphia Inquirer",
+    "url": "https://www.inquirer.com/",
+    "description": "Philly's hometown paper of record, covering city hall, the Eagles and everything in between with Pulitzer-winning grit.",
+    "tier": "B",
+    "tags": [
+      "american",
+      "news",
+      "politics",
+      "sports"
     ]
   }
 ]
